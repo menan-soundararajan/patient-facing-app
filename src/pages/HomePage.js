@@ -161,7 +161,7 @@ const HomePage = () => {
       ) : (
         <div className="mh-snapshot-grid">
           <Link to="/visits" className="mh-snapshot-card">
-            <div className="mh-icon-circle purple">📄</div>
+            <div className="mh-icon-circle purple">📅</div>
             <h4>Visit History</h4>
             <div className="mh-snapshot-stat blue">{visits.length} visits</div>
             <div className="mh-small">

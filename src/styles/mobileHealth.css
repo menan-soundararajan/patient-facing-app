@@ -177,12 +177,23 @@
 }
 
 .mh-nav-item.active {
-  color: var(--mh-primary);
+  font-weight: 700;
+}
+
+.mh-nav-item.active .mh-nav-icon {
+  transform: translateY(-1px) scale(1.08);
+}
+
+.mh-nav-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s ease;
 }
 
 .mh-nav-item svg {
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
 }
 
 .mh-badge {

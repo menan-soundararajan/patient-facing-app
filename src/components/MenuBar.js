@@ -52,7 +52,7 @@ const MenuBar = ({ userName, onLogout, onProfile }) => {
       <div className="container-fluid px-4 d-flex justify-content-between align-items-center">
         {/* Brand/Logo */}
         <span className="navbar-brand fw-bold fs-5">
-          HealLink
+          Digipaths
         </span>
 
         {/* User Dropdown on the right */}
