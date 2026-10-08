@@ -3,6 +3,10 @@
     {
       "source": "/api/openmrs/:path*",
       "destination": "/api/openmrs?path=:path*"
+    },
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
     }
   ]
 }
