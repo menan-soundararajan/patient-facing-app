@@ -1,0 +1,2485 @@
+[
+  {
+    "test": "Albumin",
+    "conceptId": "72.0",
+    "sourceNames": [],
+    "unit": "g/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 32.0,
+        "message": "Albumin is low, from poor nutrition, liver or kidney loss. Eat enough protein and see your doctor.",
+        "messageId": "L043-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 32.0,
+        "upper": 48.0,
+        "message": "Albumin is normal.",
+        "messageId": "L043-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 48.0,
+        "upper": null,
+        "message": "Albumin is high, usually from dehydration. Drink water.",
+        "messageId": "L043-3"
+      }
+    ]
+  },
+  {
+    "test": "Alkaline phosphatase (ALP)",
+    "conceptId": "76.0",
+    "sourceNames": [
+      "Alk phos",
+      "Alkaline phosphatase",
+      "ALP"
+    ],
+    "unit": "U/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": null,
+        "upper": 130.0,
+        "message": "ALP is in the normal range.",
+        "messageId": "L041-1"
+      },
+      {
+        "context": "All",
+        "band": "Raised",
+        "lower": 130.0,
+        "upper": 300.0,
+        "message": "ALP is raised, from liver, bone or pregnancy. Your doctor will check the cause.",
+        "messageId": "L041-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 300.0,
+        "upper": null,
+        "message": "ALP is high. See your doctor for liver and bone tests.",
+        "messageId": "L041-3"
+      }
+    ]
+  },
+  {
+    "test": "ALT (SGPT)",
+    "conceptId": "103.0",
+    "sourceNames": [
+      "Alanine aminotransferase",
+      "ALT",
+      "SGPT"
+    ],
+    "unit": "U/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": null,
+        "upper": 42.0,
+        "message": "Liver enzyme ALT is normal.",
+        "messageId": "L039-1"
+      },
+      {
+        "context": "All",
+        "band": "Mildly raised",
+        "lower": 42.0,
+        "upper": 120.0,
+        "message": "ALT is mildly raised, often from fatty liver. Lose weight, avoid alcohol and recheck in 3 months.",
+        "messageId": "L039-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 120.0,
+        "upper": 1000.0,
+        "message": "ALT is high. Avoid alcohol and paracetamol excess; your doctor will check the cause.",
+        "messageId": "L039-3"
+      },
+      {
+        "context": "All",
+        "band": "Critically high",
+        "lower": 1000.0,
+        "upper": null,
+        "message": "ALT is very high, suggesting acute liver injury. Seek urgent review.",
+        "messageId": "L039-4"
+      }
+    ]
+  },
+  {
+    "test": "Amylase",
+    "conceptId": "125.0",
+    "sourceNames": [],
+    "unit": "U/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": null,
+        "upper": 110.0,
+        "message": "Amylase is normal.",
+        "messageId": "L045-1"
+      },
+      {
+        "context": "All",
+        "band": "Raised",
+        "lower": 110.0,
+        "upper": 330.0,
+        "message": "Amylase is raised. Your doctor will check the pancreas. Avoid alcohol.",
+        "messageId": "L045-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 330.0,
+        "upper": null,
+        "message": "Amylase is high, suggesting pancreatitis. Seek urgent review for tummy pain.",
+        "messageId": "L045-3"
+      }
+    ]
+  },
+  {
+    "test": "AST (SGOT)",
+    "conceptId": "104.0",
+    "sourceNames": [
+      "Aspartate aminotransferase",
+      "AST",
+      "SGOT"
+    ],
+    "unit": "U/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": null,
+        "upper": 42.0,
+        "message": "Liver enzyme AST is normal.",
+        "messageId": "L040-1"
+      },
+      {
+        "context": "All",
+        "band": "Mildly raised",
+        "lower": 42.0,
+        "upper": 120.0,
+        "message": "AST is mildly raised, often from fatty liver or alcohol. Cut alcohol and recheck.",
+        "messageId": "L040-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 120.0,
+        "upper": 1000.0,
+        "message": "AST is high. Avoid alcohol; your doctor will check the liver and heart.",
+        "messageId": "L040-3"
+      },
+      {
+        "context": "All",
+        "band": "Critically high",
+        "lower": 1000.0,
+        "upper": null,
+        "message": "AST is very high. Seek urgent review.",
+        "messageId": "L040-4"
+      }
+    ]
+  },
+  {
+    "test": "Bicarbonate",
+    "conceptId": "214.0",
+    "sourceNames": [
+      "Bicarbonate"
+    ],
+    "unit": "mmol/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 22.0,
+        "message": "Bicarbonate is low, so the blood is more acidic. Common in kidney disease; your doctor will review.",
+        "messageId": "L033-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 22.0,
+        "upper": 31.0,
+        "message": "Bicarbonate is normal.",
+        "messageId": "L033-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 31.0,
+        "upper": null,
+        "message": "Bicarbonate is high, often with vomiting or water tablets. Your doctor will review.",
+        "messageId": "L033-3"
+      }
+    ]
+  },
+  {
+    "test": "Blood glucose (non-fasting)",
+    "conceptId": "226.0",
+    "sourceNames": [
+      "Serum glucose (mmol)"
+    ],
+    "unit": "mmol/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 3.9,
+        "message": "Sugar under 3.9 is low. Take a sweet drink, then eat. Tell your doctor if it happens often.",
+        "messageId": "L008-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 3.9,
+        "upper": 7.8,
+        "message": "Sugar 3.9-7.8 is normal.",
+        "messageId": "L008-2"
+      },
+      {
+        "context": "All",
+        "band": "Raised",
+        "lower": 7.8,
+        "upper": 11.1,
+        "message": "Sugar 7.8-11 is raised. A fasting test or HbA1c will clarify.",
+        "messageId": "L008-3"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 11.1,
+        "upper": 13.9,
+        "message": "Sugar over 11 is high. See your doctor to review treatment.",
+        "messageId": "L008-4"
+      },
+      {
+        "context": "All",
+        "band": "Very high",
+        "lower": 13.9,
+        "upper": null,
+        "message": "Sugar over 14 is very high. Seek urgent help if vomiting, drowsy or breathing fast.",
+        "messageId": "L008-5"
+      }
+    ]
+  },
+  {
+    "test": "Blood urea / BUN",
+    "conceptId": "69.0",
+    "sourceNames": [
+      "Blood urea nitrogen",
+      "Bun",
+      "Urea"
+    ],
+    "unit": "mg/dL",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": null,
+        "upper": 20.0,
+        "message": "Urea is in the normal range.",
+        "messageId": "L024-1"
+      },
+      {
+        "context": "All",
+        "band": "Raised",
+        "lower": 20.0,
+        "upper": 50.0,
+        "message": "Urea is raised, often from dehydration or kidney strain. Drink well and recheck.",
+        "messageId": "L024-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 50.0,
+        "upper": null,
+        "message": "Urea is high. See your doctor to check kidney function.",
+        "messageId": "L024-3"
+      }
+    ]
+  },
+  {
+    "test": "Calcium",
+    "conceptId": "200.0",
+    "sourceNames": [
+      "Ca",
+      "Serum calcium",
+      "Serum Ca",
+      "Serum calcium (mmol/L)",
+      "serum_calcium"
+    ],
+    "unit": "mg/dL",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Critically low",
+        "lower": null,
+        "upper": 7.0,
+        "message": "Calcium is very low and can cause spasms. Seek urgent review.",
+        "messageId": "L034-1"
+      },
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": 7.0,
+        "upper": 8.5,
+        "message": "Calcium is low. Milk, yoghurt, small fish and green leaves help; supplements may be needed.",
+        "messageId": "L034-2"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 8.5,
+        "upper": 10.5,
+        "message": "Calcium is normal.",
+        "messageId": "L034-3"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 10.5,
+        "upper": 12.0,
+        "message": "Calcium is high. Drink plenty of water; your doctor will check the cause.",
+        "messageId": "L034-4"
+      },
+      {
+        "context": "All",
+        "band": "Critically high",
+        "lower": 12.0,
+        "upper": null,
+        "message": "Calcium is very high. Seek urgent medical review.",
+        "messageId": "L034-5"
+      },
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 2.15,
+        "message": "Calcium is low. Milk, yoghurt, small fish and green leaves help; supplements may be needed.",
+        "messageId": "L035-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 2.15,
+        "upper": 2.6,
+        "message": "Calcium is normal.",
+        "messageId": "L035-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 2.6,
+        "upper": null,
+        "message": "Calcium is high. Drink plenty of water; your doctor will check the cause.",
+        "messageId": "L035-3"
+      }
+    ]
+  },
+  {
+    "test": "Chloride",
+    "conceptId": "215.0",
+    "sourceNames": [
+      "Chloride",
+      "Chloride (Cl-)",
+      "Serum chloride"
+    ],
+    "unit": "mmol/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 98.0,
+        "message": "Chloride is low, often with vomiting or water tablets. Your doctor will review.",
+        "messageId": "L032-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 98.0,
+        "upper": 107.0,
+        "message": "Chloride is normal.",
+        "messageId": "L032-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 107.0,
+        "upper": null,
+        "message": "Chloride is high, usually with dehydration. Drink water and recheck.",
+        "messageId": "L032-3"
+      }
+    ]
+  },
+  {
+    "test": "CK (creatine kinase)",
+    "conceptId": "240.0",
+    "sourceNames": [
+      "CK",
+      "CPK",
+      "Creatinine phosphokinase"
+    ],
+    "unit": "U/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": null,
+        "upper": 200.0,
+        "message": "Muscle enzyme CK is normal.",
+        "messageId": "L066-1"
+      },
+      {
+        "context": "All",
+        "band": "Raised",
+        "lower": 200.0,
+        "upper": 1000.0,
+        "message": "CK is raised, from exercise, injury or statin side effect. Tell your doctor about muscle pain.",
+        "messageId": "L066-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 1000.0,
+        "upper": null,
+        "message": "CK is high. Stop your statin and see your doctor today if you have muscle pain or dark urine.",
+        "messageId": "L066-3"
+      }
+    ]
+  },
+  {
+    "test": "Creatinine clearance",
+    "conceptId": "2145.0",
+    "sourceNames": [
+      "Creatinine clearance test"
+    ],
+    "unit": "mL/min",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Reduced",
+        "lower": null,
+        "upper": 60.0,
+        "message": "Kidney clearance is reduced. Some medicine doses may need adjusting; avoid ibuprofen painkillers.",
+        "messageId": "L028-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 60.0,
+        "upper": null,
+        "message": "Kidney clearance is normal.",
+        "messageId": "L028-2"
+      }
+    ]
+  },
+  {
+    "test": "CRP",
+    "conceptId": "42.0",
+    "sourceNames": [
+      "CRP"
+    ],
+    "unit": "mg/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": null,
+        "upper": 6.0,
+        "message": "CRP (inflammation marker) is normal.",
+        "messageId": "L060-1"
+      },
+      {
+        "context": "All",
+        "band": "Raised",
+        "lower": 6.0,
+        "upper": 50.0,
+        "message": "CRP is raised, showing some infection or inflammation.",
+        "messageId": "L060-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 50.0,
+        "upper": null,
+        "message": "CRP is high, suggesting significant infection. See your doctor if unwell or feverish.",
+        "messageId": "L060-3"
+      }
+    ]
+  },
+  {
+    "test": "CVD risk score",
+    "conceptId": "4299.0",
+    "sourceNames": [
+      "CVD Risk High",
+      "CVD Risk Low",
+      "CVD Risk Moderate",
+      "CVD Risk Score",
+      "CVD Risk Very High"
+    ],
+    "unit": "%",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low (<10%)",
+        "lower": null,
+        "upper": 10.0,
+        "message": "Your 10-year heart risk is low. Keep active, avoid tobacco and recheck in 5 years.",
+        "messageId": "L019-1"
+      },
+      {
+        "context": "All",
+        "band": "Moderate (10-20%)",
+        "lower": 10.0,
+        "upper": 20.0,
+        "message": "Your 10-year heart risk is moderate. Control pressure, sugar and cholesterol; stop smoking.",
+        "messageId": "L019-2"
+      },
+      {
+        "context": "All",
+        "band": "High (20-30%)",
+        "lower": 20.0,
+        "upper": 30.0,
+        "message": "Your 10-year heart risk is high. A statin and blood pressure control are strongly advised.",
+        "messageId": "L019-3"
+      },
+      {
+        "context": "All",
+        "band": "Very high (30%+)",
+        "lower": 30.0,
+        "upper": null,
+        "message": "Your heart risk is very high. Take statin and pressure tablets daily and stop smoking now.",
+        "messageId": "L019-4"
+      }
+    ]
+  },
+  {
+    "test": "ECG",
+    "conceptId": "1221.0",
+    "sourceNames": [
+      "12-lead electrocardiogram",
+      "Electrocardiography"
+    ],
+    "unit": "-",
+    "bands": [
+      {
+        "context": "Result coded by clinician",
+        "band": "Normal",
+        "lower": null,
+        "upper": null,
+        "message": "Your ECG (heart tracing) is normal.",
+        "messageId": "L067-1"
+      },
+      {
+        "context": "Result coded by clinician",
+        "band": "Abnormal",
+        "lower": null,
+        "upper": null,
+        "message": "Your ECG shows a change that your doctor will explain and follow up.",
+        "messageId": "L067-2"
+      }
+    ]
+  },
+  {
+    "test": "eGFR",
+    "conceptId": "5457.0",
+    "sourceNames": [
+      "eGFR",
+      "GFR, calculated",
+      "Glomerular filtration rate, calculated"
+    ],
+    "unit": "mL/min/1.73m2",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Kidney failure",
+        "lower": null,
+        "upper": 15.0,
+        "message": "Kidney function is very low (stage 5). Your kidney team will guide dialysis or other care.",
+        "messageId": "L020-1"
+      },
+      {
+        "context": "All",
+        "band": "Severely reduced",
+        "lower": 15.0,
+        "upper": 30.0,
+        "message": "Kidney function is severely reduced (stage 4). Follow diet advice; avoid ibuprofen-type painkillers.",
+        "messageId": "L020-2"
+      },
+      {
+        "context": "All",
+        "band": "Moderately reduced",
+        "lower": 30.0,
+        "upper": 60.0,
+        "message": "Kidney function is moderately reduced (stage 3). Control pressure and sugar; recheck 6-monthly.",
+        "messageId": "L020-3"
+      },
+      {
+        "context": "All",
+        "band": "Mildly reduced",
+        "lower": 60.0,
+        "upper": 90.0,
+        "message": "Kidney function is mildly reduced. Keep pressure under 130/80 and avoid ibuprofen-type painkillers.",
+        "messageId": "L020-4"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 90.0,
+        "upper": null,
+        "message": "Kidney function is normal. Good pressure and sugar control keep it that way.",
+        "messageId": "L020-5"
+      }
+    ]
+  },
+  {
+    "test": "ESR",
+    "conceptId": "70.0",
+    "sourceNames": [
+      "Erythrocyte sedimentation rate",
+      "ESR"
+    ],
+    "unit": "mm/hr",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": null,
+        "upper": 20.0,
+        "message": "ESR (inflammation marker) is normal.",
+        "messageId": "L059-1"
+      },
+      {
+        "context": "All",
+        "band": "Raised",
+        "lower": 20.0,
+        "upper": null,
+        "message": "ESR is raised, showing inflammation or infection somewhere. Your doctor will look for the cause.",
+        "messageId": "L059-2"
+      }
+    ]
+  },
+  {
+    "test": "Fasting blood glucose",
+    "conceptId": "190.0",
+    "sourceNames": [
+      "Fasting blood glucose",
+      "Fasting blood glucose measurement (mg/dL)",
+      "Fasting blood sugar measurement (mg/dL)"
+    ],
+    "unit": "mg/dL",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Critically low",
+        "lower": null,
+        "upper": 55.0,
+        "message": "Fasting sugar under 55 is dangerously low. Take sugar now and tell your doctor to review medicines.",
+        "messageId": "L005-1"
+      },
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": 55.0,
+        "upper": 70.0,
+        "message": "Fasting sugar under 70 is low. Eat regularly and tell your doctor if you take insulin or gliclazide.",
+        "messageId": "L005-2"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 70.0,
+        "upper": 100.0,
+        "message": "Fasting sugar 70-99 is normal. Keep up healthy eating and activity.",
+        "messageId": "L005-3"
+      },
+      {
+        "context": "All",
+        "band": "Prediabetes range",
+        "lower": 100.0,
+        "upper": 126.0,
+        "message": "Fasting sugar 100-125 is borderline. Cut sugar and rice portions, walk daily, recheck in 3 months.",
+        "messageId": "L005-4"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 126.0,
+        "upper": 250.0,
+        "message": "Fasting sugar 126 or more is high. Take medicines regularly and discuss control with your doctor.",
+        "messageId": "L005-5"
+      },
+      {
+        "context": "All",
+        "band": "Very high",
+        "lower": 250.0,
+        "upper": null,
+        "message": "Fasting sugar over 250 is very high. See your doctor soon; seek urgent help if vomiting or drowsy.",
+        "messageId": "L005-6"
+      }
+    ]
+  },
+  {
+    "test": "Ferritin",
+    "conceptId": "168.0",
+    "sourceNames": [
+      "Ferritin level"
+    ],
+    "unit": "ng/mL",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low - iron deficiency",
+        "lower": null,
+        "upper": 30.0,
+        "message": "Ferritin is low, meaning iron stores are empty. Iron tablets for 3 months and iron-rich foods help.",
+        "messageId": "L061-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 30.0,
+        "upper": 300.0,
+        "message": "Iron stores are normal.",
+        "messageId": "L061-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 300.0,
+        "upper": null,
+        "message": "Ferritin is high, from inflammation, liver disease or iron overload. Your doctor will review.",
+        "messageId": "L061-3"
+      }
+    ]
+  },
+  {
+    "test": "GFR",
+    "conceptId": "187.0",
+    "sourceNames": [
+      "GFR",
+      "Glomerular filtration rate"
+    ],
+    "unit": "mL/min/1.73m2",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Kidney failure",
+        "lower": null,
+        "upper": 15.0,
+        "message": "Kidney function is very low (stage 5). Your kidney team will guide dialysis or other care.",
+        "messageId": "L021-1"
+      },
+      {
+        "context": "All",
+        "band": "Severely reduced",
+        "lower": 15.0,
+        "upper": 30.0,
+        "message": "Kidney function is severely reduced (stage 4). Follow diet advice; avoid ibuprofen-type painkillers.",
+        "messageId": "L021-2"
+      },
+      {
+        "context": "All",
+        "band": "Moderately reduced",
+        "lower": 30.0,
+        "upper": 60.0,
+        "message": "Kidney function is moderately reduced (stage 3). Control pressure and sugar; recheck 6-monthly.",
+        "messageId": "L021-3"
+      },
+      {
+        "context": "All",
+        "band": "Mildly reduced",
+        "lower": 60.0,
+        "upper": 90.0,
+        "message": "Kidney function is mildly reduced. Keep pressure under 130/80 and avoid ibuprofen-type painkillers.",
+        "messageId": "L021-4"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 90.0,
+        "upper": null,
+        "message": "Kidney function is normal. Good pressure and sugar control keep it that way.",
+        "messageId": "L021-5"
+      }
+    ]
+  },
+  {
+    "test": "Glucose 2 hours after glucose drink (OGTT)",
+    "conceptId": "132.0",
+    "sourceNames": [
+      "Glucose tolerance 2 hours panel",
+      "Glucose tolerance 2H panel",
+      "Glucose, serum 2 hrs post 75g oral glucose (mg/dL)"
+    ],
+    "unit": "mg/dL",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": null,
+        "upper": 140.0,
+        "message": "Your 2-hour sugar is under 140: normal. Stay active and recheck as advised.",
+        "messageId": "L009-1"
+      },
+      {
+        "context": "All",
+        "band": "Impaired glucose tolerance",
+        "lower": 140.0,
+        "upper": 200.0,
+        "message": "A 2-hour sugar of 140-199 means prediabetes. Weight loss and walking can prevent diabetes.",
+        "messageId": "L009-2"
+      },
+      {
+        "context": "All",
+        "band": "Diabetes range",
+        "lower": 200.0,
+        "upper": null,
+        "message": "A 2-hour sugar of 200 or more is in the diabetes range. See your doctor to confirm and plan.",
+        "messageId": "L009-3"
+      }
+    ]
+  },
+  {
+    "test": "Glycaemic control target",
+    "conceptId": "5485.0",
+    "sourceNames": [
+      "Glycaemic Control Target Result2"
+    ],
+    "unit": "-",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Target set",
+        "lower": null,
+        "upper": null,
+        "message": "Your personal sugar target is set with your doctor. Aim for it steadily; small changes count.",
+        "messageId": "L011-1"
+      }
+    ]
+  },
+  {
+    "test": "Haematocrit / PCV",
+    "conceptId": "239.0",
+    "sourceNames": [
+      "Hct",
+      "Hematocrit",
+      "Packed cell volume",
+      "PCV"
+    ],
+    "unit": "%",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 36.0,
+        "message": "Haematocrit is low, consistent with anaemia. Iron-rich food and finding the cause help.",
+        "messageId": "L048-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 36.0,
+        "upper": 50.0,
+        "message": "Haematocrit is normal.",
+        "messageId": "L048-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 50.0,
+        "upper": null,
+        "message": "Haematocrit is high, often from dehydration or smoking. Your doctor will review.",
+        "messageId": "L048-3"
+      }
+    ]
+  },
+  {
+    "test": "Haemoglobin (men)",
+    "conceptId": "113.0",
+    "sourceNames": [
+      "Haemoglobin",
+      "Hb",
+      "Hemoglobin",
+      "Hemoglobin performed on blood"
+    ],
+    "unit": "g/dL",
+    "bands": [
+      {
+        "context": "Male",
+        "band": "Critically low",
+        "lower": null,
+        "upper": 7.0,
+        "message": "Haemoglobin is very low. Seek urgent review; you may need a transfusion.",
+        "messageId": "L047-1"
+      },
+      {
+        "context": "Male",
+        "band": "Low - anaemia",
+        "lower": 7.0,
+        "upper": 13.0,
+        "message": "Haemoglobin under 13 means anaemia. Iron-rich food and iron tablets help; find the cause.",
+        "messageId": "L047-2"
+      },
+      {
+        "context": "Male",
+        "band": "Normal",
+        "lower": 13.0,
+        "upper": 17.5,
+        "message": "Haemoglobin is normal.",
+        "messageId": "L047-3"
+      },
+      {
+        "context": "Male",
+        "band": "High",
+        "lower": 17.5,
+        "upper": null,
+        "message": "Haemoglobin is high, often from smoking or dehydration. Your doctor will review.",
+        "messageId": "L047-4"
+      }
+    ]
+  },
+  {
+    "test": "Haemoglobin (women)",
+    "conceptId": "113.0",
+    "sourceNames": [
+      "Haemoglobin",
+      "Hb",
+      "Hemoglobin",
+      "Hemoglobin performed on blood"
+    ],
+    "unit": "g/dL",
+    "bands": [
+      {
+        "context": "Female",
+        "band": "Critically low",
+        "lower": null,
+        "upper": 7.0,
+        "message": "Haemoglobin is very low. Seek urgent review; you may need a transfusion.",
+        "messageId": "L046-1"
+      },
+      {
+        "context": "Female",
+        "band": "Low - anaemia",
+        "lower": 7.0,
+        "upper": 12.0,
+        "message": "Haemoglobin under 12 means anaemia. Iron-rich food and iron tablets help; find the cause.",
+        "messageId": "L046-2"
+      },
+      {
+        "context": "Female",
+        "band": "Normal",
+        "lower": 12.0,
+        "upper": 15.4,
+        "message": "Haemoglobin is normal.",
+        "messageId": "L046-3"
+      },
+      {
+        "context": "Female",
+        "band": "High",
+        "lower": 15.4,
+        "upper": null,
+        "message": "Haemoglobin is high, often from smoking or dehydration. Your doctor will review.",
+        "messageId": "L046-4"
+      }
+    ]
+  },
+  {
+    "test": "HbA1c",
+    "conceptId": "199.0",
+    "sourceNames": [
+      "Glycosylated hemoglobin A measurement",
+      "HbA1c",
+      "HgbA1c"
+    ],
+    "unit": "%",
+    "bands": [
+      {
+        "context": "Known diabetes",
+        "band": "Below target range",
+        "lower": null,
+        "upper": 6.5,
+        "message": "HbA1c under 6.5%: excellent control. If you get low sugars, tell your doctor - dose may be too high.",
+        "messageId": "L001-1"
+      },
+      {
+        "context": "Known diabetes",
+        "band": "Reasonable control",
+        "lower": 6.5,
+        "upper": 7.5,
+        "message": "HbA1c 6.5-7.5%: reasonable control. Keep taking medicines, watch portions and stay active.",
+        "messageId": "L001-2"
+      },
+      {
+        "context": "Known diabetes",
+        "band": "High",
+        "lower": 7.5,
+        "upper": 9.0,
+        "message": "HbA1c over 7.5% is high. Lowering it protects kidneys, eyes and heart. Ask your doctor to review it.",
+        "messageId": "L001-3"
+      },
+      {
+        "context": "Known diabetes",
+        "band": "Very high",
+        "lower": 9.0,
+        "upper": null,
+        "message": "HbA1c over 9%: sugar is far too high. See your doctor soon to adjust treatment. Never miss doses.",
+        "messageId": "L001-4"
+      },
+      {
+        "context": "Known diabetes, age under 40",
+        "band": "Reasonable control - younger person",
+        "lower": 6.5,
+        "upper": 7.5,
+        "message": "HbA1c 6.5-7.5% is reasonable, but at your age aiming lower gives decades of protection. Keep going.",
+        "messageId": "L002-1"
+      },
+      {
+        "context": "Known diabetes - action tip",
+        "band": "High - what to do",
+        "lower": 7.5,
+        "upper": null,
+        "message": "To lower HbA1c: every dose, smaller rice portions, no sugary drinks, daily walk. Recheck in 3 months",
+        "messageId": "L003-1"
+      },
+      {
+        "context": "No diabetes diagnosis",
+        "band": "Normal",
+        "lower": null,
+        "upper": 5.7,
+        "message": "HbA1c under 5.7% is normal. Stay active; recheck in 1-3 years, sooner if diabetes is in the family.",
+        "messageId": "L004-1"
+      },
+      {
+        "context": "No diabetes diagnosis",
+        "band": "Prediabetes",
+        "lower": 5.7,
+        "upper": 6.5,
+        "message": "HbA1c 5.7-6.4% means prediabetes. Losing 5% of weight and daily walking can prevent diabetes.",
+        "messageId": "L004-2"
+      },
+      {
+        "context": "No diabetes diagnosis",
+        "band": "Diabetes range",
+        "lower": 6.5,
+        "upper": null,
+        "message": "HbA1c 6.5% or more is in the diabetes range. See your doctor to confirm and plan treatment.",
+        "messageId": "L004-3"
+      }
+    ]
+  },
+  {
+    "test": "HDL cholesterol",
+    "conceptId": "244.0",
+    "sourceNames": [
+      "HDL",
+      "HDL (mmol/L)",
+      "High-density lipoprotein cholesterol",
+      "High-density lipoprotein cholesterol measurement (mmol/L)"
+    ],
+    "unit": "mmol/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 1.0,
+        "message": "HDL (good cholesterol) is low. Exercise, stopping smoking and weight loss raise it.",
+        "messageId": "L015-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 1.0,
+        "upper": 1.6,
+        "message": "HDL (good cholesterol) is in the normal range.",
+        "messageId": "L015-2"
+      },
+      {
+        "context": "All",
+        "band": "High - protective",
+        "lower": 1.6,
+        "upper": null,
+        "message": "HDL (good cholesterol) is high, which protects your heart. Well done.",
+        "messageId": "L015-3"
+      }
+    ]
+  },
+  {
+    "test": "Ionised calcium",
+    "conceptId": "1938.0",
+    "sourceNames": [
+      "iCa2+, serum/plasma",
+      "Ionized calcium, serum/plasma (mmol/L)"
+    ],
+    "unit": "mmol/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 1.12,
+        "message": "Active calcium is low. Your doctor will review vitamin D and other causes.",
+        "messageId": "L036-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 1.12,
+        "upper": 1.32,
+        "message": "Active calcium is normal.",
+        "messageId": "L036-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 1.32,
+        "upper": null,
+        "message": "Active calcium is high. Drink water and see your doctor to find the cause.",
+        "messageId": "L036-3"
+      }
+    ]
+  },
+  {
+    "test": "LDL cholesterol",
+    "conceptId": "243.0",
+    "sourceNames": [
+      "Low-density lipoprotein cholesterol",
+      "Low-density lipoprotein cholesterol (mmol/L)"
+    ],
+    "unit": "mmol/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Optimal",
+        "lower": null,
+        "upper": 2.6,
+        "message": "LDL (bad cholesterol) under 2.6 is optimal. Keep taking any statin prescribed.",
+        "messageId": "L014-1"
+      },
+      {
+        "context": "All",
+        "band": "Near optimal",
+        "lower": 2.6,
+        "upper": 3.4,
+        "message": "LDL 2.6-3.3 is acceptable for most; with diabetes or heart disease, aim under 2.6.",
+        "messageId": "L014-2"
+      },
+      {
+        "context": "All",
+        "band": "Raised",
+        "lower": 3.4,
+        "upper": 4.9,
+        "message": "LDL 3.4-4.9 is raised. Diet changes and possibly a statin will lower it.",
+        "messageId": "L014-3"
+      },
+      {
+        "context": "All",
+        "band": "Very high",
+        "lower": 4.9,
+        "upper": null,
+        "message": "LDL over 4.9 is very high. See your doctor - a statin is usually needed.",
+        "messageId": "L014-4"
+      }
+    ]
+  },
+  {
+    "test": "Lymphocytes",
+    "conceptId": "234.0",
+    "sourceNames": [
+      "Lymphocytes"
+    ],
+    "unit": "10^3/uL",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 1.5,
+        "message": "Lymphocytes are low, often after viral illness or steroids.",
+        "messageId": "L056-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 1.5,
+        "upper": 4.0,
+        "message": "Lymphocytes are normal.",
+        "messageId": "L056-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 4.0,
+        "upper": null,
+        "message": "Lymphocytes are raised, often from viral infection. Your doctor will review if persistent.",
+        "messageId": "L056-3"
+      }
+    ]
+  },
+  {
+    "test": "Lymphocytes (%)",
+    "conceptId": "116.0",
+    "sourceNames": [
+      "Lymphocytes (%) - microscopic exam"
+    ],
+    "unit": "%",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 20.0,
+        "message": "Lymphocyte percentage is low. Your doctor will interpret with the full count.",
+        "messageId": "L057-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 20.0,
+        "upper": 45.0,
+        "message": "Lymphocyte percentage is normal.",
+        "messageId": "L057-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 45.0,
+        "upper": null,
+        "message": "Lymphocyte percentage is raised, often from viral infection.",
+        "messageId": "L057-3"
+      }
+    ]
+  },
+  {
+    "test": "Magnesium",
+    "conceptId": "1939.0",
+    "sourceNames": [
+      "Mg"
+    ],
+    "unit": "mg/dL",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 1.7,
+        "message": "Magnesium is low, often from stomach tablets or water tablets. Green leaves, nuts and seeds help.",
+        "messageId": "L038-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 1.7,
+        "upper": 2.4,
+        "message": "Magnesium is normal.",
+        "messageId": "L038-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 2.4,
+        "upper": null,
+        "message": "Magnesium is high. Your doctor will review kidney function and supplements.",
+        "messageId": "L038-3"
+      }
+    ]
+  },
+  {
+    "test": "MCH",
+    "conceptId": "236.0",
+    "sourceNames": [
+      "MCH",
+      "Mean corpuscular hemoglobin"
+    ],
+    "unit": "pg",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 27.0,
+        "message": "Red cells carry less haemoglobin than normal, suggesting iron deficiency.",
+        "messageId": "L051-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 27.0,
+        "upper": 33.0,
+        "message": "MCH is normal.",
+        "messageId": "L051-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 33.0,
+        "upper": null,
+        "message": "MCH is high, often with low B12 or folate.",
+        "messageId": "L051-3"
+      }
+    ]
+  },
+  {
+    "test": "MCHC",
+    "conceptId": "237.0",
+    "sourceNames": [
+      "MCHC",
+      "Mean cell hemoglobin concentration"
+    ],
+    "unit": "g/dL",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 32.0,
+        "message": "MCHC is low, suggesting iron deficiency.",
+        "messageId": "L052-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 32.0,
+        "upper": 36.0,
+        "message": "MCHC is normal.",
+        "messageId": "L052-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 36.0,
+        "upper": null,
+        "message": "MCHC is high. Your doctor will review.",
+        "messageId": "L052-3"
+      }
+    ]
+  },
+  {
+    "test": "MCV (red cell size)",
+    "conceptId": "71.0",
+    "sourceNames": [
+      "Mcv",
+      "Mean corpuscular volume"
+    ],
+    "unit": "fL",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Small cells",
+        "lower": null,
+        "upper": 80.0,
+        "message": "Red cells are small, usually from iron deficiency or thalassaemia trait. Iron studies will clarify.",
+        "messageId": "L050-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 80.0,
+        "upper": 100.0,
+        "message": "Red cell size is normal.",
+        "messageId": "L050-2"
+      },
+      {
+        "context": "All",
+        "band": "Large cells",
+        "lower": 100.0,
+        "upper": null,
+        "message": "Red cells are large, often from low B12 or folate, or alcohol. Your doctor will check.",
+        "messageId": "L050-3"
+      }
+    ]
+  },
+  {
+    "test": "Neutrophils",
+    "conceptId": "233.0",
+    "sourceNames": [
+      "Neutrophils"
+    ],
+    "unit": "10^3/uL",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 2.0,
+        "message": "Neutrophils are low, raising infection risk. Report fever promptly.",
+        "messageId": "L054-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 2.0,
+        "upper": 7.5,
+        "message": "Neutrophils are normal.",
+        "messageId": "L054-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 7.5,
+        "upper": null,
+        "message": "Neutrophils are raised, usually from bacterial infection or stress.",
+        "messageId": "L054-3"
+      }
+    ]
+  },
+  {
+    "test": "Neutrophils (%)",
+    "conceptId": "118.0",
+    "sourceNames": [
+      "Neutrophils (%) - microscopic exam"
+    ],
+    "unit": "%",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 40.0,
+        "message": "Neutrophil percentage is low. Your doctor will interpret with the full count.",
+        "messageId": "L055-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 40.0,
+        "upper": 75.0,
+        "message": "Neutrophil percentage is normal.",
+        "messageId": "L055-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 75.0,
+        "upper": null,
+        "message": "Neutrophil percentage is raised, usually from infection.",
+        "messageId": "L055-3"
+      }
+    ]
+  },
+  {
+    "test": "Never smoked",
+    "conceptId": "965.0",
+    "sourceNames": [
+      "Never smoked tobacco",
+      "Never smoker"
+    ],
+    "unit": "-",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Never smoker",
+        "lower": null,
+        "upper": null,
+        "message": "You have never smoked - one of the best things for your heart and lungs. Keep it that way.",
+        "messageId": "L068-1"
+      }
+    ]
+  },
+  {
+    "test": "Phosphate",
+    "conceptId": "2144.0",
+    "sourceNames": [
+      "Serum phosphate"
+    ],
+    "unit": "mmol/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 0.8,
+        "message": "Phosphate is low. Your doctor will review diet and vitamin D.",
+        "messageId": "L037-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 0.8,
+        "upper": 1.5,
+        "message": "Phosphate is normal.",
+        "messageId": "L037-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 1.5,
+        "upper": null,
+        "message": "Phosphate is high, common in kidney disease. Limit processed food and colas; take binders if given.",
+        "messageId": "L037-3"
+      }
+    ]
+  },
+  {
+    "test": "Platelets",
+    "conceptId": "80.0",
+    "sourceNames": [
+      "Blood platelet",
+      "Platelet count",
+      "Platelets",
+      "Plts"
+    ],
+    "unit": "10^3/uL",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Critically low",
+        "lower": null,
+        "upper": 50.0,
+        "message": "Platelets are very low, raising bleeding risk. Seek urgent review; avoid aspirin and ibuprofen.",
+        "messageId": "L058-1"
+      },
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": 50.0,
+        "upper": 150.0,
+        "message": "Platelets are low. Avoid aspirin and ibuprofen unless told otherwise; report any bleeding.",
+        "messageId": "L058-2"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 150.0,
+        "upper": 400.0,
+        "message": "Platelet count is normal.",
+        "messageId": "L058-3"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 400.0,
+        "upper": null,
+        "message": "Platelets are raised, often from infection or iron deficiency. Your doctor will recheck.",
+        "messageId": "L058-4"
+      }
+    ]
+  },
+  {
+    "test": "Post-meal blood glucose (PPBS)",
+    "conceptId": "188.0",
+    "sourceNames": [
+      "Glucose measurement after a meal (mg/dL)",
+      "Post-prandial blood glucose measurement (mg/dL)",
+      "Post-prandial blood sugar measurement (mg/dL)",
+      "PPBS"
+    ],
+    "unit": "mg/dL",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 70.0,
+        "message": "Sugar after a meal under 70 is low. Eat regularly and tell your doctor if on insulin or gliclazide.",
+        "messageId": "L006-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 70.0,
+        "upper": 140.0,
+        "message": "Sugar after a meal under 140 is normal. Well done.",
+        "messageId": "L006-2"
+      },
+      {
+        "context": "All",
+        "band": "Raised",
+        "lower": 140.0,
+        "upper": 200.0,
+        "message": "Sugar 140-199 after a meal is raised. Smaller portions and a walk after eating help.",
+        "messageId": "L006-3"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 200.0,
+        "upper": 250.0,
+        "message": "Sugar over 200 after meals is high. Review your diet and medicines with your doctor.",
+        "messageId": "L006-4"
+      },
+      {
+        "context": "All",
+        "band": "Very high",
+        "lower": 250.0,
+        "upper": null,
+        "message": "Sugar over 250 after meals is very high. See your doctor soon; urgent help if vomiting or drowsy.",
+        "messageId": "L006-5"
+      }
+    ]
+  },
+  {
+    "test": "Potassium",
+    "conceptId": "216.0",
+    "sourceNames": [
+      "K",
+      "Potassium",
+      "Potassium (K+)",
+      "Serum potassium"
+    ],
+    "unit": "mmol/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Critically low",
+        "lower": null,
+        "upper": 2.5,
+        "message": "Potassium is dangerously low. Seek urgent medical review.",
+        "messageId": "L031-1"
+      },
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": 2.5,
+        "upper": 3.5,
+        "message": "Potassium is low, often from water tablets or diarrhoea. Eat bananas and coconut water; recheck.",
+        "messageId": "L031-2"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 3.5,
+        "upper": 5.1,
+        "message": "Potassium is normal.",
+        "messageId": "L031-3"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 5.1,
+        "upper": 6.0,
+        "message": "Potassium is high. Your doctor will review kidney tablets and diet. Limit bananas and coconut water.",
+        "messageId": "L031-4"
+      },
+      {
+        "context": "All",
+        "band": "Critically high",
+        "lower": 6.0,
+        "upper": null,
+        "message": "Potassium is dangerously high and can affect the heart. Seek urgent medical review.",
+        "messageId": "L031-5"
+      }
+    ]
+  },
+  {
+    "test": "Random blood glucose",
+    "conceptId": "68.0",
+    "sourceNames": [
+      "Blood glucose",
+      "Blood sugar",
+      "Glucose",
+      "Glucose measurement, venous blood, random",
+      "Random blood sugar (RBS)",
+      "Serum glucose"
+    ],
+    "unit": "mg/dL",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Critically low",
+        "lower": null,
+        "upper": 50.0,
+        "message": "Sugar under 50 is dangerously low. Take sugar now and seek help if not better in 15 minutes.",
+        "messageId": "L007-1"
+      },
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": 50.0,
+        "upper": 70.0,
+        "message": "Sugar under 70 is low. Take a sweet drink, then eat. Tell your doctor if it happens often.",
+        "messageId": "L007-2"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 70.0,
+        "upper": 140.0,
+        "message": "Random sugar under 140 is normal.",
+        "messageId": "L007-3"
+      },
+      {
+        "context": "All",
+        "band": "Raised",
+        "lower": 140.0,
+        "upper": 200.0,
+        "message": "Random sugar 140-199 is raised. A fasting test or HbA1c will clarify.",
+        "messageId": "L007-4"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 200.0,
+        "upper": 400.0,
+        "message": "Random sugar over 200 is high. See your doctor to review treatment.",
+        "messageId": "L007-5"
+      },
+      {
+        "context": "All",
+        "band": "Very high",
+        "lower": 400.0,
+        "upper": null,
+        "message": "Sugar over 400 is dangerously high. Seek urgent help, especially if vomiting or drowsy.",
+        "messageId": "L007-6"
+      }
+    ]
+  },
+  {
+    "test": "Red cell count",
+    "conceptId": "99.0",
+    "sourceNames": [
+      "RBC",
+      "RBC count",
+      "Red blood cells"
+    ],
+    "unit": "10^6/uL",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 4.0,
+        "message": "Red cell count is low, consistent with anaemia.",
+        "messageId": "L049-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 4.0,
+        "upper": 5.9,
+        "message": "Red cell count is normal.",
+        "messageId": "L049-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 5.9,
+        "upper": null,
+        "message": "Red cell count is high. Your doctor will review.",
+        "messageId": "L049-3"
+      }
+    ]
+  },
+  {
+    "test": "Serum creatinine",
+    "conceptId": "2062.0",
+    "sourceNames": [
+      "Cr (mg/dl)",
+      "Serum creatinine (mg/dL)",
+      "Serum creatinine (umol/L)"
+    ],
+    "unit": "mg/dL",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 0.6,
+        "message": "Creatinine is low, usually from low muscle mass. Not a concern on its own.",
+        "messageId": "L022-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 0.6,
+        "upper": 1.3,
+        "message": "Creatinine is normal, so your kidneys are filtering well.",
+        "messageId": "L022-2"
+      },
+      {
+        "context": "All",
+        "band": "Raised",
+        "lower": 1.3,
+        "upper": 3.0,
+        "message": "Creatinine is raised, so kidneys are under strain. Drink well, avoid ibuprofen and see your doctor.",
+        "messageId": "L022-3"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 3.0,
+        "upper": 5.6,
+        "message": "Creatinine is high. Your doctor needs to review kidney function and medicines soon.",
+        "messageId": "L022-4"
+      },
+      {
+        "context": "All",
+        "band": "Critically high",
+        "lower": 5.6,
+        "upper": null,
+        "message": "Creatinine is very high. Seek medical review urgently.",
+        "messageId": "L022-5"
+      },
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 60.0,
+        "message": "Creatinine is low, usually from low muscle mass. Not a concern on its own.",
+        "messageId": "L023-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 60.0,
+        "upper": 125.0,
+        "message": "Creatinine is normal, so your kidneys are filtering well.",
+        "messageId": "L023-2"
+      },
+      {
+        "context": "All",
+        "band": "Raised",
+        "lower": 125.0,
+        "upper": 265.0,
+        "message": "Creatinine is raised, so kidneys are under strain. Drink well, avoid ibuprofen and see your doctor.",
+        "messageId": "L023-3"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 265.0,
+        "upper": null,
+        "message": "Creatinine is high. Your doctor needs to review kidney function and medicines soon.",
+        "messageId": "L023-4"
+      }
+    ]
+  },
+  {
+    "test": "Serum iron",
+    "conceptId": "2033.0",
+    "sourceNames": [
+      "Fe"
+    ],
+    "unit": "umol/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 10.0,
+        "message": "Serum iron is low. Eat greens, lentils, meat and eggs; take iron tablets if prescribed.",
+        "messageId": "L062-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 10.0,
+        "upper": 30.0,
+        "message": "Serum iron is normal.",
+        "messageId": "L062-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 30.0,
+        "upper": null,
+        "message": "Serum iron is high. Your doctor will review.",
+        "messageId": "L062-3"
+      }
+    ]
+  },
+  {
+    "test": "Sodium",
+    "conceptId": "217.0",
+    "sourceNames": [
+      "Na",
+      "Serum sodium",
+      "Sodium",
+      "Sodium (Na+)"
+    ],
+    "unit": "mmol/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Critically low",
+        "lower": null,
+        "upper": 120.0,
+        "message": "Sodium is dangerously low. Seek urgent medical review.",
+        "messageId": "L030-1"
+      },
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": 120.0,
+        "upper": 135.0,
+        "message": "Sodium is low, often from water tablets or excess fluid. Your doctor will review medicines.",
+        "messageId": "L030-2"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 135.0,
+        "upper": 146.0,
+        "message": "Sodium is normal.",
+        "messageId": "L030-3"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 146.0,
+        "upper": 155.0,
+        "message": "Sodium is high, usually from dehydration. Drink water and recheck.",
+        "messageId": "L030-4"
+      },
+      {
+        "context": "All",
+        "band": "Critically high",
+        "lower": 155.0,
+        "upper": null,
+        "message": "Sodium is dangerously high. Seek urgent medical review.",
+        "messageId": "L030-5"
+      }
+    ]
+  },
+  {
+    "test": "Total bilirubin",
+    "conceptId": "102.0",
+    "sourceNames": [],
+    "unit": "umol/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": null,
+        "upper": 17.0,
+        "message": "Bilirubin is normal.",
+        "messageId": "L042-1"
+      },
+      {
+        "context": "All",
+        "band": "Raised",
+        "lower": 17.0,
+        "upper": 50.0,
+        "message": "Bilirubin is mildly raised. Often harmless (Gilbert's) but your doctor will check the liver.",
+        "messageId": "L042-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 50.0,
+        "upper": null,
+        "message": "Bilirubin is high and may cause yellow eyes. See your doctor soon.",
+        "messageId": "L042-3"
+      }
+    ]
+  },
+  {
+    "test": "Total cholesterol",
+    "conceptId": "245.0",
+    "sourceNames": [
+      "Cholesterol",
+      "Total cholesterol",
+      "Total cholesterol (mmol/L)",
+      "Serum or plasma total cholesterol measurement (mg/dL)"
+    ],
+    "unit": "mmol/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": null,
+        "upper": 5.2,
+        "message": "Total cholesterol under 5.2 is in the healthy range. Keep up the good diet and activity.",
+        "messageId": "L012-1"
+      },
+      {
+        "context": "All",
+        "band": "Borderline",
+        "lower": 5.2,
+        "upper": 6.2,
+        "message": "Cholesterol 5.2-6.2 is borderline. Less coconut oil and fried food, more vegetables and walking.",
+        "messageId": "L012-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 6.2,
+        "upper": 7.8,
+        "message": "Cholesterol over 6.2 is high. A statin may be advised, especially with diabetes or heart risk.",
+        "messageId": "L012-3"
+      },
+      {
+        "context": "All",
+        "band": "Very high",
+        "lower": 7.8,
+        "upper": null,
+        "message": "Cholesterol over 7.8 is very high. See your doctor - treatment is needed to protect your heart.",
+        "messageId": "L012-4"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": null,
+        "upper": 200.0,
+        "message": "Total cholesterol under 200 is in the healthy range. Keep up the good diet and activity.",
+        "messageId": "L013-1"
+      },
+      {
+        "context": "All",
+        "band": "Borderline",
+        "lower": 200.0,
+        "upper": 240.0,
+        "message": "Cholesterol 200-239 is borderline. Less coconut oil and fried food, more vegetables and walking.",
+        "messageId": "L013-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 240.0,
+        "upper": 300.0,
+        "message": "Cholesterol over 240 is high. A statin may be advised, especially with diabetes or heart risk.",
+        "messageId": "L013-3"
+      },
+      {
+        "context": "All",
+        "band": "Very high",
+        "lower": 300.0,
+        "upper": null,
+        "message": "Cholesterol over 300 is very high. See your doctor - treatment is needed to protect your heart.",
+        "messageId": "L013-4"
+      }
+    ]
+  },
+  {
+    "test": "Total lipids",
+    "conceptId": "2020.0",
+    "sourceNames": [
+      "Total lipids measurement (mg/dl)"
+    ],
+    "unit": "mg/dL",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": null,
+        "upper": 800.0,
+        "message": "Total blood fats are in the normal range.",
+        "messageId": "L018-1"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 800.0,
+        "upper": null,
+        "message": "Total blood fats are raised. A full cholesterol profile will guide treatment.",
+        "messageId": "L018-2"
+      }
+    ]
+  },
+  {
+    "test": "Total protein",
+    "conceptId": "86.0",
+    "sourceNames": [],
+    "unit": "g/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 63.0,
+        "message": "Total protein is low. Your doctor will check nutrition, liver and kidneys.",
+        "messageId": "L044-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 63.0,
+        "upper": 80.0,
+        "message": "Total protein is normal.",
+        "messageId": "L044-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 80.0,
+        "upper": null,
+        "message": "Total protein is high. Your doctor will review the cause.",
+        "messageId": "L044-3"
+      }
+    ]
+  },
+  {
+    "test": "Triglycerides",
+    "conceptId": "242.0",
+    "sourceNames": [
+      "TG",
+      "Trig",
+      "Triglycerides",
+      "Triglycerides (mmol/L)"
+    ],
+    "unit": "mmol/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": null,
+        "upper": 1.7,
+        "message": "Triglycerides under 1.7 are normal.",
+        "messageId": "L016-1"
+      },
+      {
+        "context": "All",
+        "band": "Borderline",
+        "lower": 1.7,
+        "upper": 2.3,
+        "message": "Triglycerides are borderline. Cut sugar, alcohol and fried food, and walk daily.",
+        "messageId": "L016-2"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 2.3,
+        "upper": 5.6,
+        "message": "Triglycerides are high. Reduce sugar, alcohol and oil; good sugar control also lowers them.",
+        "messageId": "L016-3"
+      },
+      {
+        "context": "All",
+        "band": "Very high",
+        "lower": 5.6,
+        "upper": null,
+        "message": "Triglycerides are very high, with a risk of pancreatitis. See your doctor soon.",
+        "messageId": "L016-4"
+      }
+    ]
+  },
+  {
+    "test": "Troponin I",
+    "conceptId": "2203.0",
+    "sourceNames": [
+      "Troponin I measurement"
+    ],
+    "unit": "ng/mL",
+    "bands": [
+      {
+        "context": "REVIEW before sending",
+        "band": "Normal",
+        "lower": null,
+        "upper": 0.15,
+        "message": "Troponin is normal - no sign of heart muscle damage.",
+        "messageId": "L064-1"
+      },
+      {
+        "context": "REVIEW before sending",
+        "band": "Raised",
+        "lower": 0.15,
+        "upper": null,
+        "message": "Troponin is raised, suggesting heart muscle strain or damage. This needs urgent hospital review.",
+        "messageId": "L064-2"
+      }
+    ]
+  },
+  {
+    "test": "Troponin T",
+    "conceptId": "2202.0",
+    "sourceNames": [
+      "Troponin T measurement"
+    ],
+    "unit": "ng/mL",
+    "bands": [
+      {
+        "context": "REVIEW before sending",
+        "band": "Normal",
+        "lower": null,
+        "upper": 0.014,
+        "message": "Troponin is normal - no sign of heart muscle damage.",
+        "messageId": "L065-1"
+      },
+      {
+        "context": "REVIEW before sending",
+        "band": "Raised",
+        "lower": 0.014,
+        "upper": null,
+        "message": "Troponin is raised, suggesting heart muscle strain or damage. This needs urgent hospital review.",
+        "messageId": "L065-2"
+      }
+    ]
+  },
+  {
+    "test": "TSH",
+    "conceptId": "169.0",
+    "sourceNames": [
+      "Thyroid stimulating hormone test",
+      "TSH level",
+      "TSH measurement",
+      "TSH test"
+    ],
+    "unit": "mIU/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low - overactive",
+        "lower": null,
+        "upper": 0.35,
+        "message": "TSH is low, suggesting an overactive thyroid. Your doctor will check thyroid hormone levels.",
+        "messageId": "L063-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 0.35,
+        "upper": 5.5,
+        "message": "Thyroid function (TSH) is normal.",
+        "messageId": "L063-2"
+      },
+      {
+        "context": "All",
+        "band": "High - underactive",
+        "lower": 5.5,
+        "upper": null,
+        "message": "TSH is high, suggesting an underactive thyroid. Levothyroxine may be needed or the dose increased.",
+        "messageId": "L063-3"
+      }
+    ]
+  },
+  {
+    "test": "Urea",
+    "conceptId": "135.0",
+    "sourceNames": [
+      "Urea measurement (calculated)"
+    ],
+    "unit": "mmol/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": null,
+        "upper": 3.0,
+        "message": "Urea is low. Usually not a concern; can reflect low protein intake.",
+        "messageId": "L025-1"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 3.0,
+        "upper": 6.5,
+        "message": "Urea is in the normal range.",
+        "messageId": "L025-2"
+      },
+      {
+        "context": "All",
+        "band": "Raised",
+        "lower": 6.5,
+        "upper": 15.0,
+        "message": "Urea is raised, often from dehydration or kidney strain. Drink well and recheck.",
+        "messageId": "L025-3"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 15.0,
+        "upper": null,
+        "message": "Urea is high. See your doctor to check kidney function.",
+        "messageId": "L025-4"
+      }
+    ]
+  },
+  {
+    "test": "Uric acid",
+    "conceptId": "195.0",
+    "sourceNames": [
+      "uric acid, serum"
+    ],
+    "unit": "mg/dL",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": null,
+        "upper": 7.0,
+        "message": "Uric acid is normal.",
+        "messageId": "L029-1"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 7.0,
+        "upper": null,
+        "message": "Uric acid is high, raising gout and stone risk. Cut alcohol, red meat and sugary drinks; drink water",
+        "messageId": "L029-2"
+      }
+    ]
+  },
+  {
+    "test": "Urine albumin",
+    "conceptId": "1947.0",
+    "sourceNames": [
+      "Urinary albumin"
+    ],
+    "unit": "mg/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": null,
+        "upper": 20.0,
+        "message": "No significant protein in urine. Good news.",
+        "messageId": "L027-1"
+      },
+      {
+        "context": "All",
+        "band": "Raised",
+        "lower": 20.0,
+        "upper": null,
+        "message": "Protein in urine is an early kidney warning. Control sugar and pressure and recheck in 3 months.",
+        "messageId": "L027-2"
+      }
+    ]
+  },
+  {
+    "test": "Urine albumin:creatinine ratio (ACR)",
+    "conceptId": "4277.0",
+    "sourceNames": [
+      "Urine ACR"
+    ],
+    "unit": "mg/g",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": null,
+        "upper": 30.0,
+        "message": "No significant protein leak from the kidneys. Good news.",
+        "messageId": "L026-1"
+      },
+      {
+        "context": "All",
+        "band": "Microalbuminuria",
+        "lower": 30.0,
+        "upper": 300.0,
+        "message": "A small protein leak is an early kidney warning. ACE/ARB tablets and good sugar and BP control help.",
+        "messageId": "L026-2"
+      },
+      {
+        "context": "All",
+        "band": "Macroalbuminuria",
+        "lower": 300.0,
+        "upper": null,
+        "message": "A large protein leak means kidney damage. See your doctor to strengthen kidney protection.",
+        "messageId": "L026-3"
+      }
+    ]
+  },
+  {
+    "test": "Urine glucose",
+    "conceptId": "2201.0",
+    "sourceNames": [
+      "Glucose measurement, quantitative, urine",
+      "Urine glucose"
+    ],
+    "unit": "-",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Negative",
+        "lower": 0.0,
+        "upper": 1.0,
+        "message": "No sugar in your urine. Good sign.",
+        "messageId": "L010-1"
+      },
+      {
+        "context": "All",
+        "band": "Positive",
+        "lower": 1.0,
+        "upper": null,
+        "message": "Sugar in urine usually means blood sugar is high. A blood test will confirm.",
+        "messageId": "L010-2"
+      }
+    ]
+  },
+  {
+    "test": "VLDL cholesterol",
+    "conceptId": "126.0",
+    "sourceNames": [
+      "Very low density lipoprotein",
+      "Very low density lipoprotein measurement (mmol/L)",
+      "VLDL (mmol/L)",
+      "VLDL-cholesterol"
+    ],
+    "unit": "mmol/L",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": null,
+        "upper": 0.8,
+        "message": "VLDL is in the normal range.",
+        "messageId": "L017-1"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 0.8,
+        "upper": null,
+        "message": "VLDL is raised, usually with high triglycerides. Cut sugar, alcohol and fried food.",
+        "messageId": "L017-2"
+      }
+    ]
+  },
+  {
+    "test": "White cell count",
+    "conceptId": "100.0",
+    "sourceNames": [
+      "Leukocyte count",
+      "Total leukocyte count",
+      "Total WBC count",
+      "WBC",
+      "White blood cells"
+    ],
+    "unit": "10^3/uL",
+    "bands": [
+      {
+        "context": "All",
+        "band": "Critically low",
+        "lower": null,
+        "upper": 2.0,
+        "message": "White cells are very low, raising infection risk. Seek urgent review for any fever.",
+        "messageId": "L053-1"
+      },
+      {
+        "context": "All",
+        "band": "Low",
+        "lower": 2.0,
+        "upper": 4.0,
+        "message": "White cells are low. Your doctor will review; report any fever promptly.",
+        "messageId": "L053-2"
+      },
+      {
+        "context": "All",
+        "band": "Normal",
+        "lower": 4.0,
+        "upper": 11.0,
+        "message": "White cell count is normal.",
+        "messageId": "L053-3"
+      },
+      {
+        "context": "All",
+        "band": "High",
+        "lower": 11.0,
+        "upper": 30.0,
+        "message": "White cells are raised, usually from infection or inflammation.",
+        "messageId": "L053-4"
+      },
+      {
+        "context": "All",
+        "band": "Critically high",
+        "lower": 30.0,
+        "upper": null,
+        "message": "White cells are very high. Seek prompt medical review.",
+        "messageId": "L053-5"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2781 @@
+[
+  {
+    "patientFacingName": "Abnormal pupil reflex",
+    "conceptId": "2704.0",
+    "sourceNames": [
+      "Abnormal pupil reflex"
+    ],
+    "group": "General",
+    "messages": {
+      "What it is": "Your pupils responded unusually to light and this needs further checks.",
+      "What you can do": "Attend eye or neurology follow-up as advised.",
+      "When to get help": "Seek urgent help for sudden vision loss, severe headache or weakness."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Abnormal reflex",
+    "conceptId": "1161.0",
+    "sourceNames": [
+      "Abnormal Reflex"
+    ],
+    "group": "General",
+    "messages": {
+      "What it is": "An abnormal reflex was found on examination and may need further tests.",
+      "What you can do": "Attend follow-up tests as advised.",
+      "When to get help": "Seek help for new weakness, numbness or difficulty walking."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Acanthosis nigricans (dark skin folds)",
+    "conceptId": "3762.0",
+    "sourceNames": [
+      "Acanthosis nigricans"
+    ],
+    "group": "Diabetes",
+    "messages": {
+      "What it is": "Dark velvety skin on the neck or armpits is a sign your body is resisting insulin.",
+      "What you can do": "Losing weight, cutting sugar and daily exercise can fade it and lower diabetes risk.",
+      "When to get help": "Ask your doctor for a diabetes test if you have not had one."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Acid reflux (GORD)",
+    "conceptId": "381.0",
+    "sourceNames": [
+      "GORD (gastro-oesophageal reflux disease)"
+    ],
+    "group": "Gastro",
+    "messages": {
+      "What it is": "Acid reflux is stomach acid rising into the food pipe, causing heartburn. Diet and tablets help.",
+      "What you can do": "Eat smaller meals, avoid late eating, spicy and oily food, and raise the head of your bed.",
+      "When to get help": "See a doctor for difficulty swallowing, vomiting blood, black stools or weight loss."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Acute heart attack",
+    "conceptId": "2248.0",
+    "sourceNames": [
+      "Acute MI"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "A heart attack means part of the heart muscle was starved of blood. Treatment now prevents another.",
+      "What you can do": "Take every tablet, rest as advised, stop smoking and attend cardiac follow-up.",
+      "When to get help": "Call emergency help immediately for chest pain or breathlessness."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Acute ischaemic heart disease",
+    "conceptId": "3269.0",
+    "sourceNames": [
+      "Acute ischaemic heart disease"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "Your heart recently had a reduced blood supply. Recovery needs rest, medicines and follow-up.",
+      "What you can do": "Take all tablets, attend cardiac follow-up, stop smoking and build up activity gradually.",
+      "When to get help": "Call emergency services for chest pain, breathlessness or fainting."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Acute kidney injury",
+    "conceptId": "2326.0",
+    "sourceNames": [
+      "Acute kidney failure",
+      "Acute renal failure"
+    ],
+    "group": "Kidney",
+    "messages": {
+      "What it is": "Your kidneys were suddenly affected, often by dehydration, infection or medicines.",
+      "What you can do": "Drink fluids as advised and pause any tablets your doctor has told you to stop while unwell.",
+      "When to get help": "Seek help urgently if urine output drops, or for vomiting, confusion or swelling."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Acute stress reaction",
+    "conceptId": "2337.0",
+    "sourceNames": [
+      "Acute stress disorder"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "After a shocking event, strong feelings are normal and usually fade within weeks.",
+      "What you can do": "Keep routines, sleep, talk to people you trust and avoid alcohol.",
+      "When to get help": "Contact your clinic if symptoms last over a month. Call 1926 if in crisis."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Alcohol dependence",
+    "conceptId": "2378.0",
+    "sourceNames": [
+      "Alcoholism"
+    ],
+    "group": "Lifestyle",
+    "messages": {
+      "What it is": "Alcohol dependence is a medical condition, not a weakness. Treatment and support work.",
+      "What you can do": "Do not stop suddenly on your own - ask your clinic about safe withdrawal and counselling.",
+      "When to get help": "Seek urgent help for shaking, confusion, seizures or seeing things when not drinking."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Alcohol misuse",
+    "conceptId": "1107.0",
+    "sourceNames": [
+      "Alcohol abuse"
+    ],
+    "group": "Lifestyle",
+    "messages": {
+      "What it is": "Heavy drinking harms the liver, heart, blood pressure and mood. Cutting down helps quickly.",
+      "What you can do": "Set alcohol-free days, avoid drinking alone and ask your clinic about support.",
+      "When to get help": "Seek help if you shake, sweat or feel very anxious when not drinking - sudden stopping can be risky."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Alcohol use",
+    "conceptId": "3106.0",
+    "sourceNames": [
+      "Alcohol user"
+    ],
+    "group": "Lifestyle",
+    "messages": {
+      "What it is": "Alcohol raises blood pressure, sugar and weight. Less is better for long-term conditions.",
+      "What you can do": "Keep to at most 2 drinks a day with alcohol-free days, and never drink with certain medicines.",
+      "When to get help": "Talk to your clinic if you find it hard to cut down."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Allergic reaction",
+    "conceptId": "537.0",
+    "sourceNames": [
+      "Allergic reaction"
+    ],
+    "group": "Allergy",
+    "messages": {
+      "What it is": "An allergic reaction is the body overreacting to a food, medicine or insect sting.",
+      "What you can do": "Avoid the trigger if known and take antihistamines as advised.",
+      "When to get help": "Seek urgent help for lip or throat swelling, wheeze or feeling faint."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Allergy",
+    "conceptId": "582.0",
+    "sourceNames": [
+      "Allergy, Unspecified"
+    ],
+    "group": "Allergy",
+    "messages": {
+      "What it is": "You have an allergy. Knowing and avoiding the trigger is the best protection.",
+      "What you can do": "Keep a list of your allergies and show it at every clinic and pharmacy visit.",
+      "When to get help": "Seek urgent help for swelling of lips or throat or difficulty breathing."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Anaemia",
+    "conceptId": "540.0",
+    "sourceNames": [
+      "Anaemia",
+      "Anemia"
+    ],
+    "group": "Blood",
+    "messages": {
+      "What it is": "Anaemia means low haemoglobin, so less oxygen is carried. It causes tiredness and breathlessness.",
+      "What you can do": "Eat iron-rich foods like green leaves, lentils, meat and eggs, and take iron tablets if prescribed.",
+      "When to get help": "See a doctor for breathlessness, chest pain, dizziness or black stools."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Angina",
+    "conceptId": "2388.0",
+    "sourceNames": [
+      "Angina"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "Angina is chest pain from narrowed heart arteries, often on exertion. It warns of heart attack risk.",
+      "What you can do": "Take your heart tablets daily, keep GTN spray with you, stop smoking and walk regularly.",
+      "When to get help": "Call for help if pain lasts over 15 minutes or is not relieved by rest or GTN."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Angioedema",
+    "conceptId": "560.0",
+    "sourceNames": [
+      "Angio-edema",
+      "Angioedema"
+    ],
+    "group": "Allergy",
+    "messages": {
+      "What it is": "Angioedema is deep swelling of lips, face or throat, from allergy or ACE inhibitor tablets.",
+      "What you can do": "Note any suspected medicine and tell your doctor. Never restart an ACE inhibitor after this.",
+      "When to get help": "Go to hospital at once for swelling of tongue or throat or difficulty breathing."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Anterior STEMI heart attack",
+    "conceptId": "3450.0",
+    "sourceNames": [
+      "Acute ST elevation myocardial infarction of anterior wall"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "You have had a serious heart attack affecting the front of the heart. Follow-up is essential.",
+      "What you can do": "Take all tablets daily, avoid smoking, and join cardiac rehabilitation if offered.",
+      "When to get help": "Call emergency help for chest pain, breathlessness, swelling or fainting."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Anxiety",
+    "conceptId": "1109.0",
+    "sourceNames": [
+      "Anxiety"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Anxiety is a common condition of worry and tension. Talking therapy and medicines both help.",
+      "What you can do": "Practise slow breathing, walk daily, cut caffeine and keep regular sleep.",
+      "When to get help": "Contact your clinic if anxiety stops you doing daily tasks. Call 1926 if in crisis."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Anxiety attack",
+    "conceptId": "2889.0",
+    "sourceNames": [
+      "Anxiety attack"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "An anxiety attack is sudden intense fear with a racing heart. It passes and is not dangerous.",
+      "What you can do": "Breathe slowly - in for 4, out for 6 - and remind yourself it will pass in minutes.",
+      "When to get help": "See your clinic if attacks are frequent. Get urgent help if chest pain does not settle."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Anxiety disorder",
+    "conceptId": "2457.0",
+    "sourceNames": [
+      "Anxiety disorder"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "An anxiety disorder means worry is frequent and hard to control. It responds well to treatment.",
+      "What you can do": "Take medicines as prescribed, practise breathing exercises and stay active.",
+      "When to get help": "Contact your clinic if worsening. Call 1926 if in crisis."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Anxiety linked to physical illness",
+    "conceptId": "2908.0",
+    "sourceNames": [
+      "Anxiety disorder due to a general medical condition"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Long-term illness can trigger anxiety. Treating both improves your wellbeing.",
+      "What you can do": "Practise slow breathing, stay active and take medicines as prescribed.",
+      "When to get help": "Contact your clinic if anxiety is affecting your sleep or daily life."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Arteriovenous fistula",
+    "conceptId": "2525.0",
+    "sourceNames": [
+      "Arteriovenous fistula"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "An AV fistula is a surgical join between artery and vein, often made for dialysis.",
+      "What you can do": "Keep the arm clean, avoid tight sleeves, and do not let anyone take blood pressure on that arm.",
+      "When to get help": "Get help if the fistula stops buzzing, bleeds, or the arm becomes red, hot or painful."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Asthma",
+    "conceptId": "410.0",
+    "sourceNames": [
+      "Asthma"
+    ],
+    "group": "Respiratory",
+    "messages": {
+      "What it is": "Asthma narrows the airways. A daily preventer inhaler keeps it controlled.",
+      "What you can do": "Use your preventer every day, even when well, and carry your reliever. Avoid smoke and dust.",
+      "When to get help": "Seek urgent help if the reliever is not working, you cannot speak in sentences or lips turn blue."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Atherosclerosis",
+    "conceptId": "2535.0",
+    "sourceNames": [
+      "Atherosclerosis"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "Atherosclerosis is fatty build-up in the arteries. It raises heart attack and stroke risk.",
+      "What you can do": "Statin and aspirin, if prescribed, plus no smoking, daily walking and less oil, slow it down.",
+      "When to get help": "Get urgent help for chest pain, weakness on one side or leg pain when walking."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Atrial fibrillation",
+    "conceptId": "2990.0",
+    "sourceNames": [
+      "Atrial fibrillation"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "Atrial fibrillation is an irregular heartbeat that raises stroke risk. Treatment lowers that risk.",
+      "What you can do": "Take your blood thinner and heart-rate tablets daily. Limit alcohol and caffeine.",
+      "When to get help": "Get urgent help for weakness, slurred speech, chest pain or fainting."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Atrial flutter",
+    "conceptId": "3008.0",
+    "sourceNames": [
+      "Atrial flutter"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "Atrial flutter is a fast, regular abnormal rhythm. It is treatable and raises stroke risk.",
+      "What you can do": "Take rhythm and blood-thinning tablets as prescribed and attend cardiology follow-up.",
+      "When to get help": "Get urgent help for chest pain, fainting, weakness or trouble speaking."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Back pain",
+    "conceptId": "1197.0",
+    "sourceNames": [
+      "Back pain"
+    ],
+    "group": "Pain",
+    "messages": {
+      "What it is": "Most back pain improves in weeks with movement. Bed rest makes it worse.",
+      "What you can do": "Keep moving, use heat and paracetamol, and gradually return to normal activities.",
+      "When to get help": "Seek urgent help for numbness between the legs, bladder or bowel problems, or leg weakness."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Bipolar disorder",
+    "conceptId": "2774.0",
+    "sourceNames": [
+      "Bipolar disorder"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Bipolar disorder causes swings between very high and very low mood. Daily medicines keep it stable.",
+      "What you can do": "Take mood stabilisers daily, keep regular sleep, avoid alcohol and attend all appointments.",
+      "When to get help": "Get urgent help for no sleep for days, racing thoughts, or thoughts of self-harm. Call 1926."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Bipolar disorder, depressed episode",
+    "conceptId": "3058.0",
+    "sourceNames": [
+      "Bipolar I disorder, most recent episode (or current) depressed"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "You are in a low phase of bipolar disorder. Treatment helps lift it safely.",
+      "What you can do": "Take medicines daily, keep routine and sleep, and stay in touch with people.",
+      "When to get help": "Call 1926 or Sumithrayo 011 2696666 for thoughts of self-harm."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Bipolar disorder, mild manic episode",
+    "conceptId": "2261.0",
+    "sourceNames": [
+      "Bipolar I disorder, most recent episode (or current) manic, mild"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "You are in a mild high phase. Sticking to medicines and sleep prevents it escalating.",
+      "What you can do": "Take medicines daily, keep regular sleep, avoid alcohol and big decisions.",
+      "When to get help": "Get urgent help if you stop sleeping, spend recklessly or feel unstoppable."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Bipolar disorder, moderate depressed episode",
+    "conceptId": "3742.0",
+    "sourceNames": [
+      "Moderate depressed bipolar I disorder"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "You are in a low phase of bipolar disorder. Treatment helps lift it safely.",
+      "What you can do": "Take medicines daily, keep routine and sleep, and stay in touch with people.",
+      "When to get help": "Call 1926 or Sumithrayo 011 2696666 for thoughts of self-harm."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Bipolar disorder, moderate manic episode",
+    "conceptId": "2320.0",
+    "sourceNames": [
+      "Bipolar I disorder, most recent episode (or current) manic, moderate"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "You are in a high phase. Treatment and sleep help bring your mood back to normal.",
+      "What you can do": "Take medicines daily, protect sleep, avoid alcohol and let family support you.",
+      "When to get help": "Get urgent help if you stop sleeping or put yourself at risk."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Bipolar disorder, severe depression",
+    "conceptId": "4044.0",
+    "sourceNames": [
+      "Severe depressed bipolar I disorder without psychotic features"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "You are in a severe low phase. Close treatment and support are needed now.",
+      "What you can do": "Take all medicines, keep every appointment and let family help you stay safe.",
+      "When to get help": "Go to hospital or call 1926 now for thoughts of self-harm."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Bipolar disorder, severe depression with psychosis",
+    "conceptId": "2672.0",
+    "sourceNames": [
+      "Severe depressed bipolar I disorder with psychotic features"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "You are in a severe low phase. Close treatment and support are needed now.",
+      "What you can do": "Take all medicines, keep every appointment and let family help you stay safe.",
+      "When to get help": "Go to hospital or call 1926 now for thoughts of self-harm or confusing thoughts."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Bipolar disorder, severe manic episode",
+    "conceptId": "2688.0",
+    "sourceNames": [
+      "Bipolar I disorder, most recent episode manic, without psychotic features, severe"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "You are in a severe high phase. Close treatment and support are needed now.",
+      "What you can do": "Take all medicines and keep every appointment. Let family help you stay safe.",
+      "When to get help": "Go to hospital or call 1926 if you cannot sleep, feel out of control or at risk."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Bipolar II disorder",
+    "conceptId": "2777.0",
+    "sourceNames": [
+      "Bipolar II disorder"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Bipolar II causes low moods and milder highs. Medicines and routine keep it stable.",
+      "What you can do": "Take medicines daily, keep regular sleep and note early signs of mood change.",
+      "When to get help": "Contact your clinic if mood changes. Call 1926 for thoughts of self-harm."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Bladder stone",
+    "conceptId": "2894.0",
+    "sourceNames": [
+      "Calculus of lower urinary tract"
+    ],
+    "group": "Kidney",
+    "messages": {
+      "What it is": "A bladder stone can cause pain, infection and difficulty passing urine.",
+      "What you can do": "Drink plenty of water and do not delay passing urine.",
+      "When to get help": "See a doctor for pain, blood in urine, or if you cannot empty your bladder."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Bowel ischaemia",
+    "conceptId": "3255.0",
+    "sourceNames": [
+      "Acute ischaemic enteritis"
+    ],
+    "group": "Gastro",
+    "messages": {
+      "What it is": "The bowel's blood supply was reduced. This needs hospital care and follow-up.",
+      "What you can do": "Take medicines as prescribed, stop smoking and attend all follow-up.",
+      "When to get help": "Seek urgent help for severe tummy pain, bloody stools or vomiting."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Breathless on exertion",
+    "conceptId": "3341.0",
+    "sourceNames": [
+      "Dyspnea on exertion"
+    ],
+    "group": "Respiratory",
+    "messages": {
+      "What it is": "Getting breathless on exertion may reflect the heart, lungs, weight or fitness.",
+      "What you can do": "Build activity up slowly, stop smoking and take heart or lung medicines as prescribed.",
+      "When to get help": "See a doctor if it is getting worse or comes with chest pain or ankle swelling."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Calcium channel blocker allergy",
+    "conceptId": "542.0",
+    "sourceNames": [
+      "calcium channel blocker allergy"
+    ],
+    "group": "Allergy",
+    "messages": {
+      "What it is": "You have reacted to a calcium channel blocker (e.g. amlodipine). Other pressure tablets can be used.",
+      "What you can do": "Tell every doctor and pharmacist. Keep a note of the drug name with you.",
+      "When to get help": "Seek urgent help for swelling of lips or face or difficulty breathing."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Cancer",
+    "conceptId": "348.0",
+    "sourceNames": [
+      "Cancer"
+    ],
+    "group": "Oncology",
+    "messages": {
+      "What it is": "You are under care for cancer. Your treatment team will guide each step.",
+      "What you can do": "Attend every appointment, eat well, rest and ask questions when unsure.",
+      "When to get help": "Contact your team urgently for fever during chemotherapy, bleeding or severe pain."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Cardiac chest pain",
+    "conceptId": "2824.0",
+    "sourceNames": [
+      "Cardiac chest pain"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "Chest pain from the heart means the heart muscle is not getting enough blood.",
+      "What you can do": "Rest when pain comes, take your medicines and avoid heavy exertion until reviewed.",
+      "When to get help": "Call emergency help for pain lasting over 15 minutes, with sweating, nausea or breathlessness."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Cardiogenic shock",
+    "conceptId": "3490.0",
+    "sourceNames": [
+      "Cardiogenic shock"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "Cardiogenic shock is a critical condition where the heart cannot pump enough blood.",
+      "What you can do": "Follow your hospital team's advice closely after discharge.",
+      "When to get help": "This is a hospital emergency - call for help at once for collapse or severe breathlessness."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Cardiomyopathy",
+    "conceptId": "3783.0",
+    "sourceNames": [
+      "Cardiomyopathy"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "Cardiomyopathy is a disease of the heart muscle that weakens its pumping. Treatment helps.",
+      "What you can do": "Take medicines daily, avoid alcohol, limit salt and attend all heart checks.",
+      "When to get help": "Get help for breathlessness, swelling, palpitations or fainting."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Cardiorespiratory arrest",
+    "conceptId": "4634.0",
+    "sourceNames": [
+      "Cardiorespiratory arrest"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": null,
+      "What you can do": null,
+      "When to get help": null
+    },
+    "clinicianContactOnly": true
+  },
+  {
+    "patientFacingName": "Cardiorespiratory failure",
+    "conceptId": "4673.0",
+    "sourceNames": [
+      "Cardiorespiratory failure"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": null,
+      "What you can do": null,
+      "When to get help": null
+    },
+    "clinicianContactOnly": true
+  },
+  {
+    "patientFacingName": "Cardiovascular disease",
+    "conceptId": "2721.0",
+    "sourceNames": [
+      "Cardiovascular disease"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "You have disease of the heart or blood vessels. Medicines and lifestyle reduce further events.",
+      "What you can do": "Take your tablets daily, stop smoking, keep pressure and cholesterol controlled and stay active.",
+      "When to get help": "Get urgent help for chest pain, breathlessness, weakness or slurred speech."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Carotid artery aneurysm",
+    "conceptId": "4402.0",
+    "sourceNames": [
+      "Carotid artery aneurysm"
+    ],
+    "group": "Vascular",
+    "messages": {
+      "What it is": "A bulge in the neck artery that needs monitoring by a specialist.",
+      "What you can do": "Control blood pressure, stop smoking and attend all vascular follow-up.",
+      "When to get help": "Get urgent help for sudden weakness, slurred speech or a swelling in the neck that grows."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Carotid artery embolism",
+    "conceptId": "4619.0",
+    "sourceNames": [
+      "Carotid artery embolism"
+    ],
+    "group": "Vascular",
+    "messages": {
+      "What it is": "A clot has travelled in the neck artery. Treatment now aims to prevent a stroke.",
+      "What you can do": "Take blood thinners and statin as prescribed, never miss doses, and attend follow-up.",
+      "When to get help": "Call emergency help for face droop, arm weakness or slurred speech."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Carotid artery narrowing",
+    "conceptId": "5200.0",
+    "sourceNames": [
+      "Carotid artery stenosis"
+    ],
+    "group": "Vascular",
+    "messages": {
+      "What it is": "The artery to your brain is narrowed. Medicines or surgery reduce stroke risk.",
+      "What you can do": "Take antiplatelet and statin daily, control pressure and sugar, stop smoking.",
+      "When to get help": "Call emergency help for weakness, slurred speech or sudden vision loss."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Carotid artery thrombosis",
+    "conceptId": "5174.0",
+    "sourceNames": [
+      "Carotid artery thrombosis"
+    ],
+    "group": "Vascular",
+    "messages": {
+      "What it is": "A clot in the neck artery raises stroke risk. Treatment reduces that risk.",
+      "What you can do": "Take blood thinners and statin daily, control pressure and stop smoking.",
+      "When to get help": "Call emergency help for weakness, numbness, slurred speech or vision loss."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Carotid bruit",
+    "conceptId": "4566.0",
+    "sourceNames": [
+      "Carotid bruit"
+    ],
+    "group": "Vascular",
+    "messages": {
+      "What it is": "A bruit is a sound over the neck artery that may mean narrowing. Tests will check this.",
+      "What you can do": "Control pressure and cholesterol, stop smoking and take aspirin or statin if prescribed.",
+      "When to get help": "Get urgent help for weakness, slurred speech or vision loss - these may be stroke signs."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Central obesity",
+    "conceptId": "5059.0",
+    "sourceNames": [
+      "Central obesity"
+    ],
+    "group": "Lifestyle",
+    "messages": {
+      "What it is": "Fat around the waist raises diabetes and heart risk more than fat elsewhere.",
+      "What you can do": "Reduce rice and sugar, walk daily and aim for a waist under 90 cm (men) or 80 cm (women).",
+      "When to get help": "Ask for a sugar and cholesterol test if you have not had one this year."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Chest pain",
+    "conceptId": "1115.0",
+    "sourceNames": [
+      "Chest pain"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "Chest pain has many causes, but it should never be ignored if it comes from the heart.",
+      "What you can do": "Note when it occurs, what brings it on and what relieves it, and tell your doctor.",
+      "When to get help": "Call for help now if pain is crushing, spreads to arm or jaw, or comes with sweating."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Cholesterol deposits on eyelid (xanthelasma)",
+    "conceptId": "1105.0",
+    "sourceNames": [
+      "Xanthelasma of Eyelid"
+    ],
+    "group": "Lipids",
+    "messages": {
+      "What it is": "Yellow patches on the eyelids are cholesterol deposits and may signal high blood cholesterol.",
+      "What you can do": "Ask for a cholesterol test. Cut oily and fried food and stay active.",
+      "When to get help": "See a doctor to check your cholesterol and heart risk."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Chronic ischaemic heart disease",
+    "conceptId": "3181.0",
+    "sourceNames": [
+      "Chronic ischaemic heart disease"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "Your heart muscle has a long-term reduced blood supply. Treatment protects it and prevents attacks.",
+      "What you can do": "Never miss your heart tablets, keep active within your limits and eat less oil and salt.",
+      "When to get help": "Get urgent help for new or worsening chest pain, or pain at rest."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Chronic kidney disease",
+    "conceptId": "3230.0",
+    "sourceNames": [
+      "Chronic kidney failure",
+      "Chronic renal failure",
+      "Chronic renal insufficiency"
+    ],
+    "group": "Kidney",
+    "messages": {
+      "What it is": "Your kidneys work less well than they should. Good pressure and sugar control slows this.",
+      "What you can do": "Take your tablets, keep pressure below 130/80, avoid painkillers like ibuprofen and limit salt.",
+      "When to get help": "See a doctor for swelling, reduced urine, breathlessness or severe tiredness."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Chronic kidney disease stage V",
+    "conceptId": "3031.0",
+    "sourceNames": [
+      "Chronic Renal Insufficiency, Stage V"
+    ],
+    "group": "Kidney",
+    "messages": {
+      "What it is": "Your kidneys have nearly stopped working. Dialysis or transplant planning keeps you well.",
+      "What you can do": "Follow your fluid and diet plan closely, take medicines and attend every dialysis session.",
+      "When to get help": "Seek urgent help for breathlessness, chest pain, confusion or missed dialysis."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "CKD stage 1",
+    "conceptId": "3243.0",
+    "sourceNames": [
+      "Chronic kidney disease, stage 1 (GFR >=90)"
+    ],
+    "group": "Kidney",
+    "messages": {
+      "What it is": "Stage 1 kidney disease means early signs of damage but normal function. Protect your kidneys now.",
+      "What you can do": "Control blood pressure and sugar, avoid anti-inflammatory painkillers and stop smoking.",
+      "When to get help": "See a doctor for foamy urine, swelling or high pressure readings."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "CKD stage 2",
+    "conceptId": "3259.0",
+    "sourceNames": [
+      "Chronic kidney disease, stage 2 (GFR 60-89)"
+    ],
+    "group": "Kidney",
+    "messages": {
+      "What it is": "Stage 2 kidney disease means mildly reduced function. Protecting your kidneys now prevents decline.",
+      "What you can do": "Keep pressure below 130/80, control sugar, avoid ibuprofen-type painkillers and limit salt.",
+      "When to get help": "See a doctor for swelling, reduced urine or rising pressure."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "CKD stage 3",
+    "conceptId": "3190.0",
+    "sourceNames": [
+      "Chronic kidney disease, stage 3 (GFR 30-59)"
+    ],
+    "group": "Kidney",
+    "messages": {
+      "What it is": "Stage 3 means your kidneys work at about half strength. Treatment can slow further loss.",
+      "What you can do": "Take pressure tablets daily, avoid ibuprofen-type painkillers, limit salt, check bloods 6-monthly.",
+      "When to get help": "See a doctor for swelling, breathlessness, itching or reduced urine."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "CKD stage 3A",
+    "conceptId": "3564.0",
+    "sourceNames": [
+      "Chronic kidney disease, stage 3A (GFR 45-59)",
+      "CKD, stage 3A"
+    ],
+    "group": "Kidney",
+    "messages": {
+      "What it is": "Stage 3A means moderately reduced kidney function. Good control slows further loss.",
+      "What you can do": "Keep pressure below 130/80, control sugar, avoid ibuprofen-type painkillers, check bloods 6-monthly.",
+      "When to get help": "See a doctor for swelling, breathlessness or reduced urine."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "CKD stage 3B",
+    "conceptId": "3554.0",
+    "sourceNames": [
+      "Chronic kidney disease, stage 3B (GFR 30-44)"
+    ],
+    "group": "Kidney",
+    "messages": {
+      "What it is": "Stage 3B means kidney function is reduced to around a third. Careful control matters.",
+      "What you can do": "Take tablets daily, avoid anti-inflammatory painkillers, limit salt and attend kidney reviews.",
+      "When to get help": "See a doctor for swelling, breathlessness, itching or nausea."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "CKD stage 4",
+    "conceptId": "3198.0",
+    "sourceNames": [
+      "Chronic kidney disease, stage 4 (GFR 15-29)"
+    ],
+    "group": "Kidney",
+    "messages": {
+      "What it is": "Stage 4 means your kidneys are severely reduced. Specialist care helps plan the next steps.",
+      "What you can do": "Attend kidney clinic, follow diet advice on salt, potassium and protein, and take tablets daily.",
+      "When to get help": "Seek help urgently for breathlessness, confusion, vomiting or very little urine."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "CKD stage 5 / end-stage kidney disease",
+    "conceptId": "3216.0",
+    "sourceNames": [
+      "Chronic kidney disease, stage 5 (GFR <15)",
+      "End-stage chronic kidney disease"
+    ],
+    "group": "Kidney",
+    "messages": {
+      "What it is": "Your kidneys have nearly stopped working. Dialysis or transplant planning keeps you well.",
+      "What you can do": "Follow your fluid and diet plan closely, take medicines and attend every dialysis session.",
+      "When to get help": "Seek urgent help for breathlessness, chest pain, confusion or missed dialysis."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Confusion (altered mental state)",
+    "conceptId": "539.0",
+    "sourceNames": [
+      "Altered Mental Status"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Sudden confusion can be caused by infection, low sugar, dehydration or medicines.",
+      "What you can do": "A family member should check sugar if diabetic, give fluids and bring all medicines to the clinic.",
+      "When to get help": "Seek urgent help - sudden confusion always needs assessment."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Coronary artery disease",
+    "conceptId": "2406.0",
+    "sourceNames": [
+      "Coronary artery disease"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "The arteries supplying your heart are narrowed. Medicines and lifestyle reduce heart attack risk.",
+      "What you can do": "Take aspirin, statin and pressure tablets daily. Stop smoking and walk regularly.",
+      "When to get help": "Call for help at once for chest pain over 15 minutes, especially with sweating or breathlessness."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Cough",
+    "conceptId": "493.0",
+    "sourceNames": [
+      "Cough"
+    ],
+    "group": "Respiratory",
+    "messages": {
+      "What it is": "Most coughs settle within 3 weeks. A cough lasting longer needs checking.",
+      "What you can do": "Drink warm fluids, avoid smoke and dust, and rest.",
+      "When to get help": "See a doctor for cough over 3 weeks, blood in phlegm, fever, weight loss or breathlessness."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Deceased",
+    "conceptId": "1098.0",
+    "sourceNames": [
+      "Deceased"
+    ],
+    "group": "Admin",
+    "messages": {
+      "What it is": null,
+      "What you can do": null,
+      "When to get help": null
+    },
+    "clinicianContactOnly": true
+  },
+  {
+    "patientFacingName": "Deep vein thrombosis (DVT)",
+    "conceptId": "3676.0",
+    "sourceNames": [
+      "DVT"
+    ],
+    "group": "Vascular",
+    "messages": {
+      "What it is": "A DVT is a clot in a deep leg vein. Blood thinners stop it growing or travelling to the lungs.",
+      "What you can do": "Take your blood thinner exactly as prescribed, stay active and keep hydrated.",
+      "When to get help": "Call emergency help for sudden breathlessness, chest pain or coughing blood."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Dehydration",
+    "conceptId": "771.0",
+    "sourceNames": [
+      "Dehydration"
+    ],
+    "group": "Kidney",
+    "messages": {
+      "What it is": "Dehydration means your body lacks fluid. It strains the kidneys and can lower blood pressure.",
+      "What you can do": "Drink water or oral rehydration solution steadily, and rest in the shade.",
+      "When to get help": "Seek help if you feel dizzy, confused, pass very little urine or cannot keep fluids down."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Delusional disorder",
+    "conceptId": "2536.0",
+    "sourceNames": [
+      "Delusional disorder"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Delusional disorder causes fixed beliefs that others do not share. Treatment helps.",
+      "What you can do": "Take medicines as prescribed and keep appointments.",
+      "When to get help": "Contact your clinic if distress increases or you feel unsafe."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Delusions",
+    "conceptId": "3202.0",
+    "sourceNames": [
+      "Delusions"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Strong beliefs that others do not share can be part of an illness that treatment can help.",
+      "What you can do": "Take medicines as prescribed and keep appointments.",
+      "When to get help": "Contact your clinic if distress increases or you feel unsafe."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Depression",
+    "conceptId": "1122.0",
+    "sourceNames": [
+      "Depression"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Depression is a common illness affecting mood, sleep and energy. Treatment works for most people.",
+      "What you can do": "Take medicines as prescribed, keep a daily routine, stay active and connect with people.",
+      "When to get help": "If you have thoughts of harming yourself, call 1926 (NIMH) or Sumithrayo 011 2696666 now."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Depression linked to physical illness",
+    "conceptId": "3723.0",
+    "sourceNames": [
+      "Depressive disorder due to another medical condition with depressive features"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Long-term illness often brings low mood. Treating both together improves each.",
+      "What you can do": "Stay active within your limits, keep social contact and take medicines as prescribed.",
+      "When to get help": "Contact your clinic if mood worsens. Call 1926 for thoughts of self-harm."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Depression with atypical features",
+    "conceptId": "4070.0",
+    "sourceNames": [
+      "Major depressive disorder, single episode with atypical features"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Your depression causes more sleep and appetite than usual. It responds well to treatment.",
+      "What you can do": "Take medicines daily, keep regular waking times and stay active.",
+      "When to get help": "Contact your clinic if worsening. Call 1926 for thoughts of self-harm."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Depressive disorder",
+    "conceptId": "3253.0",
+    "sourceNames": [
+      "Depressive disorder"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Depression is a common illness affecting mood, sleep and energy. Treatment works for most people.",
+      "What you can do": "Take medicines as prescribed, keep a daily routine, stay active and connect with people.",
+      "When to get help": "If you have thoughts of harming yourself, call 1926 (NIMH) or Sumithrayo 011 2696666 now."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Diabetes",
+    "conceptId": "364.0",
+    "sourceNames": [
+      "Diabetes",
+      "Diabetes mellitus"
+    ],
+    "group": "Diabetes",
+    "messages": {
+      "What it is": "Diabetes means your blood sugar is too high. Good control protects your eyes, kidneys and heart.",
+      "What you can do": "Take your medicines daily, eat less sugar and rice, walk 30 minutes a day and check HbA1c 3-monthly.",
+      "When to get help": "See a doctor soon for very high sugars, vomiting, drowsiness, or a foot wound that will not heal."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Diabetes in pregnancy",
+    "conceptId": "2611.0",
+    "sourceNames": [
+      "Diabetes with pregnancy"
+    ],
+    "group": "Diabetes",
+    "messages": {
+      "What it is": "Diabetes in pregnancy needs close control to protect your baby's growth and your own health.",
+      "What you can do": "Attend every antenatal visit, take insulin or tablets as prescribed and check sugars daily.",
+      "When to get help": "Get urgent help for very high or very low sugars, reduced baby movements or severe headache."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Diabetes with poor circulation",
+    "conceptId": "2615.0",
+    "sourceNames": [
+      "Type II diabetes mellitus with peripheral circulatory disorder"
+    ],
+    "group": "Diabetes",
+    "messages": {
+      "What it is": "Diabetes has narrowed the blood vessels in your legs. This slows healing and can cause pain.",
+      "What you can do": "Stop smoking, walk daily, control sugar and check your feet every day for cuts or colour change.",
+      "When to get help": "Seek urgent help for a cold, pale or painful foot, or a wound that is not healing."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Diabetic eye disease (retinopathy)",
+    "conceptId": "773.0",
+    "sourceNames": [
+      "Diabetic retinopathy"
+    ],
+    "group": "Diabetes",
+    "messages": {
+      "What it is": "High sugar has affected the small blood vessels at the back of your eye. Treatment protects sight.",
+      "What you can do": "Keep sugar and blood pressure well controlled and attend every eye check, even if vision seems fine.",
+      "When to get help": "See an eye doctor urgently for sudden blurring, floaters, dark patches or loss of vision."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Diabetic foot ulcer",
+    "conceptId": "772.0",
+    "sourceNames": [
+      "Diabetic foot ulcer"
+    ],
+    "group": "Diabetes",
+    "messages": {
+      "What it is": "A foot ulcer in diabetes heals slowly and can become infected. Careful daily care is vital.",
+      "What you can do": "Check both feet daily, keep the wound clean and covered, and never walk barefoot.",
+      "When to get help": "Go to the clinic at once if the wound smells, spreads, turns black or you have fever."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Diabetic ketoacidosis",
+    "conceptId": "1124.0",
+    "sourceNames": [
+      "Diabetic ketoacidosis",
+      "Type II (Non-Insulin Dependent Type) or Unspecified Type Diabetes Mellitus with ketoacidosis, not stated as uncontrolled"
+    ],
+    "group": "Diabetes",
+    "messages": {
+      "What it is": "Ketoacidosis is a dangerous state where very high sugar makes acid build up in the blood.",
+      "What you can do": "Never stop insulin, even when unwell. Drink water and check sugars more often when sick.",
+      "When to get help": "Go to hospital at once if vomiting, tummy pain, fast breathing or fruity-smelling breath."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Diarrhoea",
+    "conceptId": "494.0",
+    "sourceNames": [
+      "Diarrhea"
+    ],
+    "group": "Gastro",
+    "messages": {
+      "What it is": "Diarrhoea is usually from infection and settles in a few days. Fluids are the main treatment.",
+      "What you can do": "Drink oral rehydration solution after each loose stool, wash hands, and eat light meals.",
+      "When to get help": "Seek help if it lasts over 3 days, there is blood, high fever, or you cannot keep fluids down."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Difficulty breathing",
+    "conceptId": "1106.0",
+    "sourceNames": [
+      "Difficulty breathing"
+    ],
+    "group": "Respiratory",
+    "messages": {
+      "What it is": "Difficulty breathing can come from the lungs, heart or anaemia and needs assessment.",
+      "What you can do": "Sit upright, stay calm and use your inhaler if you have one.",
+      "When to get help": "Seek urgent help if breathless at rest, with chest pain, or if lips turn blue."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Difficulty passing urine",
+    "conceptId": "3340.0",
+    "sourceNames": [
+      "Difficulty in urination"
+    ],
+    "group": "Kidney",
+    "messages": {
+      "What it is": "Difficulty passing urine can come from prostate, bladder or nerve problems.",
+      "What you can do": "Do not hold urine for long periods, limit evening fluids and cut caffeine.",
+      "When to get help": "Seek urgent help if you cannot pass urine at all or have pain and a swollen tummy."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Drug allergy",
+    "conceptId": "495.0",
+    "sourceNames": [
+      "Drug allergy"
+    ],
+    "group": "Allergy",
+    "messages": {
+      "What it is": "You are allergic to a medicine. Every clinic and pharmacy must know this.",
+      "What you can do": "Carry a note of the drug name and show it whenever you are given a prescription.",
+      "When to get help": "Seek urgent help for lip swelling, breathing difficulty or widespread rash after any medicine."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Drug interaction",
+    "conceptId": "681.0",
+    "sourceNames": [
+      "Drug Interaction (Properly Prescribed and Administered)"
+    ],
+    "group": "Allergy",
+    "messages": {
+      "What it is": "Two of your medicines can interact. Your doctor will adjust them.",
+      "What you can do": "Take a full list of your medicines to every visit, including any bought over the counter.",
+      "When to get help": "Contact your clinic if you notice new symptoms after a change of medicine."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Drug-induced diabetes",
+    "conceptId": "388.0",
+    "sourceNames": [
+      "Drug-Induced Diabetes Mellitus"
+    ],
+    "group": "Diabetes",
+    "messages": {
+      "What it is": "Some medicines, like steroids, raise blood sugar. Your doctor will balance this with your needs.",
+      "What you can do": "Do not stop the medicine that caused it without advice. Limit sugar and stay active.",
+      "When to get help": "See your doctor if sugars stay high or if you feel very thirsty or drowsy."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Drug-induced low mood",
+    "conceptId": "3260.0",
+    "sourceNames": [
+      "Drug-induced depressive state"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Some medicines can lower mood. Your doctor can review and adjust them.",
+      "What you can do": "Do not stop any medicine on your own - tell your doctor which one you think is responsible.",
+      "When to get help": "Contact your clinic soon. Call 1926 if you have thoughts of self-harm."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Drug-induced sexual problems",
+    "conceptId": "3815.0",
+    "sourceNames": [
+      "Drug-induced sexual dysfunction"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Some medicines affect sexual function. This is common and can often be adjusted.",
+      "What you can do": "Do not stop the medicine on your own - discuss options with your doctor.",
+      "When to get help": "Ask at your next appointment; alternatives are usually available."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Dry cough",
+    "conceptId": "2787.0",
+    "sourceNames": [
+      "Dry cough"
+    ],
+    "group": "Respiratory",
+    "messages": {
+      "What it is": "A dry cough can be from a virus, asthma, reflux or blood-pressure tablets (ACE inhibitors).",
+      "What you can do": "Sip warm water and avoid smoke. Tell your doctor if it began after starting a new tablet.",
+      "When to get help": "See a doctor if it lasts over 3 weeks or comes with breathlessness or weight loss."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Erectile difficulty with diabetes",
+    "conceptId": "2333.0",
+    "sourceNames": [
+      "Erectile dysfunction associated with type 2 diabetes mellitus"
+    ],
+    "group": "Diabetes",
+    "messages": {
+      "What it is": "Diabetes can affect nerves and blood flow, making erections difficult. This is common and treatable.",
+      "What you can do": "Good sugar and blood pressure control help. Stop smoking and limit alcohol.",
+      "When to get help": "Talk to your doctor - safe treatments are available and it can be a sign of heart risk."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Essential hypertension",
+    "conceptId": "389.0",
+    "sourceNames": [
+      "Essential hypertension"
+    ],
+    "group": "Hypertension",
+    "messages": {
+      "What it is": "Essential hypertension is high blood pressure with no single cause. It is lifelong but controllable.",
+      "What you can do": "Tablets work only if taken every day. Cut salt, limit alcohol and keep active.",
+      "When to get help": "Seek help for readings over 180/110, severe headache or chest pain."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Ex-smoker",
+    "conceptId": "1150.0",
+    "sourceNames": [
+      "Ex-smoker"
+    ],
+    "group": "Lifestyle",
+    "messages": {
+      "What it is": "Well done for stopping smoking. Your heart and lung risk falls every year you stay smoke-free.",
+      "What you can do": "Avoid places and situations that tempt you, and remind yourself why you stopped.",
+      "When to get help": "If you relapse, ask your clinic for help - most people need several attempts."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Family history of cardiovascular disease",
+    "conceptId": "3758.0",
+    "sourceNames": [
+      "Family history of cardiovascular disease"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "Heart disease runs in your family, so your own risk is higher. Prevention works.",
+      "What you can do": "Check blood pressure, sugar and cholesterol yearly, stop smoking and walk daily.",
+      "When to get help": "See a doctor if you have chest pain on exertion."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Family history of diabetes",
+    "conceptId": "3768.0",
+    "sourceNames": [
+      "Family history of diabetes mellitus"
+    ],
+    "group": "Diabetes",
+    "messages": {
+      "What it is": "Diabetes runs in your family, which raises your own risk. Early action can prevent it.",
+      "What you can do": "Keep a healthy weight, walk daily, cut sugary drinks and have a sugar test every year.",
+      "When to get help": "Ask for a test if you have thirst, frequent urination or slow-healing wounds."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Family history of early heart disease",
+    "conceptId": "5530.0",
+    "sourceNames": [
+      "Family history of premature coronary heart disease"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "A close relative had heart disease young, so your risk is raised. Early checks can protect you.",
+      "What you can do": "Ask for cholesterol, sugar and pressure tests, stop smoking and stay active.",
+      "When to get help": "See a doctor for chest pain, especially on exertion."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Family history of hypertension",
+    "conceptId": "2858.0",
+    "sourceNames": [
+      "Family history of hypertension"
+    ],
+    "group": "Hypertension",
+    "messages": {
+      "What it is": "High blood pressure runs in your family, so your own risk is higher.",
+      "What you can do": "Check your pressure yearly, keep salt low, stay active and keep a healthy weight.",
+      "When to get help": "See a doctor if readings are above 140/90."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Fast breathing",
+    "conceptId": "1017.0",
+    "sourceNames": [
+      "Tachypnea"
+    ],
+    "group": "Respiratory",
+    "messages": {
+      "What it is": "Fast breathing can be from infection, asthma, heart problems or very high sugar.",
+      "What you can do": "Rest, stay upright and use inhalers if prescribed.",
+      "When to get help": "Seek urgent help if breathing stays fast at rest, or with fever, chest pain or drowsiness."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Fast heart rate",
+    "conceptId": "2702.0",
+    "sourceNames": [
+      "Tachycardia"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "A fast heart rate can come from fever, anxiety, anaemia, thyroid or heart problems.",
+      "What you can do": "Rest, drink fluids and avoid caffeine. Note your pulse when it happens.",
+      "When to get help": "Get help if it is over 120 at rest, or with chest pain, fainting or breathlessness."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Fever",
+    "conceptId": "496.0",
+    "sourceNames": [
+      "Fever"
+    ],
+    "group": "General",
+    "messages": {
+      "What it is": "Fever is the body fighting infection. Most fevers settle in a few days.",
+      "What you can do": "Rest, drink plenty of fluids and take paracetamol. Avoid aspirin in children.",
+      "When to get help": "See a doctor if fever lasts over 3 days, or with rash, bleeding, breathing difficulty or drowsiness."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Fluid swelling from heart (cardiac oedema)",
+    "conceptId": "4435.0",
+    "sourceNames": [
+      "Cardiac edema"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "Swollen legs from the heart mean fluid is building up. Water tablets and salt limits help.",
+      "What you can do": "Take water tablets in the morning, raise your legs when resting and limit salt.",
+      "When to get help": "See a doctor if swelling worsens, or urgently if you become breathless."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Food allergy",
+    "conceptId": "583.0",
+    "sourceNames": [
+      "Food Allergy"
+    ],
+    "group": "Allergy",
+    "messages": {
+      "What it is": "You react to a particular food. Careful avoidance prevents reactions.",
+      "What you can do": "Check ingredients, tell hosts and restaurants, and carry any prescribed emergency medicine.",
+      "When to get help": "Seek urgent help for lip or throat swelling, wheeze or fainting after eating."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Frozen shoulder",
+    "conceptId": "2442.0",
+    "sourceNames": [
+      "Adhesive capsulitis of shoulder"
+    ],
+    "group": "Pain",
+    "messages": {
+      "What it is": "Frozen shoulder is a stiff painful shoulder, more common with diabetes. It recovers slowly.",
+      "What you can do": "Do daily stretching exercises, use heat and paracetamol, and keep sugar well controlled.",
+      "When to get help": "See a doctor if pain stops sleep or if the arm becomes weak."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Generalised anxiety disorder",
+    "conceptId": "4050.0",
+    "sourceNames": [
+      "Generalised anxiety disorder"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Generalised anxiety is constant worry about many things. Treatment helps you regain control.",
+      "What you can do": "Take medicines as prescribed, limit caffeine, exercise daily and try relaxation exercises.",
+      "When to get help": "Contact your clinic if worsening. Call 1926 if in crisis."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Generalised swelling",
+    "conceptId": "3399.0",
+    "sourceNames": [
+      "Generalized edema"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "Swelling all over can come from the heart, kidneys or liver, and needs tests.",
+      "What you can do": "Limit salt, raise your legs when sitting and note any change in urine or breathing.",
+      "When to get help": "Seek help urgently if breathless, or if swelling is rapid or involves the face."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Gestational diabetes",
+    "conceptId": "386.0",
+    "sourceNames": [
+      "Gestational diabetes"
+    ],
+    "group": "Diabetes",
+    "messages": {
+      "What it is": "Gestational diabetes is high sugar in pregnancy. Controlling it keeps you and your baby safe.",
+      "What you can do": "Eat small regular meals, limit sweets and rice, walk daily and check sugars as advised.",
+      "When to get help": "Contact your clinic if sugars stay high, or if you feel unwell. Test again 6 weeks after birth."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Goitre",
+    "conceptId": "2427.0",
+    "sourceNames": [
+      "Goiter"
+    ],
+    "group": "Thyroid",
+    "messages": {
+      "What it is": "A goitre is an enlarged thyroid gland. Most are harmless, but tests check its function.",
+      "What you can do": "Use iodised salt and attend for thyroid blood tests and any scans advised.",
+      "When to get help": "See a doctor if the swelling grows quickly or causes difficulty swallowing or breathing."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Headache",
+    "conceptId": "501.0",
+    "sourceNames": [
+      "Headache"
+    ],
+    "group": "Pain",
+    "messages": {
+      "What it is": "Most headaches are tension-type or migraine. High blood pressure rarely causes them.",
+      "What you can do": "Rest, drink water, limit screen time and use paracetamol. Note any triggers.",
+      "When to get help": "Seek urgent help for a sudden severe headache, with fever and stiff neck, or weakness."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Heart attack (myocardial infarction)",
+    "conceptId": "2399.0",
+    "sourceNames": [
+      "MI (myocardial infarction)"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "You have had a heart attack. Your tablets now protect your heart and prevent another one.",
+      "What you can do": "Take aspirin, statin, beta blocker and ACE inhibitor daily. Stop smoking and attend rehab.",
+      "When to get help": "Call emergency services for chest pain, breathlessness or collapse."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Heart complication",
+    "conceptId": "4914.0",
+    "sourceNames": [
+      "Cardiac complication"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "Your heart has been affected by another condition. Close follow-up protects it.",
+      "What you can do": "Take all medicines and attend your heart appointments.",
+      "When to get help": "Get help for chest pain, breathlessness, swelling or palpitations."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Heart disease",
+    "conceptId": "4133.0",
+    "sourceNames": [
+      "Heart disease"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "You have a heart condition. Regular medicines and follow-up keep it stable.",
+      "What you can do": "Take tablets daily, limit salt and fat, stop smoking and keep gently active.",
+      "When to get help": "Get urgent help for chest pain, breathlessness or fainting."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Heart failure",
+    "conceptId": "803.0",
+    "sourceNames": [
+      "Cardiac failure",
+      "Heart failure",
+      "Heart Failure"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "Heart failure means your heart pumps less strongly. Medicines help it work better and ease tiredness",
+      "What you can do": "Take tablets daily, weigh yourself each morning, limit salt and fluids as advised.",
+      "When to get help": "Get help if weight rises 2 kg in 3 days, ankles swell or you cannot lie flat without breathlessness."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Heart symptoms",
+    "conceptId": "5249.0",
+    "sourceNames": [
+      "Cardiovascular symptoms"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "Your symptoms may be coming from the heart, so tests are needed to be sure.",
+      "What you can do": "Avoid heavy exertion until reviewed and note what brings symptoms on.",
+      "When to get help": "Call for help at once for chest pain, fainting or sudden breathlessness."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Heartburn",
+    "conceptId": "804.0",
+    "sourceNames": [
+      "Heartburn"
+    ],
+    "group": "Gastro",
+    "messages": {
+      "What it is": "Heartburn is a burning feeling from stomach acid. It usually settles with diet changes.",
+      "What you can do": "Eat smaller meals, avoid spicy and oily food, and do not lie down straight after eating.",
+      "When to get help": "See a doctor if it lasts over 2 weeks, or with swallowing difficulty or weight loss."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "High blood pressure",
+    "conceptId": "367.0",
+    "sourceNames": [
+      "HTN (hypertension)"
+    ],
+    "group": "Hypertension",
+    "messages": {
+      "What it is": "High blood pressure rarely causes symptoms but silently damages the heart, brain and kidneys.",
+      "What you can do": "Take tablets daily, use less salt, walk 30 minutes a day and check your pressure regularly.",
+      "When to get help": "Get urgent help for severe headache, chest pain, weakness on one side or blurred vision."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "High blood pressure in pregnancy",
+    "conceptId": "3314.0",
+    "sourceNames": [
+      "Hypertension complicating pregnancy, childbirth, or the puerperium"
+    ],
+    "group": "Hypertension",
+    "messages": {
+      "What it is": "High blood pressure in pregnancy needs close monitoring to protect you and your baby.",
+      "What you can do": "Attend every antenatal visit, take prescribed tablets and rest when advised.",
+      "When to get help": "Get urgent help for severe headache, vision changes, tummy pain or sudden swelling."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "High blood sugar",
+    "conceptId": "3442.0",
+    "sourceNames": [
+      "Hyperglycaemia"
+    ],
+    "group": "Diabetes",
+    "messages": {
+      "What it is": "Your blood sugar is higher than it should be. Over time this can harm eyes, kidneys and nerves.",
+      "What you can do": "Take your medicines, avoid sweets and sugary drinks, and eat smaller portions of rice.",
+      "When to get help": "Seek help today if you are very thirsty, drowsy, vomiting or breathing fast."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "High cholesterol",
+    "conceptId": "2638.0",
+    "sourceNames": [
+      "Hyperlipidemia"
+    ],
+    "group": "Lipids",
+    "messages": {
+      "What it is": "High cholesterol builds fatty deposits in arteries. Lowering it prevents heart attack and stroke.",
+      "What you can do": "Take your statin daily, use less coconut oil and fried food, eat more vegetables and walk daily.",
+      "When to get help": "Ask for a repeat cholesterol test in 3 months and a review if you get muscle pain on statins."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "History of allergy",
+    "conceptId": "593.0",
+    "sourceNames": [
+      "History of Allergy"
+    ],
+    "group": "Allergy",
+    "messages": {
+      "What it is": "You have had allergies before. Keep a record so new medicines can be chosen safely.",
+      "What you can do": "Tell every clinic which drugs or foods caused problems.",
+      "When to get help": "Seek urgent help for any swelling of the face or breathing difficulty."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "History of cholesterol problem",
+    "conceptId": "2962.0",
+    "sourceNames": [
+      "History of cholesterol disorder"
+    ],
+    "group": "Lipids",
+    "messages": {
+      "What it is": "You have had high cholesterol before. It often returns without ongoing care.",
+      "What you can do": "Keep to a low-oil diet, stay active and check cholesterol yearly.",
+      "When to get help": "See a doctor if cholesterol rises again or you develop chest pain."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "History of diabetes",
+    "conceptId": "2994.0",
+    "sourceNames": [
+      "History of diabetes mellitus"
+    ],
+    "group": "Diabetes",
+    "messages": {
+      "What it is": "You have had diabetes in the past. It can return, so regular checks are important.",
+      "What you can do": "Keep a healthy weight, stay active and have a sugar test at least once a year.",
+      "When to get help": "See a doctor if you notice thirst, frequent urination or tiredness."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "History of hypertension",
+    "conceptId": "2944.0",
+    "sourceNames": [
+      "History of hypertension"
+    ],
+    "group": "Hypertension",
+    "messages": {
+      "What it is": "You have had high blood pressure before. It can return, so keep checking.",
+      "What you can do": "Check your pressure every 3-6 months, keep salt low and stay active.",
+      "When to get help": "See a doctor if readings go above 140/90."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Hypertensive crisis",
+    "conceptId": "3847.0",
+    "sourceNames": [
+      "Hypertensive crisis",
+      "Hypertensive emergency",
+      "Hypertensive urgency"
+    ],
+    "group": "Hypertension",
+    "messages": {
+      "What it is": "A hypertensive crisis is dangerously high pressure that can damage organs within hours.",
+      "What you can do": "Take your medicines exactly as prescribed and attend all follow-up visits.",
+      "When to get help": "Go to hospital now if pressure is above 180/120 with headache, chest pain or confusion."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Hypertensive disorder",
+    "conceptId": "2658.0",
+    "sourceNames": [
+      "Hypertensive disorder"
+    ],
+    "group": "Hypertension",
+    "messages": {
+      "What it is": "You have a blood pressure condition. Keeping it controlled prevents stroke and heart disease.",
+      "What you can do": "Take medicines daily, reduce salt and check your pressure at home if you can.",
+      "When to get help": "Get help urgently for chest pain, severe headache or weakness in the face or limbs."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Hypertensive eye damage",
+    "conceptId": "811.0",
+    "sourceNames": [
+      "Hypertensive Retinopathy"
+    ],
+    "group": "Hypertension",
+    "messages": {
+      "What it is": "High blood pressure has affected the blood vessels in your eyes. Control prevents further damage.",
+      "What you can do": "Keep pressure under 140/90, take tablets daily and attend eye checks.",
+      "When to get help": "See a doctor urgently for sudden blurring or loss of vision."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Hypertensive heart disease",
+    "conceptId": "2665.0",
+    "sourceNames": [
+      "Hypertensive heart disease"
+    ],
+    "group": "Hypertension",
+    "messages": {
+      "What it is": "Years of high pressure have made your heart work harder and thicken. Control protects it.",
+      "What you can do": "Take tablets daily, cut salt, stay active and keep a healthy weight.",
+      "When to get help": "Get help for breathlessness, chest pain, swollen ankles or palpitations."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Hypertensive kidney disease",
+    "conceptId": "3451.0",
+    "sourceNames": [
+      "Hypertensive kidney disease"
+    ],
+    "group": "Hypertension",
+    "messages": {
+      "What it is": "High blood pressure has affected your kidneys. Good control slows further damage.",
+      "What you can do": "Keep pressure below 130/80, take medicines daily, avoid painkillers like ibuprofen and limit salt.",
+      "When to get help": "See a doctor for swollen legs, foamy urine or reduced urine."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Insomnia",
+    "conceptId": "2886.0",
+    "sourceNames": [
+      "Insomnia"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Poor sleep worsens blood pressure, sugar and mood. Good sleep habits often help.",
+      "What you can do": "Keep fixed sleep times, avoid screens and caffeine in the evening and keep the bedroom dark.",
+      "When to get help": "Talk to your clinic if poor sleep lasts over a month or affects daily life."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Iron-deficiency anaemia",
+    "conceptId": "3105.0",
+    "sourceNames": [
+      "Anemia, iron deficiency"
+    ],
+    "group": "Blood",
+    "messages": {
+      "What it is": "Your anaemia is from low iron. Iron tablets and iron-rich food restore your levels.",
+      "What you can do": "Take iron with vitamin C (a fruit), not with tea. Eat greens, lentils, meat and eggs.",
+      "When to get help": "See a doctor if you have black stools, heavy periods or no improvement after 3 months."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Irregular heartbeat (arrhythmia)",
+    "conceptId": "550.0",
+    "sourceNames": [
+      "Cardiac arrhythmia"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "An arrhythmia is an abnormal heart rhythm. Many are harmless; some need treatment.",
+      "What you can do": "Take any prescribed tablets, limit caffeine and alcohol, and note when symptoms happen.",
+      "When to get help": "Get urgent help for fainting, chest pain or a very fast heartbeat that does not settle."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Itching",
+    "conceptId": "504.0",
+    "sourceNames": [
+      "Itching"
+    ],
+    "group": "Allergy",
+    "messages": {
+      "What it is": "Itching can come from dry skin, allergy, kidney or liver problems, or high sugar.",
+      "What you can do": "Moisturise, use mild soap, keep cool and take antihistamines if advised.",
+      "When to get help": "See a doctor if it lasts over 2 weeks, is all over, or comes with yellow skin or eyes."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Kidney or ureter stone",
+    "conceptId": "2254.0",
+    "sourceNames": [
+      "Calculus of kidney and ureter"
+    ],
+    "group": "Kidney",
+    "messages": {
+      "What it is": "A stone in the kidney or tube can cause severe pain. Most pass with fluids and pain relief.",
+      "What you can do": "Drink 2-3 litres of water daily, reduce salt and follow diet advice to prevent new stones.",
+      "When to get help": "Seek urgent help for severe pain with fever, vomiting or inability to pass urine."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Kidney stone",
+    "conceptId": "2958.0",
+    "sourceNames": [
+      "Calculus of kidney"
+    ],
+    "group": "Kidney",
+    "messages": {
+      "What it is": "A kidney stone forms from minerals in urine. Plenty of water helps prevent more.",
+      "What you can do": "Drink 2-3 litres of water daily and limit salt and excess meat.",
+      "When to get help": "Seek urgent help for severe pain with fever, vomiting or no urine."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Leg pain on walking (claudication)",
+    "conceptId": "5557.0",
+    "sourceNames": [
+      "Claudication"
+    ],
+    "group": "Vascular",
+    "messages": {
+      "What it is": "Leg pain on walking means narrowed leg arteries. Walking actually helps them improve.",
+      "What you can do": "Walk daily to the point of pain, rest, then continue. Stop smoking and take statin and aspirin.",
+      "When to get help": "Get urgent help for a cold, pale or numb foot, or pain at rest."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Lifestyle advice",
+    "conceptId": "5534.0",
+    "sourceNames": [
+      "Lifestyle"
+    ],
+    "group": "Lifestyle",
+    "messages": {
+      "What it is": "Small daily habits - food, movement, sleep and no tobacco - do more for health than any tablet.",
+      "What you can do": "Walk 30 minutes a day, fill half your plate with vegetables, sleep 7 hours and avoid tobacco.",
+      "When to get help": "Ask your clinic for a yearly check of pressure, sugar and cholesterol."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Liver damage from medicine",
+    "conceptId": "536.0",
+    "sourceNames": [
+      "Hepatotoxicity"
+    ],
+    "group": "Allergy",
+    "messages": {
+      "What it is": "A medicine has affected your liver. Stopping it usually allows recovery.",
+      "What you can do": "Do not take the medicine again. Avoid alcohol and paracetamol overuse.",
+      "When to get help": "Seek help for yellow eyes, dark urine, severe tummy pain or vomiting."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Long-term low mood",
+    "conceptId": "2946.0",
+    "sourceNames": [
+      "Chronic depressive person"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Long-standing low mood is treatable. Small steady changes and treatment help.",
+      "What you can do": "Keep a routine, exercise daily, limit alcohol and take medicines as prescribed.",
+      "When to get help": "Contact your clinic if mood drops further. Call 1926 for thoughts of self-harm."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Loss of appetite",
+    "conceptId": "835.0",
+    "sourceNames": [
+      "Loss of Appetite"
+    ],
+    "group": "General",
+    "messages": {
+      "What it is": "Loss of appetite can follow illness, medicines or low mood. It needs checking if it persists.",
+      "What you can do": "Eat small frequent meals and keep drinking fluids.",
+      "When to get help": "See a doctor if it lasts over 2 weeks or you are losing weight."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Low calcium",
+    "conceptId": "4532.0",
+    "sourceNames": [
+      "Calcium deficiency"
+    ],
+    "group": "General",
+    "messages": {
+      "What it is": "Low calcium can cause cramps and tingling. Diet and supplements correct it.",
+      "What you can do": "Eat milk, yoghurt, small fish with bones and green leaves. Take supplements if prescribed.",
+      "When to get help": "Seek help for muscle spasms, tingling around the mouth or fits."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Menopause",
+    "conceptId": "3645.0",
+    "sourceNames": [
+      "Menopause"
+    ],
+    "group": "General",
+    "messages": {
+      "What it is": "Menopause is a natural change. Heart and bone risks rise afterwards, so prevention matters.",
+      "What you can do": "Stay active, eat calcium-rich foods and check pressure and cholesterol yearly.",
+      "When to get help": "Talk to your clinic about hot flushes, mood or bleeding after periods have stopped."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Mild anaemia",
+    "conceptId": "3646.0",
+    "sourceNames": [
+      "Mild anaemia"
+    ],
+    "group": "Blood",
+    "messages": {
+      "What it is": "Your haemoglobin is slightly low. Diet changes and finding the cause usually fix it.",
+      "What you can do": "Eat iron-rich foods and take any iron tablets prescribed. Recheck in 3 months.",
+      "When to get help": "See a doctor if you feel breathless or notice black stools or heavy bleeding."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Mild depression",
+    "conceptId": "2971.0",
+    "sourceNames": [
+      "Mild depressive episode"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Mild depression often improves with routine, activity, sleep and talking therapy.",
+      "What you can do": "Walk daily, keep regular sleep, limit alcohol and talk to someone you trust.",
+      "When to get help": "See your clinic if it lasts over 2 weeks or worsens. Call 1926 if you have thoughts of self-harm."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Mild depression, single episode",
+    "conceptId": "3701.0",
+    "sourceNames": [
+      "Mild major depression, single episode"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Mild depression often improves with routine, activity, sleep and talking therapy.",
+      "What you can do": "Walk daily, keep regular sleep, limit alcohol and talk to someone you trust.",
+      "When to get help": "See your clinic if it lasts over 2 weeks or worsens. Call 1926 if you have thoughts of self-harm."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Mild hypertension / stage 2",
+    "conceptId": "5526.0",
+    "sourceNames": [
+      "Hypertension, stage 2",
+      "Mild hypertension"
+    ],
+    "group": "Hypertension",
+    "messages": {
+      "What it is": "Your blood pressure is mildly high. Tablets and lifestyle changes together control it best.",
+      "What you can do": "Take your medicine every day, cut salt and stay active. Check pressure monthly.",
+      "When to get help": "Get help if readings go above 160/100 or you have headaches or chest pain."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Moderate anaemia",
+    "conceptId": "3639.0",
+    "sourceNames": [
+      "Moderate anaemia"
+    ],
+    "group": "Blood",
+    "messages": {
+      "What it is": "Your haemoglobin is moderately low. Treatment and finding the cause are important.",
+      "What you can do": "Take iron or other tablets as prescribed, eat iron-rich foods and rest when tired.",
+      "When to get help": "See a doctor soon for breathlessness, chest pain, dizziness or bleeding."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Moderate dehydration",
+    "conceptId": "2832.0",
+    "sourceNames": [
+      "Moderate dehydration"
+    ],
+    "group": "Kidney",
+    "messages": {
+      "What it is": "Moderate dehydration needs prompt fluids to protect your kidneys and blood pressure.",
+      "What you can do": "Drink oral rehydration solution in small frequent sips, and rest.",
+      "When to get help": "Seek help today if you cannot keep fluids down, are dizzy or pass very little urine."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Moderate depression",
+    "conceptId": "2963.0",
+    "sourceNames": [
+      "Moderate depressive episode"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Moderate depression affects daily life. Medicines and talking therapy together work best.",
+      "What you can do": "Take antidepressants daily - they take 2-4 weeks to work. Keep a routine and stay active.",
+      "When to get help": "Contact your clinic if worsening. Call 1926 or Sumithrayo 011 2696666 for thoughts of self-harm."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Moderate depression, single episode",
+    "conceptId": "3747.0",
+    "sourceNames": [
+      "Moderate major depression, single episode"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Moderate depression affects daily life. Medicines and talking therapy together work best.",
+      "What you can do": "Take antidepressants daily - they take 2-4 weeks to work. Keep a routine and stay active.",
+      "When to get help": "Contact your clinic if worsening. Call 1926 or Sumithrayo 011 2696666 for thoughts of self-harm."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Moderate hypertension / stage 3",
+    "conceptId": "5529.0",
+    "sourceNames": [
+      "Hypertension, stage 3",
+      "Moderate hypertension"
+    ],
+    "group": "Hypertension",
+    "messages": {
+      "What it is": "Your blood pressure is moderately high, so the risk of stroke and heart attack is raised.",
+      "What you can do": "Take all tablets daily, never skip doses, and reduce salt. You may need more than one medicine.",
+      "When to get help": "Get urgent help for readings above 180/110, severe headache, chest pain or weakness."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Muscle and joint pain",
+    "conceptId": "535.0",
+    "sourceNames": [
+      "Musculoskeletal pain"
+    ],
+    "group": "Pain",
+    "messages": {
+      "What it is": "Muscle and joint pain is common. Movement, heat and simple painkillers usually help.",
+      "What you can do": "Stay gently active, use warm compresses and paracetamol first. Avoid long courses of ibuprofen.",
+      "When to get help": "See a doctor for a hot, swollen joint, fever, or pain that wakes you at night."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "NSTEMI heart attack",
+    "conceptId": "2278.0",
+    "sourceNames": [
+      "Non-ST elevation myocardial infarction (NSTEMI)"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "You have had a type of heart attack. Medicines and lifestyle changes reduce the risk of another.",
+      "What you can do": "Take antiplatelets, statin and pressure tablets daily. Stop smoking and attend follow-up.",
+      "When to get help": "Call emergency help for chest pain, breathlessness or fainting."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Obesity",
+    "conceptId": "2700.0",
+    "sourceNames": [
+      "Obesity"
+    ],
+    "group": "Lifestyle",
+    "messages": {
+      "What it is": "Extra weight raises the risk of diabetes, high pressure and joint problems. Small changes help.",
+      "What you can do": "Aim to lose 5% of your weight: smaller rice portions, no sugary drinks and 30 minutes walking daily.",
+      "When to get help": "Ask for a sugar, pressure and cholesterol check if you have not had one this year."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Obsessive-compulsive disorder",
+    "conceptId": "4204.0",
+    "sourceNames": [
+      "OCD (obsessive-compulsive disorder)"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "OCD causes unwanted thoughts and repeated actions. Treatment reduces both.",
+      "What you can do": "Take medicines as prescribed and practise the exercises your therapist gives you.",
+      "When to get help": "Contact your clinic if worsening. Call 1926 if in crisis."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Obsessive-compulsive personality traits",
+    "conceptId": "4201.0",
+    "sourceNames": [
+      "Obsessive compulsive personality disorder"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Strong need for order and control can cause stress. Therapy helps balance this.",
+      "What you can do": "Notice when perfectionism causes distress and practise letting small things go.",
+      "When to get help": "Contact your clinic if it affects relationships or work."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Overactive thyroid",
+    "conceptId": "390.0",
+    "sourceNames": [
+      "Hyperthyroidism"
+    ],
+    "group": "Thyroid",
+    "messages": {
+      "What it is": "Your thyroid makes too much hormone, causing weight loss, sweating and a fast heart. It is treatable",
+      "What you can do": "Take your tablets daily, avoid excess caffeine and have regular blood tests.",
+      "When to get help": "Seek help for a very fast heartbeat, fever, confusion or a sore throat while on carbimazole."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Pain on passing urine",
+    "conceptId": "1131.0",
+    "sourceNames": [
+      "Dysuria"
+    ],
+    "group": "Kidney",
+    "messages": {
+      "What it is": "Burning when passing urine is usually a urine infection, which is easily treated.",
+      "What you can do": "Drink plenty of water and complete any antibiotic course.",
+      "When to get help": "See a doctor if there is fever, back pain, blood in urine, or if it lasts over 2 days."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Palpitations",
+    "conceptId": "923.0",
+    "sourceNames": [
+      "Palpitations"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "Palpitations are the feeling of your heart racing or skipping. Often harmless but worth checking.",
+      "What you can do": "Cut caffeine, alcohol and smoking. Note when they happen and how long they last.",
+      "When to get help": "Get help if they come with chest pain, fainting or breathlessness."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Panic attack",
+    "conceptId": "3766.0",
+    "sourceNames": [
+      "Panic attack"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "A panic attack is sudden intense fear with a racing heart. It passes and is not dangerous.",
+      "What you can do": "Breathe slowly - in for 4, out for 6 - and remind yourself it will pass in minutes.",
+      "When to get help": "See your clinic if attacks are frequent. Get urgent help if chest pain does not settle."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Passing large amounts of urine",
+    "conceptId": "935.0",
+    "sourceNames": [
+      "Polyuria"
+    ],
+    "group": "Diabetes",
+    "messages": {
+      "What it is": "Large volumes of urine can mean high sugar, high calcium or a kidney problem.",
+      "What you can do": "Drink water to stay hydrated and note how much you are passing.",
+      "When to get help": "See a doctor soon for a sugar and kidney test."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Passing little urine",
+    "conceptId": "909.0",
+    "sourceNames": [
+      "Oliguria"
+    ],
+    "group": "Kidney",
+    "messages": {
+      "What it is": "Passing very little urine can mean dehydration or a kidney problem.",
+      "What you can do": "Drink water steadily through the day and note how much urine you pass.",
+      "When to get help": "Seek help today if urine is very dark, very little, or you feel drowsy or swollen."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Passing urine often",
+    "conceptId": "877.0",
+    "sourceNames": [
+      "Frequency of Urination and Polyuria"
+    ],
+    "group": "Diabetes",
+    "messages": {
+      "What it is": "Passing a lot of urine can be a sign of high blood sugar or a bladder problem.",
+      "What you can do": "Note how often you go and drink water, not sugary drinks, until you are checked.",
+      "When to get help": "See a doctor if it continues, or if you have thirst, burning or blood in urine."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Past cardiovascular problem",
+    "conceptId": "3160.0",
+    "sourceNames": [
+      "Personal history of cardiovascular disorder"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "You have had a heart or blood vessel problem before, so prevention matters more than ever.",
+      "What you can do": "Keep taking preventive tablets, stop smoking, stay active and control pressure and cholesterol.",
+      "When to get help": "Get urgent help for chest pain, weakness or slurred speech."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Peptic ulcer",
+    "conceptId": "385.0",
+    "sourceNames": [
+      "Peptic ulcer disease"
+    ],
+    "group": "Gastro",
+    "messages": {
+      "What it is": "A peptic ulcer is a sore in the stomach lining, often from infection or painkillers.",
+      "What you can do": "Complete the full course of tablets, avoid ibuprofen-type painkillers, alcohol and smoking.",
+      "When to get help": "Seek urgent help for black stools, vomiting blood or severe sudden tummy pain."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Pre-hypertension / stage 1",
+    "conceptId": "5525.0",
+    "sourceNames": [
+      "Hypertension, stage 1",
+      "Pre-hypertension"
+    ],
+    "group": "Hypertension",
+    "messages": {
+      "What it is": "Your pressure is mildly raised. Lifestyle changes now can avoid the need for tablets later.",
+      "What you can do": "Halve your salt, lose extra weight, walk daily and limit alcohol. Recheck in 1-3 months.",
+      "When to get help": "See a doctor if readings rise above 140/90."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Protein in urine (microalbuminuria)",
+    "conceptId": "5552.0",
+    "sourceNames": [
+      "Microalbuminuria"
+    ],
+    "group": "Kidney",
+    "messages": {
+      "What it is": "Small amounts of protein in urine are an early warning of kidney strain, often from diabetes or BP.",
+      "What you can do": "ACE inhibitor or ARB tablets, tight sugar and pressure control, and no smoking protect the kidneys.",
+      "When to get help": "Ask for a repeat test in 3-6 months and see a doctor if swelling appears."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Raised blood pressure reading",
+    "conceptId": "794.0",
+    "sourceNames": [
+      "Elevated blood pressure"
+    ],
+    "group": "Hypertension",
+    "messages": {
+      "What it is": "A single high reading does not always mean hypertension, but it needs rechecking.",
+      "What you can do": "Rest 5 minutes before measuring, avoid coffee and smoking beforehand, and recheck within a week.",
+      "When to get help": "See a doctor if readings stay above 140/90, or urgently if above 180/110."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Recurrent mild depression",
+    "conceptId": "3533.0",
+    "sourceNames": [
+      "Recurrent depressive disorder, current episode mild",
+      "Recurrent major depressive episodes, mild"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Your depression has returned in a mild form. Early action helps prevent it deepening.",
+      "What you can do": "Restart the routines that helped before, stay active and take medicines as prescribed.",
+      "When to get help": "Contact your clinic if it worsens. Call 1926 if you have thoughts of self-harm."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Recurrent moderate depression",
+    "conceptId": "3547.0",
+    "sourceNames": [
+      "Recurrent major depressive episodes, moderate"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Your depression has returned. Restarting treatment early shortens the episode.",
+      "What you can do": "Take medicines daily, keep appointments and use the coping strategies that helped before.",
+      "When to get help": "Contact your clinic if worsening. Call 1926 or Sumithrayo 011 2696666 for thoughts of self-harm."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Recurrent severe depression",
+    "conceptId": "4074.0",
+    "sourceNames": [
+      "Recurrent depressive disorder, current episode severe without psychotic symptoms"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Your severe depression has returned. Prompt treatment and support help recovery.",
+      "What you can do": "Take medicines daily, keep every appointment and tell someone close how you feel.",
+      "When to get help": "If you have thoughts of ending your life, call 1926 or Sumithrayo 011 2696666 or go to hospital now."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Recurrent severe depression with psychosis",
+    "conceptId": "4068.0",
+    "sourceNames": [
+      "Recurrent depressive disorder, current episode severe with psychotic symptoms",
+      "Severe recurrent major depression with psychotic features"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Severe depression can bring confusing thoughts or voices. Treatment helps these settle.",
+      "What you can do": "Take all medicines, keep appointments and let family support you.",
+      "When to get help": "Go to hospital or call 1926 now if you have thoughts of harming yourself or others."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Salt imbalance in the blood",
+    "conceptId": "3421.0",
+    "sourceNames": [
+      "Electrolyte imbalance"
+    ],
+    "group": "Kidney",
+    "messages": {
+      "What it is": "Your blood salts (sodium or potassium) are out of balance, often from medicines or dehydration.",
+      "What you can do": "Follow diet and fluid advice, and take or pause medicines exactly as told.",
+      "When to get help": "Seek help for confusion, weakness, palpitations or muscle cramps."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Schizoaffective disorder",
+    "conceptId": "3947.0",
+    "sourceNames": [
+      "Schizoaffective disorder"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Schizoaffective disorder affects mood and thinking. Medicines keep it stable.",
+      "What you can do": "Take medicines daily, keep regular sleep and attend all appointments.",
+      "When to get help": "Get urgent help if symptoms return or for thoughts of self-harm. Call 1926."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Schizoaffective disorder, depressive type",
+    "conceptId": "3961.0",
+    "sourceNames": [
+      "Schizoaffective disorder, depressive type"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Schizoaffective disorder affects mood and thinking. Medicines keep it stable.",
+      "What you can do": "Take medicines daily, keep regular sleep and attend all appointments.",
+      "When to get help": "Get urgent help if symptoms return or for thoughts of self-harm. Call 1926."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Schizophrenia",
+    "conceptId": "2559.0",
+    "sourceNames": [
+      "Schizophrenia"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Schizophrenia affects thinking and perception. Regular medicines keep symptoms controlled.",
+      "What you can do": "Take medicines every day even when well, keep appointments and avoid alcohol and drugs.",
+      "When to get help": "Get urgent help if voices or fears return, or for thoughts of harming yourself or others."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Secondary hypertension",
+    "conceptId": "2605.0",
+    "sourceNames": [
+      "Secondary hypertension"
+    ],
+    "group": "Hypertension",
+    "messages": {
+      "What it is": "Your high blood pressure has an underlying cause, such as a kidney or hormone problem.",
+      "What you can do": "Treat the cause and take your tablets. Keep salt low and attend all follow-up tests.",
+      "When to get help": "Seek help for very high readings, headaches, palpitations or sudden swelling."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Self-harm behaviour",
+    "conceptId": "3194.0",
+    "sourceNames": [
+      "Suicidal behavior"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "You are not alone. Help is available and treatment reduces these feelings.",
+      "What you can do": "Keep every appointment and let someone close know how you feel each day.",
+      "When to get help": "Call 1926 (NIMH) or Sumithrayo 011 2696666 now, or go to the nearest hospital."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Severe depression",
+    "conceptId": "3203.0",
+    "sourceNames": [
+      "Severe depressive episode without psychotic symptoms"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Severe depression is a serious illness. Regular treatment and close follow-up help you recover.",
+      "What you can do": "Take medicines every day, keep every appointment and let someone close know how you feel.",
+      "When to get help": "If you have thoughts of ending your life, call 1926 or Sumithrayo 011 2696666 or go to hospital now."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Severe depression with psychosis",
+    "conceptId": "3213.0",
+    "sourceNames": [
+      "Severe depressive episode with psychotic symptoms"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Severe depression can bring confusing thoughts or voices. Treatment helps these settle.",
+      "What you can do": "Take all medicines, keep appointments and let family support you.",
+      "When to get help": "Go to hospital or call 1926 now if you have thoughts of harming yourself or others."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Severe depression with psychosis, single episode",
+    "conceptId": "4139.0",
+    "sourceNames": [
+      "Major depressive disorder, single episode, severe with psychotic features"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Severe depression can bring confusing thoughts or voices. Treatment helps these settle.",
+      "What you can do": "Take all medicines, keep appointments and let family support you.",
+      "When to get help": "Go to hospital or call 1926 now if you have thoughts of harming yourself or others."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Severe depression, single episode",
+    "conceptId": "4051.0",
+    "sourceNames": [
+      "Major depressive disorder, single episode, severe without psychotic features"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Severe depression is a serious illness. Regular treatment and close follow-up help you recover.",
+      "What you can do": "Take medicines every day, keep every appointment and let someone close know how you feel.",
+      "When to get help": "If you have thoughts of ending your life, call 1926 or Sumithrayo 011 2696666 or go to hospital now."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Severe hypertension / stage 4",
+    "conceptId": "5524.0",
+    "sourceNames": [
+      "Hypertension, stage 4",
+      "Severe hypertension"
+    ],
+    "group": "Hypertension",
+    "messages": {
+      "What it is": "Your blood pressure is very high. Prompt treatment protects your heart, brain and kidneys.",
+      "What you can do": "Take every dose, attend follow-up within days, and avoid salt, smoking and stress.",
+      "When to get help": "Go to hospital now if you have chest pain, severe headache, confusion or breathlessness."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Severe recurrent depression",
+    "conceptId": "3934.0",
+    "sourceNames": [
+      "Severe recurrent major depression"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Your severe depression has returned. Prompt treatment and support help recovery.",
+      "What you can do": "Take medicines daily, keep every appointment and tell someone close how you feel.",
+      "When to get help": "If you have thoughts of ending your life, call 1926 or Sumithrayo 011 2696666 or go to hospital now."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Sexual difficulties",
+    "conceptId": "3335.0",
+    "sourceNames": [
+      "Abnormal sexual function"
+    ],
+    "group": "General",
+    "messages": {
+      "What it is": "Sexual difficulties are common and often linked to diabetes, blood pressure or medicines.",
+      "What you can do": "Control sugar and pressure, stop smoking, limit alcohol and stay active.",
+      "When to get help": "Talk to your doctor - treatments are available and it may signal heart risk."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Shortness of breath",
+    "conceptId": "3332.0",
+    "sourceNames": [
+      "SOB (Shortness of Breath)"
+    ],
+    "group": "Respiratory",
+    "messages": {
+      "What it is": "Shortness of breath can be from the heart, lungs, anaemia or anxiety.",
+      "What you can do": "Note when it happens and pace your activities. Use inhalers if prescribed.",
+      "When to get help": "Seek urgent help if breathless at rest, waking at night gasping, or with chest pain."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Side effects of psychiatric medicine",
+    "conceptId": "4217.0",
+    "sourceNames": [
+      "Adverse effects of psychotropic drug"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Psychiatric medicines can cause side effects such as stiffness, weight gain or drowsiness.",
+      "What you can do": "Do not stop the medicine suddenly - tell your doctor so the dose or drug can be changed.",
+      "When to get help": "Seek urgent help for high fever with stiffness, or severe restlessness."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Social anxiety",
+    "conceptId": "4059.0",
+    "sourceNames": [
+      "Generalized social phobia"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Social anxiety is strong fear of being judged by others. Talking therapy helps a lot.",
+      "What you can do": "Practise small social steps, breathe slowly and take medicines if prescribed.",
+      "When to get help": "Contact your clinic if it stops you working or seeing people."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Stress",
+    "conceptId": "2268.0",
+    "sourceNames": [
+      "Stress"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "Ongoing stress raises blood pressure and sugar and makes healthy habits harder.",
+      "What you can do": "Try daily walking, breathing exercises, regular sleep and talking to someone you trust.",
+      "When to get help": "Talk to your clinic if stress affects sleep, appetite or mood for more than 2 weeks."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Suicide",
+    "conceptId": "2394.0",
+    "sourceNames": [
+      "Suicide"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": null,
+      "What you can do": null,
+      "When to get help": null
+    },
+    "clinicianContactOnly": true
+  },
+  {
+    "patientFacingName": "Thoughts of self-harm",
+    "conceptId": "2381.0",
+    "sourceNames": [
+      "Suicidal ideation",
+      "Suicidal thoughts"
+    ],
+    "group": "Mental health",
+    "messages": {
+      "What it is": "You are not alone. Thoughts of self-harm are a sign of pain that can be treated.",
+      "What you can do": "Tell someone you trust today and keep your appointments. Keep away from means of harming yourself.",
+      "When to get help": "Call 1926 (NIMH) or Sumithrayo 011 2696666 now, or go to the nearest hospital."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Thyroid disorder",
+    "conceptId": "2843.0",
+    "sourceNames": [
+      "Disorder of thyroid"
+    ],
+    "group": "Thyroid",
+    "messages": {
+      "What it is": "Your thyroid gland is not working normally. Blood tests guide the right treatment.",
+      "What you can do": "Take tablets as prescribed and attend for thyroid blood tests.",
+      "When to get help": "See a doctor for palpitations, marked weight change or a neck swelling."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Tiredness",
+    "conceptId": "786.0",
+    "sourceNames": [
+      "Tiredness"
+    ],
+    "group": "General",
+    "messages": {
+      "What it is": "Tiredness can come from anaemia, thyroid, diabetes, poor sleep or low mood.",
+      "What you can do": "Keep regular sleep, eat iron-rich foods and stay gently active. Note any other symptoms.",
+      "When to get help": "See a doctor if it lasts over 2 weeks or comes with breathlessness, weight loss or low mood."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Type 1 diabetes",
+    "conceptId": "3304.0",
+    "sourceNames": [
+      "Diabetes mellitus type 1"
+    ],
+    "group": "Diabetes",
+    "messages": {
+      "What it is": "Type 1 diabetes: your body makes no insulin, so insulin injections are essential every day.",
+      "What you can do": "Never miss insulin. Check sugars, carry glucose sweets and eat regular meals.",
+      "When to get help": "Urgent care if vomiting, tummy pain, fast breathing or sugar over 300 - this could be ketoacidosis."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Type 2 diabetes",
+    "conceptId": "3309.0",
+    "sourceNames": [
+      "Diabetes mellitus, type 2",
+      "Non-insulin dependent diabetes mellitus"
+    ],
+    "group": "Diabetes",
+    "messages": {
+      "What it is": "Type 2 diabetes: your body does not use insulin well, so sugar builds up in the blood.",
+      "What you can do": "Medicines, smaller rice portions, more vegetables and daily walking all lower your sugar.",
+      "When to get help": "Get help if you feel very thirsty, pass urine often, feel drowsy or have a wound that will not heal."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Underactive thyroid",
+    "conceptId": "393.0",
+    "sourceNames": [
+      "Hypothyroidism"
+    ],
+    "group": "Thyroid",
+    "messages": {
+      "What it is": "Your thyroid makes too little hormone, causing tiredness, weight gain and feeling cold. Tablets help",
+      "What you can do": "Take levothyroxine every morning on an empty stomach and have blood tests as advised.",
+      "When to get help": "See a doctor if very tired, gaining weight or if you become pregnant - the dose may need changing."
+    },
+    "clinicianContactOnly": false
+  },
+  {
+    "patientFacingName": "Worsening heart failure",
+    "conceptId": "3483.0",
+    "sourceNames": [
+      "Exacerbation of congestive heart failure"
+    ],
+    "group": "Heart",
+    "messages": {
+      "What it is": "Your heart failure has flared up. Adjusting medicines and fluids will help you recover.",
+      "What you can do": "Take water tablets as prescribed, limit salt and fluid, and weigh yourself daily.",
+      "When to get help": "Get urgent help for breathlessness at rest, chest pain or fainting."
+    },
+    "clinicianContactOnly": false
+  }
+]

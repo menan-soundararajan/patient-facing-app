@@ -1,0 +1,1411 @@
+[
+  {
+    "genericName": "Aciclovir",
+    "sourceNames": [
+      "Acyclovir Co 400mg",
+      "Acyclovir Sirop 200mg",
+      "Acyclovir creme 3%",
+      "Acyclovir ophtalmique 5%"
+    ],
+    "drugClass": "Antiviral",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Aciclovir treats herpes and shingles infections.",
+      "How to take it": "Start as early as possible and finish the course. Drink plenty of water.",
+      "What to watch for": "See a doctor if the rash involves the eye or you feel very unwell."
+    }
+  },
+  {
+    "genericName": "Adrenaline",
+    "sourceNames": [
+      "Adrenaline Injection 1mg"
+    ],
+    "drugClass": "Emergency",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Adrenaline injection treats severe allergic reactions in an emergency.",
+      "How to take it": "If you carry an auto-injector, inject into the outer thigh at the first sign of a severe reaction.",
+      "What to watch for": "Always go to hospital after using it, even if you feel better."
+    }
+  },
+  {
+    "genericName": "Albendazole",
+    "sourceNames": [
+      "Albendazole 400mg",
+      "Albendazole Co 400mg"
+    ],
+    "drugClass": "Antiparasitic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Albendazole treats worm infections.",
+      "How to take it": "Take with food as a single dose or short course. Wash hands and cut nails short.",
+      "What to watch for": "See a doctor if tummy pain or worms persist."
+    }
+  },
+  {
+    "genericName": "Amlodipine",
+    "sourceNames": [
+      "Amlodipine",
+      "Amlodipine 5mg"
+    ],
+    "drugClass": "Calcium channel blocker",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Amlodipine relaxes blood vessels to lower blood pressure and prevent stroke and heart attack.",
+      "How to take it": "Take once daily at the same time. It works gradually over 1-2 weeks.",
+      "What to watch for": "Ankle swelling and flushing can occur. Tell your doctor if swelling is troublesome."
+    }
+  },
+  {
+    "genericName": "Amoxicillin",
+    "sourceNames": [
+      "Amoxicillin 500mg",
+      "Amoxicillin 125mg/5ml",
+      "Amoxicillin 250mg",
+      "Amoxicillin 250mg/5ml",
+      "Amoxicillin 400mg/5ml",
+      "Amoxycilline Sirop 125mg",
+      "Amoxycilline Co 500mg"
+    ],
+    "drugClass": "Antibiotic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Amoxicillin is an antibiotic that treats bacterial infection.",
+      "How to take it": "Finish the whole course even when you feel better. Take at even intervals.",
+      "What to watch for": "Seek help for rash, swelling, severe diarrhoea or if you are not improving in 3 days."
+    }
+  },
+  {
+    "genericName": "Aspirin",
+    "sourceNames": [
+      "Aspirin 75mg",
+      "Aspirin 300mg"
+    ],
+    "drugClass": "Antiplatelet",
+    "category": "Antiplatelet",
+    "messages": {
+      "Why you take it": "Low-dose aspirin makes blood less sticky, preventing heart attack and stroke.",
+      "How to take it": "Take once daily after food. Do not stop before surgery without advice.",
+      "What to watch for": "Seek help for black stools, vomiting blood or easy bruising."
+    }
+  },
+  {
+    "genericName": "Atenolol",
+    "sourceNames": [
+      "Atenolol 50mg",
+      "Atenolol 25mg",
+      "Atenolol Co 50mg"
+    ],
+    "drugClass": "Beta blocker",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Atenolol slows the heart and lowers blood pressure, protecting the heart in angina or after attack.",
+      "How to take it": "Take at the same time daily. Never stop suddenly - this can trigger chest pain.",
+      "What to watch for": "Tell your doctor if your pulse is under 50, you feel faint, wheezy or very tired."
+    }
+  },
+  {
+    "genericName": "Azithromycin",
+    "sourceNames": [
+      "Azithromycin"
+    ],
+    "drugClass": "Antibiotic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Azithromycin is an antibiotic that treats bacterial infection.",
+      "How to take it": "Finish the whole course even when you feel better. Take at even intervals.",
+      "What to watch for": "Seek help for rash, swelling, severe diarrhoea or if you are not improving in 3 days."
+    }
+  },
+  {
+    "genericName": "Betamethasone",
+    "sourceNames": [
+      "Betamethasone 0.05%"
+    ],
+    "drugClass": "Corticosteroid",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Betamethasone cream calms inflamed skin conditions such as eczema.",
+      "How to take it": "Apply thinly once or twice daily to affected skin only, for short periods.",
+      "What to watch for": "Do not use on the face for long. Tell your doctor if the skin thins."
+    }
+  },
+  {
+    "genericName": "Bisoprolol",
+    "sourceNames": [
+      "Bisoprolol"
+    ],
+    "drugClass": "Beta blocker",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Bisoprolol slows the heart and lowers pressure. It helps in heart failure and after a heart attack.",
+      "How to take it": "Take once daily in the morning. Never stop suddenly.",
+      "What to watch for": "Tell your doctor if your pulse is under 50, you feel faint, wheezy or your ankles swell."
+    }
+  },
+  {
+    "genericName": "Budesonide",
+    "sourceNames": [
+      "Budesonide inhaler",
+      "Pulmicort 90mcg"
+    ],
+    "drugClass": "Inhaled steroid",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Budesonide inhaler calms airway inflammation and prevents asthma attacks.",
+      "How to take it": "Use every day, even when well. Rinse your mouth after each use.",
+      "What to watch for": "Tell your doctor about a hoarse voice or white patches in the mouth."
+    }
+  },
+  {
+    "genericName": "Canagliflozin",
+    "sourceNames": [
+      "Canagliflozin"
+    ],
+    "drugClass": "SGLT2 inhibitor",
+    "category": "Diabetes",
+    "messages": {
+      "Why you take it": "Canagliflozin removes sugar through urine. It also protects your heart and kidneys.",
+      "How to take it": "Take once daily before breakfast. Drink enough water and keep the genital area clean.",
+      "What to watch for": "Stop and seek help if vomiting, unable to eat, or with tummy pain and fast breathing."
+    }
+  },
+  {
+    "genericName": "Candesartan",
+    "sourceNames": [
+      "Candesartan"
+    ],
+    "drugClass": "ARB",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Candesartan lowers blood pressure and protects your kidneys and heart. It rarely causes cough.",
+      "How to take it": "Take at the same time daily, with or without food. Do not stop without advice.",
+      "What to watch for": "Tell your doctor if dizzy on standing. Pause and call the clinic if vomiting or dehydrated."
+    }
+  },
+  {
+    "genericName": "Captopril",
+    "sourceNames": [
+      "Captopril 12.5mg",
+      "Captopril 25mg",
+      "Captopril 50mg",
+      "Captopril Co 25mg"
+    ],
+    "drugClass": "ACE inhibitor",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Captopril lowers blood pressure and protects your heart and kidneys, especially in diabetes.",
+      "How to take it": "Take at the same time daily. Stand up slowly at first. Do not stop without advice.",
+      "What to watch for": "A dry cough is common - tell your doctor. Seek urgent help for lip or tongue swelling."
+    }
+  },
+  {
+    "genericName": "Carvedilol",
+    "sourceNames": [
+      "Carvedilol"
+    ],
+    "drugClass": "Beta blocker",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Carvedilol protects a weakened heart and lowers blood pressure.",
+      "How to take it": "Take with food twice daily. Doses are increased slowly. Never stop suddenly.",
+      "What to watch for": "Dizziness is common at first. Tell your doctor if faint, wheezy or gaining weight fast."
+    }
+  },
+  {
+    "genericName": "Cefaclor (Ceclor)",
+    "sourceNames": [
+      "Ceclor 125mg/5ml"
+    ],
+    "drugClass": "Antibiotic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Cefaclor is an antibiotic that treats bacterial infection.",
+      "How to take it": "Finish the whole course even when you feel better. Take at even intervals.",
+      "What to watch for": "Seek help for rash, swelling, severe diarrhoea or if you are not improving in 3 days."
+    }
+  },
+  {
+    "genericName": "Ceftriaxone",
+    "sourceNames": [
+      "Ceftriaxone 1g"
+    ],
+    "drugClass": "Antibiotic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Ceftriaxone is an antibiotic that treats bacterial infection.",
+      "How to take it": "Finish the whole course even when you feel better. Take at even intervals. Given by injection.",
+      "What to watch for": "Seek help for rash, swelling, severe diarrhoea or if you are not improving in 3 days."
+    }
+  },
+  {
+    "genericName": "Cefuroxime",
+    "sourceNames": [
+      "Cefuroxime 250mg/5ml"
+    ],
+    "drugClass": "Antibiotic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Cefuroxime is an antibiotic that treats bacterial infection.",
+      "How to take it": "Finish the whole course even when you feel better. Take at even intervals. Take with food.",
+      "What to watch for": "Seek help for rash, swelling, severe diarrhoea or if you are not improving in 3 days."
+    }
+  },
+  {
+    "genericName": "Celecoxib",
+    "sourceNames": [
+      "Celecoxib 200mg"
+    ],
+    "drugClass": "NSAID",
+    "category": "Pain",
+    "messages": {
+      "Why you take it": "Celecoxib reduces pain and inflammation with less stomach upset than other anti-inflammatories.",
+      "How to take it": "Take with food, lowest dose, shortest time.",
+      "What to watch for": "Avoid with heart disease or kidney disease. Seek help for chest pain or black stools."
+    }
+  },
+  {
+    "genericName": "Chloroquine",
+    "sourceNames": [
+      "Chloroquine Sirop 25mg/5ml",
+      "Chloroquine Co 250mg"
+    ],
+    "drugClass": "Antimalarial",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Chloroquine treats or prevents malaria.",
+      "How to take it": "Take with food exactly as prescribed.",
+      "What to watch for": "Tell your doctor about vision changes or itching."
+    }
+  },
+  {
+    "genericName": "Chlorthalidone",
+    "sourceNames": [
+      "Chlorthalidone"
+    ],
+    "drugClass": "Thiazide-like diuretic",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Chlorthalidone removes extra salt and water, lowering blood pressure for a full day.",
+      "How to take it": "Take once in the morning. Keep drinking normally.",
+      "What to watch for": "Tell your doctor if you have cramps, dizziness or gout pain. Blood tests check your salts."
+    }
+  },
+  {
+    "genericName": "Ciprofloxacin",
+    "sourceNames": [
+      "Ciprofloxacin 250mg",
+      "Ciprofloxacin 500mg",
+      "Ciprofloxacin Co 500mg"
+    ],
+    "drugClass": "Antibiotic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Ciprofloxacin is an antibiotic that treats bacterial infection.",
+      "How to take it": "Finish the whole course even when you feel better. Take at even intervals. Avoid milk and antacids a",
+      "What to watch for": "Seek help for rash, swelling, severe diarrhoea or if you are not improving in 3 days."
+    }
+  },
+  {
+    "genericName": "Clarithromycin",
+    "sourceNames": [
+      "Clarithromycin 500mg",
+      "Clarithromycine Co 500mg"
+    ],
+    "drugClass": "Antibiotic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Clarithromycin is an antibiotic that treats bacterial infection.",
+      "How to take it": "Finish the whole course even when you feel better. Take at even intervals.",
+      "What to watch for": "Seek help for rash, swelling, severe diarrhoea or if you are not improving in 3 days."
+    }
+  },
+  {
+    "genericName": "Cloxacillin",
+    "sourceNames": [
+      "Cloxacilline Co 500mg",
+      "Cloxacilline Sirop 250mg/5ml"
+    ],
+    "drugClass": "Antibiotic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Cloxacillin is an antibiotic that treats bacterial infection.",
+      "How to take it": "Finish the whole course even when you feel better. Take at even intervals. Take on an empty stomach.",
+      "What to watch for": "Seek help for rash, swelling, severe diarrhoea or if you are not improving in 3 days."
+    }
+  },
+  {
+    "genericName": "Co-amoxiclav (Augmentin)",
+    "sourceNames": [
+      "Augmentin 600mg+42.9mg/75ml",
+      "Augmentin 250mg+62.5mg/5ml",
+      "Augmentin 600mg+42.9mg/125ml",
+      "Augmentin Co 625mg"
+    ],
+    "drugClass": "Antibiotic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Co-amoxiclav is an antibiotic that treats bacterial infection.",
+      "How to take it": "Finish the whole course even when you feel better. Take at even intervals. Take with food.",
+      "What to watch for": "Seek help for rash, swelling, severe diarrhoea or if you are not improving in 3 days."
+    }
+  },
+  {
+    "genericName": "Co-trimoxazole",
+    "sourceNames": [
+      "Cotrim Co 960mg",
+      "Cotrim Sirop 240mg/5ml"
+    ],
+    "drugClass": "Antibiotic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Co-trimoxazole is an antibiotic that treats bacterial infection.",
+      "How to take it": "Finish the whole course even when you feel better. Take at even intervals. Drink plenty of water.",
+      "What to watch for": "Seek help for rash, swelling, severe diarrhoea or if you are not improving in 3 days."
+    }
+  },
+  {
+    "genericName": "Dexamethasone",
+    "sourceNames": [
+      "Dexamethasone Injection vial 8mg"
+    ],
+    "drugClass": "Corticosteroid",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Dexamethasone is a strong anti-inflammatory steroid given for short courses.",
+      "How to take it": "Take with food in the morning as prescribed.",
+      "What to watch for": "It can raise blood sugar and pressure. Check sugars more often if diabetic."
+    }
+  },
+  {
+    "genericName": "Diazepam",
+    "sourceNames": [
+      "Diazepam Co 5mg",
+      "Diazepam Injection vial 5mg"
+    ],
+    "drugClass": "Benzodiazepine",
+    "category": "Psychiatry",
+    "messages": {
+      "Why you take it": "Diazepam relieves severe anxiety or muscle spasm for a short time.",
+      "How to take it": "Use only as prescribed, for the shortest time. Do not drive or drink alcohol.",
+      "What to watch for": "It causes dependence with regular use. Do not stop suddenly after long use."
+    }
+  },
+  {
+    "genericName": "Diclofenac",
+    "sourceNames": [
+      "Diclofinac Sodium",
+      "Diclofenac Co 50mg",
+      "Diclofenac Injection vial 75mg"
+    ],
+    "drugClass": "NSAID",
+    "category": "Pain",
+    "messages": {
+      "Why you take it": "Diclofenac reduces pain and inflammation. Use it only short-term.",
+      "How to take it": "Take with food for the shortest time possible.",
+      "What to watch for": "Avoid if you have kidney, heart or ulcer problems. Seek help for black stools or chest pain."
+    }
+  },
+  {
+    "genericName": "Diltiazem",
+    "sourceNames": [
+      "Diltiazem",
+      "Diltiazem extended-release"
+    ],
+    "drugClass": "Calcium channel blocker",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Diltiazem lowers blood pressure and slows the heart, easing angina.",
+      "How to take it": "Take as prescribed; swallow slow-release capsules whole. Avoid grapefruit.",
+      "What to watch for": "Tell your doctor if your pulse is under 50, or you feel faint or breathless."
+    }
+  },
+  {
+    "genericName": "Diphenhydramine",
+    "sourceNames": [
+      "Dyphenhydramine Co 25mg",
+      "Dyphenhydramine Sirop 12.5mg/5ml"
+    ],
+    "drugClass": "Antihistamine",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Diphenhydramine eases allergy symptoms like itching, sneezing and hives.",
+      "How to take it": "Take as prescribed, usually at night as it causes drowsiness.",
+      "What to watch for": "Do not drive if drowsy."
+    }
+  },
+  {
+    "genericName": "Doxycycline",
+    "sourceNames": [
+      "Doxycycline 100mg",
+      "Doxicycline Co 100mg"
+    ],
+    "drugClass": "Antibiotic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Doxycycline is an antibiotic that treats bacterial infection.",
+      "How to take it": "Finish the whole course even when you feel better. Take at even intervals. Take with a full glass of",
+      "What to watch for": "Seek help for rash, swelling, severe diarrhoea or if you are not improving in 3 days."
+    }
+  },
+  {
+    "genericName": "Empagliflozin",
+    "sourceNames": [
+      "Empagliflozin"
+    ],
+    "drugClass": "SGLT2 inhibitor",
+    "category": "Diabetes",
+    "messages": {
+      "Why you take it": "Empagliflozin removes sugar through urine. It also protects your heart and kidneys.",
+      "How to take it": "Take once daily in the morning. Drink enough water and keep the genital area clean.",
+      "What to watch for": "Stop and seek help if vomiting, unable to eat, or with tummy pain and fast breathing."
+    }
+  },
+  {
+    "genericName": "Enalapril",
+    "sourceNames": [
+      "Enalapril Co 10mg",
+      "Enalapril"
+    ],
+    "drugClass": "ACE inhibitor",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Enalapril lowers blood pressure and protects your heart and kidneys, especially in diabetes.",
+      "How to take it": "Take at the same time daily. Stand up slowly at first. Do not stop without advice.",
+      "What to watch for": "A dry cough is common - tell your doctor. Seek urgent help for lip or tongue swelling."
+    }
+  },
+  {
+    "genericName": "Erythromycin",
+    "sourceNames": [
+      "Erythromycin 125mg/5ml",
+      "Erythromycin 250mg/5ml",
+      "Erythromicine Co 500mg",
+      "Erythromicine Sirop 125mg"
+    ],
+    "drugClass": "Antibiotic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Erythromycin is an antibiotic that treats bacterial infection.",
+      "How to take it": "Finish the whole course even when you feel better. Take at even intervals. Take with food.",
+      "What to watch for": "Seek help for rash, swelling, severe diarrhoea or if you are not improving in 3 days."
+    }
+  },
+  {
+    "genericName": "Esomeprazole",
+    "sourceNames": [
+      "Esomeprazole 20mg"
+    ],
+    "drugClass": "Proton pump inhibitor",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Esomeprazole reduces stomach acid, healing ulcers and easing reflux. It also protects from aspirin.",
+      "How to take it": "Take 30 minutes before breakfast. Use for the shortest time needed.",
+      "What to watch for": "Long-term use can lower magnesium and B12. Tell your doctor if you need it for over 3 months."
+    }
+  },
+  {
+    "genericName": "Famotidine",
+    "sourceNames": [
+      "Famotidine"
+    ],
+    "drugClass": "H2 blocker",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Famotidine reduces stomach acid to ease heartburn and heal ulcers.",
+      "How to take it": "Take once or twice daily as prescribed, or at bedtime for night symptoms.",
+      "What to watch for": "See a doctor if symptoms last over 2 weeks or you have black stools."
+    }
+  },
+  {
+    "genericName": "Fexofenadine",
+    "sourceNames": [
+      "Fexofenadine 60mg",
+      "Fexofenadine 180mg"
+    ],
+    "drugClass": "Antihistamine",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Fexofenadine eases allergy symptoms like itching, sneezing and hives.",
+      "How to take it": "Take once daily.",
+      "What to watch for": "Rarely causes drowsiness. See a doctor if swelling or wheeze develops."
+    }
+  },
+  {
+    "genericName": "Fluconazole",
+    "sourceNames": [
+      "Flucanazole 200mg",
+      "Fluconazole Co 150mg"
+    ],
+    "drugClass": "Antifungal",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Fluconazole treats fungal infections such as thrush.",
+      "How to take it": "Take as prescribed - often a single dose or a short course.",
+      "What to watch for": "Tell your doctor if you have liver problems or notice yellow eyes."
+    }
+  },
+  {
+    "genericName": "Furosemide",
+    "sourceNames": [
+      "Lasix 20mg",
+      "Lasix 40mg",
+      "Lasix 60mg",
+      "Lasix 80mg",
+      "Furosemide Injection vial 20mg",
+      "Furosemide Co 40mg"
+    ],
+    "drugClass": "Loop diuretic",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Furosemide (Lasix) removes fluid, easing swelling and breathlessness in heart or kidney disease.",
+      "How to take it": "Take in the morning. If twice daily, take the second dose by mid-afternoon.",
+      "What to watch for": "Tell your doctor if dizzy, cramping, or passing very little urine. Pause if vomiting and call."
+    }
+  },
+  {
+    "genericName": "Gabapentin",
+    "sourceNames": [
+      "Neurontin 100mg (Gabapentin)",
+      "Neurontin 800mg",
+      "Neurontin 300mg"
+    ],
+    "drugClass": "Neuropathic analgesic",
+    "category": "Pain",
+    "messages": {
+      "Why you take it": "Gabapentin eases nerve pain, such as burning feet from diabetes.",
+      "How to take it": "Doses are increased slowly. Do not stop suddenly. Avoid driving until you know how it affects you.",
+      "What to watch for": "Tell your doctor about drowsiness, dizziness, swelling or low mood."
+    }
+  },
+  {
+    "genericName": "Gentamicin (eye/ear drops)",
+    "sourceNames": [
+      "Gentamicin 0.3%"
+    ],
+    "drugClass": "Antibiotic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Gentamicin drops treat eye or ear infection.",
+      "How to take it": "Use as prescribed and finish the course. Do not share the bottle.",
+      "What to watch for": "See a doctor if pain, discharge or vision worsens."
+    }
+  },
+  {
+    "genericName": "Glibenclamide",
+    "sourceNames": [
+      "Glybenclamide Co 5mg",
+      "Glibenclamide"
+    ],
+    "drugClass": "Sulfonylurea",
+    "category": "Diabetes",
+    "messages": {
+      "Why you take it": "Glibenclamide helps your body release more insulin, lowering blood sugar.",
+      "How to take it": "Take with breakfast and never skip meals. Avoid alcohol on an empty stomach.",
+      "What to watch for": "Low sugar can last long with this tablet. Treat sweating or shaking with sugar and tell your doctor."
+    }
+  },
+  {
+    "genericName": "Gliclazide",
+    "sourceNames": [
+      "Gliclazide"
+    ],
+    "drugClass": "Sulfonylurea",
+    "category": "Diabetes",
+    "messages": {
+      "Why you take it": "Gliclazide helps your body release more insulin, lowering blood sugar.",
+      "How to take it": "Take before breakfast (and dinner if twice daily). Never skip meals after taking it.",
+      "What to watch for": "Low sugar signs: sweating, shaking, hunger. Take sugar or a sweet drink at once, then eat."
+    }
+  },
+  {
+    "genericName": "Glimepiride",
+    "sourceNames": [
+      "Glimepiride"
+    ],
+    "drugClass": "Sulfonylurea",
+    "category": "Diabetes",
+    "messages": {
+      "Why you take it": "Glimepiride helps your body release more insulin, lowering blood sugar.",
+      "How to take it": "Take once daily with breakfast. Never skip the meal after taking it.",
+      "What to watch for": "Low sugar signs: sweating, shaking, hunger. Take sugar or a sweet drink at once, then eat."
+    }
+  },
+  {
+    "genericName": "Glipizide",
+    "sourceNames": [
+      "Glipizide10mg",
+      "Glipizide"
+    ],
+    "drugClass": "Sulfonylurea",
+    "category": "Diabetes",
+    "messages": {
+      "Why you take it": "Glipizide helps your body release more insulin, lowering blood sugar.",
+      "How to take it": "Take 30 minutes before a meal. Do not skip meals after taking it.",
+      "What to watch for": "Low sugar signs: sweating, shaking, hunger. Take sugar or a sweet drink at once, then eat."
+    }
+  },
+  {
+    "genericName": "Griseofulvin",
+    "sourceNames": [
+      "Griséofulvine Sirop 125mg"
+    ],
+    "drugClass": "Antifungal",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Griseofulvin treats fungal infections of skin, hair and nails.",
+      "How to take it": "Take with fatty food and complete the full course, which may be weeks.",
+      "What to watch for": "Tell your doctor about rash, headache or upset stomach."
+    }
+  },
+  {
+    "genericName": "Hydrochlorothiazide",
+    "sourceNames": [
+      "Hydrochlorothiazide 25mg"
+    ],
+    "drugClass": "Thiazide diuretic",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Hydrochlorothiazide removes extra salt and water, lowering blood pressure.",
+      "How to take it": "Take in the morning so you are not up at night. Keep drinking normally.",
+      "What to watch for": "Tell your doctor if you have cramps, dizziness or gout pain. Blood tests check your salts."
+    }
+  },
+  {
+    "genericName": "Hydrocortisone",
+    "sourceNames": [
+      "Hydrocortizone 1%",
+      "Hydrocortisone 1%",
+      "Hydrocortisone 2.5%",
+      "Hydrocortisone creme 1%",
+      "Hydrocortisone Injection vial 100mg"
+    ],
+    "drugClass": "Corticosteroid",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Hydrocortisone cream calms skin inflammation; the injection treats severe allergy or asthma.",
+      "How to take it": "Apply cream thinly once or twice daily for the shortest time.",
+      "What to watch for": "Tell your doctor if skin thins or the rash worsens."
+    }
+  },
+  {
+    "genericName": "Hyoscine butylbromide",
+    "sourceNames": [
+      "Hyoscine Butylbromide Injection vial 20mg"
+    ],
+    "drugClass": "Antispasmodic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Hyoscine eases cramping tummy pain by relaxing gut muscle.",
+      "How to take it": "Take as prescribed when cramps occur.",
+      "What to watch for": "Tell your doctor about a dry mouth, blurred vision or difficulty passing urine."
+    }
+  },
+  {
+    "genericName": "Ibuprofen",
+    "sourceNames": [
+      "Advil 200mg (Ibuprofen)",
+      "Ibuprofene Co 400mg"
+    ],
+    "drugClass": "NSAID",
+    "category": "Pain",
+    "messages": {
+      "Why you take it": "Ibuprofen reduces pain and inflammation. Use it only short-term.",
+      "How to take it": "Take with food. Use the lowest dose for the shortest time.",
+      "What to watch for": "Avoid if you have kidney disease, heart failure, high pressure or ulcers. Stop for black stools."
+    }
+  },
+  {
+    "genericName": "Indapamide",
+    "sourceNames": [
+      "Indapamide",
+      "Indapamide extended-release"
+    ],
+    "drugClass": "Thiazide-like diuretic",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Indapamide gently removes salt and water to lower blood pressure and prevent stroke.",
+      "How to take it": "Take once in the morning. Keep drinking normally.",
+      "What to watch for": "Tell your doctor if you have cramps, dizziness or gout pain. Blood tests check your salts."
+    }
+  },
+  {
+    "genericName": "Insulin (human / porcine)",
+    "sourceNames": [
+      "Insulin human",
+      "Insulin porcine"
+    ],
+    "drugClass": "Insulin",
+    "category": "Diabetes",
+    "messages": {
+      "Why you take it": "Insulin replaces what your body cannot make, keeping sugar safe for your eyes, kidneys and heart.",
+      "How to take it": "Inject as timed by your doctor, rotate sites and store unopened insulin in the fridge.",
+      "What to watch for": "Low sugar: sweating, shaking, confusion. Take sugar at once. Carry glucose sweets always."
+    }
+  },
+  {
+    "genericName": "Insulin (long-acting: glargine, detemir, degludec)",
+    "sourceNames": [
+      "Insulin detemir",
+      "Insulin glargine",
+      "Insulin degludec"
+    ],
+    "drugClass": "Insulin",
+    "category": "Diabetes",
+    "messages": {
+      "Why you take it": "Insulin replaces what your body cannot make, keeping sugar safe for your eyes, kidneys and heart.",
+      "How to take it": "Inject at the same time every day, even if not eating. Rotate injection sites.",
+      "What to watch for": "Low sugar: sweating, shaking, confusion. Take sugar at once. Carry glucose sweets always."
+    }
+  },
+  {
+    "genericName": "Insulin (rapid-acting: aspart, lispro)",
+    "sourceNames": [
+      "Insulin aspart",
+      "Insulin lispro"
+    ],
+    "drugClass": "Insulin",
+    "category": "Diabetes",
+    "messages": {
+      "Why you take it": "Insulin replaces what your body cannot make, keeping sugar safe for your eyes, kidneys and heart.",
+      "How to take it": "Inject just before eating. Rotate injection sites. Do not inject if you will not eat.",
+      "What to watch for": "Low sugar: sweating, shaking, confusion. Take sugar at once. Carry glucose sweets always."
+    }
+  },
+  {
+    "genericName": "Insulin (short-acting / regular)",
+    "sourceNames": [
+      "Insuline R 100UI/1ml"
+    ],
+    "drugClass": "Insulin",
+    "category": "Diabetes",
+    "messages": {
+      "Why you take it": "Insulin replaces what your body cannot make, keeping sugar safe for your eyes, kidneys and heart.",
+      "How to take it": "Inject 30 minutes before meals. Rotate sites on the tummy or thigh. Never skip the meal.",
+      "What to watch for": "Low sugar: sweating, shaking, confusion. Take sugar at once. Carry glucose sweets always."
+    }
+  },
+  {
+    "genericName": "Irbesartan",
+    "sourceNames": [
+      "Irbesartan"
+    ],
+    "drugClass": "ARB",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Irbesartan lowers blood pressure and protects your kidneys and heart. It rarely causes cough.",
+      "How to take it": "Take at the same time daily, with or without food. Do not stop without advice.",
+      "What to watch for": "Tell your doctor if dizzy on standing. Pause and call the clinic if vomiting or dehydrated."
+    }
+  },
+  {
+    "genericName": "Ketoconazole",
+    "sourceNames": [
+      "Ketoconazole Co 200mg",
+      "Ketoconazole Shampooing 2%",
+      "Ketoconazole creme 2%",
+      "Ketoconazole Savon 2%"
+    ],
+    "drugClass": "Antifungal",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Ketoconazole treats fungal skin infections and dandruff.",
+      "How to take it": "Use shampoo, cream or soap as directed. Tablets are only for short courses.",
+      "What to watch for": "Stop tablets and see a doctor for yellow eyes, dark urine or tummy pain."
+    }
+  },
+  {
+    "genericName": "Labetalol",
+    "sourceNames": [
+      "Labetalol"
+    ],
+    "drugClass": "Beta blocker",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Labetalol lowers blood pressure and is safe in pregnancy.",
+      "How to take it": "Take with food as prescribed. Never stop suddenly.",
+      "What to watch for": "Tell your doctor if faint on standing, wheezy or very tired."
+    }
+  },
+  {
+    "genericName": "Levofloxacin",
+    "sourceNames": [
+      "Levofloxacin 250mg"
+    ],
+    "drugClass": "Antibiotic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Levofloxacin is an antibiotic that treats bacterial infection.",
+      "How to take it": "Finish the whole course even when you feel better. Take at even intervals.",
+      "What to watch for": "Seek help for rash, swelling, severe diarrhoea or if you are not improving in 3 days."
+    }
+  },
+  {
+    "genericName": "Levothyroxine",
+    "sourceNames": [
+      "Levothyroxine sodium",
+      "Levothyroxine sodium 25 mcg"
+    ],
+    "drugClass": "Thyroid hormone",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Levothyroxine replaces thyroid hormone, restoring energy and a normal metabolism.",
+      "How to take it": "Take every morning on an empty stomach, 30 minutes before food, tea or other tablets.",
+      "What to watch for": "Tell your doctor about palpitations, sweating or weight loss - the dose may be too high."
+    }
+  },
+  {
+    "genericName": "Lisinopril",
+    "sourceNames": [
+      "Lisinopril",
+      "Lisinopril 2.5 mg",
+      "Lisinopril 5 mg",
+      "Lisinopril 10 mg",
+      "Lisinopril 20 mg",
+      "Lisinopril 30 mg",
+      "Lisinopril 40 mg"
+    ],
+    "drugClass": "ACE inhibitor",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Lisinopril lowers blood pressure and protects your heart and kidneys, especially in diabetes.",
+      "How to take it": "Take at the same time daily. Stand up slowly at first. Do not stop without advice.",
+      "What to watch for": "A dry cough is common - tell your doctor. Seek urgent help for lip or tongue swelling."
+    }
+  },
+  {
+    "genericName": "Loratadine",
+    "sourceNames": [
+      "Loratidine 10mg",
+      "Claritin 10mg",
+      "Claritin 5mg/5ml"
+    ],
+    "drugClass": "Antihistamine",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Loratadine eases allergy symptoms like itching, sneezing and hives.",
+      "How to take it": "Take once daily.",
+      "What to watch for": "Rarely causes drowsiness. See a doctor if swelling or wheeze develops."
+    }
+  },
+  {
+    "genericName": "Losartan",
+    "sourceNames": [
+      "Losartan"
+    ],
+    "drugClass": "ARB",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Losartan lowers blood pressure and protects your kidneys and heart. It rarely causes cough.",
+      "How to take it": "Take at the same time daily, with or without food. Do not stop without advice.",
+      "What to watch for": "Tell your doctor if dizzy on standing. Pause and call the clinic if vomiting or dehydrated."
+    }
+  },
+  {
+    "genericName": "Magnesium sulfate",
+    "sourceNames": [
+      "MGSO4 25%"
+    ],
+    "drugClass": "Anticonvulsant (obstetric)",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Magnesium sulfate is given in hospital to prevent fits in severe pregnancy blood pressure.",
+      "How to take it": "It is given by drip or injection under nursing supervision.",
+      "What to watch for": "Tell staff at once if you feel very flushed, weak or breathless."
+    }
+  },
+  {
+    "genericName": "Metformin",
+    "sourceNames": [
+      "Metformin",
+      "Metformin SR",
+      "Metformin Co 500mg"
+    ],
+    "drugClass": "Biguanide",
+    "category": "Diabetes",
+    "messages": {
+      "Why you take it": "Metformin lowers blood sugar and helps protect your heart. It does not cause low sugar on its own.",
+      "How to take it": "Take with or after food to avoid stomach upset. Do not stop it when unwell unless told to.",
+      "What to watch for": "Tell your doctor if you have vomiting or diarrhoea, or when a kidney test is due - dose may change."
+    }
+  },
+  {
+    "genericName": "Metoclopramide",
+    "sourceNames": [
+      "Metoclopramide Co 10mg",
+      "Metoclopramide Injection vial 10mg",
+      "Metoclopramide Sirop 5mg/5ml"
+    ],
+    "drugClass": "Antiemetic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Metoclopramide eases nausea and helps the stomach empty.",
+      "How to take it": "Take before meals, for no more than 5 days.",
+      "What to watch for": "Stop and seek help for muscle spasms of the face or neck or restlessness."
+    }
+  },
+  {
+    "genericName": "Metoprolol",
+    "sourceNames": [
+      "Metoprolol Co 50mg"
+    ],
+    "drugClass": "Beta blocker",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Metoprolol slows the heart and lowers blood pressure, protecting the heart.",
+      "How to take it": "Take with food at the same times daily. Never stop suddenly.",
+      "What to watch for": "Tell your doctor if your pulse is under 50, you feel faint, wheezy or very tired."
+    }
+  },
+  {
+    "genericName": "Metro-gel (metronidazole gel)",
+    "sourceNames": [
+      "Metro-gel 0.75%"
+    ],
+    "drugClass": "Antibiotic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Metronidazole gel treats skin conditions such as rosacea.",
+      "How to take it": "Apply thinly twice daily to clean skin.",
+      "What to watch for": "Stop and see a doctor if irritation worsens."
+    }
+  },
+  {
+    "genericName": "Metronidazole (Flagyl)",
+    "sourceNames": [
+      "Flagyl 500mg",
+      "Metronidazole",
+      "Metronidazole 250mg",
+      "Metronidazole Co 500mg",
+      "Metronidazole Sirop 250mg"
+    ],
+    "drugClass": "Antibiotic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Metronidazole is an antibiotic that treats bacterial infection.",
+      "How to take it": "Finish the whole course even when you feel better. Take at even intervals. No alcohol during and for",
+      "What to watch for": "Seek help for rash, swelling, severe diarrhoea or if you are not improving in 3 days."
+    }
+  },
+  {
+    "genericName": "Multivitamin",
+    "sourceNames": [
+      "Multi-Vitamin Adult",
+      "Multi-Vitamin Children",
+      "Multi-Vitamin Prenatal"
+    ],
+    "drugClass": "Vitamin",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "A multivitamin tops up vitamins when diet is limited or during pregnancy.",
+      "How to take it": "Take one daily with food.",
+      "What to watch for": "It does not replace a balanced diet. Keep out of reach of children."
+    }
+  },
+  {
+    "genericName": "Neomycin cream",
+    "sourceNames": [
+      "Neomycine creme 5m/g"
+    ],
+    "drugClass": "Antibiotic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Neomycin cream treats minor skin infection.",
+      "How to take it": "Apply thinly to clean skin as prescribed.",
+      "What to watch for": "Stop and see a doctor if redness spreads or the skin becomes itchy."
+    }
+  },
+  {
+    "genericName": "Nifedipine",
+    "sourceNames": [
+      "Nifedipine Co 20mg",
+      "Nifedipine extended-release"
+    ],
+    "drugClass": "Calcium channel blocker",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Nifedipine relaxes blood vessels to lower blood pressure.",
+      "How to take it": "Swallow slow-release tablets whole. Take at the same time daily.",
+      "What to watch for": "Tell your doctor about ankle swelling, headache or flushing that does not settle."
+    }
+  },
+  {
+    "genericName": "Normal saline / dextrose (IV fluids)",
+    "sourceNames": [
+      "Normal Saline 0.9%",
+      "Dextrose Normal Saline 0.9%",
+      "Dextrose Normal Saline 0.45%",
+      "Dextrose Water 5%",
+      "Dextrose Water 10%",
+      "Dextrose D50",
+      "Normal Saline 0.45%"
+    ],
+    "drugClass": "IV fluid",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Fluids through a drip replace lost water and salts or sugar.",
+      "How to take it": "Given in clinic or hospital.",
+      "What to watch for": "Tell staff if the drip site is painful or swollen."
+    }
+  },
+  {
+    "genericName": "Nystatin",
+    "sourceNames": [
+      "Nystatin 100000U/g"
+    ],
+    "drugClass": "Antifungal",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Nystatin treats thrush in the mouth or on skin.",
+      "How to take it": "Hold the liquid in the mouth before swallowing, after food, 4 times daily.",
+      "What to watch for": "See a doctor if not improving within a week."
+    }
+  },
+  {
+    "genericName": "Olmesartan",
+    "sourceNames": [
+      "Olmesartan"
+    ],
+    "drugClass": "ARB",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Olmesartan lowers blood pressure and protects your kidneys and heart. It rarely causes cough.",
+      "How to take it": "Take at the same time daily, with or without food. Do not stop without advice.",
+      "What to watch for": "Tell your doctor if dizzy on standing. Pause and call the clinic if vomiting or dehydrated."
+    }
+  },
+  {
+    "genericName": "Omeprazole",
+    "sourceNames": [
+      "Omeprazole 20mg",
+      "Omeprazole Co 20mg"
+    ],
+    "drugClass": "Proton pump inhibitor",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Omeprazole reduces stomach acid, healing ulcers and easing reflux. It also protects from aspirin.",
+      "How to take it": "Take 30 minutes before breakfast. Use for the shortest time needed.",
+      "What to watch for": "Long-term use can lower magnesium and B12. Tell your doctor if you need it for over 3 months."
+    }
+  },
+  {
+    "genericName": "Ondansetron",
+    "sourceNames": [
+      "Ondansetron"
+    ],
+    "drugClass": "Antiemetic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Ondansetron stops nausea and vomiting.",
+      "How to take it": "Take as prescribed, up to 3 times a day. Sip fluids often.",
+      "What to watch for": "See a doctor if vomiting continues over 24 hours or you cannot keep fluids down."
+    }
+  },
+  {
+    "genericName": "Oxycodone",
+    "sourceNames": [
+      "Oxycodone"
+    ],
+    "drugClass": "Opioid analgesic",
+    "category": "Pain",
+    "messages": {
+      "Why you take it": "Oxycodone is a strong painkiller for severe pain, used under close supervision.",
+      "How to take it": "Take exactly as prescribed. Do not drive, drink alcohol or share it.",
+      "What to watch for": "Seek urgent help for very slow breathing or extreme drowsiness. It can cause dependence."
+    }
+  },
+  {
+    "genericName": "Pantoprazole",
+    "sourceNames": [
+      "Pantoprazole 20mg"
+    ],
+    "drugClass": "Proton pump inhibitor",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Pantoprazole reduces stomach acid, healing ulcers and easing reflux. It also protects from aspirin.",
+      "How to take it": "Take 30 minutes before breakfast. Use for the shortest time needed.",
+      "What to watch for": "Long-term use can lower magnesium and B12. Tell your doctor if you need it for over 3 months."
+    }
+  },
+  {
+    "genericName": "Paracetamol",
+    "sourceNames": [
+      "Paracetamol 500mg"
+    ],
+    "drugClass": "Analgesic",
+    "category": "Pain",
+    "messages": {
+      "Why you take it": "Paracetamol eases pain and fever and is safe with most other medicines.",
+      "How to take it": "Adults: up to 1 g every 4-6 hours, maximum 4 g a day. Check other products for hidden paracetamol.",
+      "What to watch for": "Never exceed the daily limit - overdose harms the liver. Seek help if you have taken too much."
+    }
+  },
+  {
+    "genericName": "Perindopril",
+    "sourceNames": [
+      "Perindopril"
+    ],
+    "drugClass": "ACE inhibitor",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Perindopril lowers blood pressure and protects your heart and kidneys, especially in diabetes.",
+      "How to take it": "Take at the same time daily. Stand up slowly at first. Do not stop without advice.",
+      "What to watch for": "A dry cough is common - tell your doctor. Seek urgent help for lip or tongue swelling."
+    }
+  },
+  {
+    "genericName": "Pioglitazone",
+    "sourceNames": [
+      "Pioglitazone"
+    ],
+    "drugClass": "Thiazolidinedione",
+    "category": "Diabetes",
+    "messages": {
+      "Why you take it": "Pioglitazone helps your body respond to insulin, lowering blood sugar over weeks.",
+      "How to take it": "Take once daily at the same time, with or without food.",
+      "What to watch for": "Tell your doctor about ankle swelling, breathlessness or rapid weight gain."
+    }
+  },
+  {
+    "genericName": "Prednisone",
+    "sourceNames": [
+      "Prednisone 5mg",
+      "Prednisone Co 5mg"
+    ],
+    "drugClass": "Corticosteroid",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Prednisone calms inflammation in conditions like asthma flares or allergy.",
+      "How to take it": "Take in the morning with food. Do not stop a long course suddenly.",
+      "What to watch for": "It can raise blood sugar and pressure. Check sugars more often if diabetic."
+    }
+  },
+  {
+    "genericName": "Primaquine",
+    "sourceNames": [
+      "Primaquine Co 7.5mg"
+    ],
+    "drugClass": "Antimalarial",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Primaquine clears malaria parasites from the liver to prevent relapse.",
+      "How to take it": "Take with food and complete the full course.",
+      "What to watch for": "Seek help for dark urine or yellow eyes."
+    }
+  },
+  {
+    "genericName": "Propranolol",
+    "sourceNames": [
+      "Propranolol 80mg"
+    ],
+    "drugClass": "Beta blocker",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Propranolol slows the heart and lowers pressure. It also eases tremor, migraine and anxiety.",
+      "How to take it": "Take as prescribed. Never stop suddenly.",
+      "What to watch for": "Tell your doctor if wheezy, very tired, or your pulse is under 50. Avoid if you have asthma."
+    }
+  },
+  {
+    "genericName": "Ramipril",
+    "sourceNames": [
+      "Ramipril"
+    ],
+    "drugClass": "ACE inhibitor",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Ramipril lowers blood pressure and protects your heart and kidneys, especially in diabetes.",
+      "How to take it": "Take at the same time daily. Stand up slowly at first. Do not stop without advice.",
+      "What to watch for": "A dry cough is common - tell your doctor. Seek urgent help for lip or tongue swelling."
+    }
+  },
+  {
+    "genericName": "Ranitidine",
+    "sourceNames": [
+      "Ranitidine 150mg",
+      "Ranitidine Injection vial 50mg"
+    ],
+    "drugClass": "H2 blocker",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Ranitidine reduces stomach acid to ease heartburn and heal ulcers.",
+      "How to take it": "Take as prescribed, usually at night or twice daily.",
+      "What to watch for": "See a doctor if symptoms last over 2 weeks or you have black stools."
+    }
+  },
+  {
+    "genericName": "Rosiglitazone",
+    "sourceNames": [
+      "Rosiglitazone"
+    ],
+    "drugClass": "Thiazolidinedione",
+    "category": "Diabetes",
+    "messages": {
+      "Why you take it": "Rosiglitazone helps your body respond to insulin, lowering blood sugar over weeks.",
+      "How to take it": "Take once or twice daily at the same times.",
+      "What to watch for": "Tell your doctor about ankle swelling, breathlessness or rapid weight gain."
+    }
+  },
+  {
+    "genericName": "Salbutamol",
+    "sourceNames": [
+      "Salbutamol Co 4mg",
+      "Salbutamol Sirop 2mg/5 ml"
+    ],
+    "drugClass": "Reliever bronchodilator",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Salbutamol opens the airways quickly to relieve wheeze and breathlessness.",
+      "How to take it": "Use when needed. If needed more than 3 times a week, your preventer needs review.",
+      "What to watch for": "Seek urgent help if it is not working or you cannot speak in full sentences."
+    }
+  },
+  {
+    "genericName": "Simvastatin",
+    "sourceNames": [
+      "Simvastatin Co 20mg"
+    ],
+    "drugClass": "Statin",
+    "category": "Cholesterol",
+    "messages": {
+      "Why you take it": "Simvastatin lowers cholesterol and protects the heart and brain, even when cholesterol seems normal.",
+      "How to take it": "Take at night. Avoid grapefruit juice. Keep taking it - it works over months.",
+      "What to watch for": "Tell your doctor about unexplained muscle pain or dark urine."
+    }
+  },
+  {
+    "genericName": "Telmisartan",
+    "sourceNames": [
+      "Telmisartan"
+    ],
+    "drugClass": "ARB",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Telmisartan lowers blood pressure and protects your kidneys and heart. It rarely causes cough.",
+      "How to take it": "Take at the same time daily, with or without food. Do not stop without advice.",
+      "What to watch for": "Tell your doctor if dizzy on standing. Pause and call the clinic if vomiting or dehydrated."
+    }
+  },
+  {
+    "genericName": "Tetracycline",
+    "sourceNames": [
+      "Tetracycline",
+      "Tetracycline 500mg"
+    ],
+    "drugClass": "Antibiotic",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Tetracycline is an antibiotic that treats bacterial infection.",
+      "How to take it": "Finish the whole course even when you feel better. Take at even intervals. Take on an empty stomach;",
+      "What to watch for": "Seek help for rash, swelling, severe diarrhoea or if you are not improving in 3 days."
+    }
+  },
+  {
+    "genericName": "Tiotropium",
+    "sourceNames": [
+      "Tiotropium"
+    ],
+    "drugClass": "Long-acting bronchodilator",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Tiotropium keeps the airways open for 24 hours in COPD.",
+      "How to take it": "Use once daily at the same time. It is not for sudden attacks - use your reliever for those.",
+      "What to watch for": "Tell your doctor about a dry mouth or difficulty passing urine."
+    }
+  },
+  {
+    "genericName": "Tolbutamide",
+    "sourceNames": [
+      "Tolbutamide"
+    ],
+    "drugClass": "Sulfonylurea",
+    "category": "Diabetes",
+    "messages": {
+      "Why you take it": "Tolbutamide helps your body release more insulin, lowering blood sugar.",
+      "How to take it": "Take with meals as prescribed and do not skip meals.",
+      "What to watch for": "Low sugar signs: sweating, shaking, hunger. Take sugar or a sweet drink at once, then eat."
+    }
+  },
+  {
+    "genericName": "Tolnaftate",
+    "sourceNames": [
+      "Tolnaftate 1%"
+    ],
+    "drugClass": "Antifungal",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Tolnaftate cream treats athlete's foot and ringworm.",
+      "How to take it": "Apply twice daily to clean, dry skin for 2-4 weeks.",
+      "What to watch for": "See a doctor if it spreads or does not clear."
+    }
+  },
+  {
+    "genericName": "Tramadol",
+    "sourceNames": [
+      "Tramadol 50mg",
+      "Tramadol Injection vial 100mg"
+    ],
+    "drugClass": "Opioid analgesic",
+    "category": "Pain",
+    "messages": {
+      "Why you take it": "Tramadol is a strong painkiller for short-term moderate pain.",
+      "How to take it": "Take only as prescribed. Do not drive if drowsy. Do not drink alcohol.",
+      "What to watch for": "It can cause dependence, nausea and drowsiness. Do not take with other sleepy medicines."
+    }
+  },
+  {
+    "genericName": "Valsartan",
+    "sourceNames": [
+      "Valsartan"
+    ],
+    "drugClass": "ARB",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Valsartan lowers blood pressure and protects your kidneys and heart. It rarely causes cough.",
+      "How to take it": "Take at the same time daily, with or without food. Do not stop without advice.",
+      "What to watch for": "Tell your doctor if dizzy on standing. Pause and call the clinic if vomiting or dehydrated."
+    }
+  },
+  {
+    "genericName": "Verapamil",
+    "sourceNames": [
+      "Verapamil",
+      "Verapamil extended-release"
+    ],
+    "drugClass": "Calcium channel blocker",
+    "category": "Hypertension",
+    "messages": {
+      "Why you take it": "Verapamil lowers blood pressure and controls heart rhythm.",
+      "How to take it": "Take as prescribed with food. Avoid grapefruit juice.",
+      "What to watch for": "Constipation is common. Tell your doctor if your pulse is under 50 or you feel faint."
+    }
+  },
+  {
+    "genericName": "Vitamin B12",
+    "sourceNames": [
+      "Vitamin B12 1000mcg"
+    ],
+    "drugClass": "Vitamin",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Vitamin B12 is needed for healthy blood and nerves. Metformin can lower it.",
+      "How to take it": "Take as prescribed, or attend for injections.",
+      "What to watch for": "Tell your doctor about numbness or tingling in the feet."
+    }
+  },
+  {
+    "genericName": "Vitamin C",
+    "sourceNames": [
+      "Vitamin C Co 500mg",
+      "Vitamin C Sirop 500mg/5ml",
+      "Vitamin C Gouttes 100mg/ml"
+    ],
+    "drugClass": "Vitamin",
+    "category": "Other important",
+    "messages": {
+      "Why you take it": "Vitamin C supports healing and helps absorb iron.",
+      "How to take it": "Take with meals, especially with iron tablets.",
+      "What to watch for": "High doses can cause stomach upset or kidney stones."
+    }
+  }
+]
