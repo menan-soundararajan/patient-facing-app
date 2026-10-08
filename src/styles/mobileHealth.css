@@ -165,35 +165,52 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2px;
+  gap: 4px;
   text-decoration: none;
-  color: var(--mh-text-muted);
+  color: #9aa0a6;
   font-size: 0.6875rem;
   font-weight: 500;
-  padding: 8px 4px;
+  padding: 6px 4px;
   background: none;
   border: none;
+  outline: none;
+  box-shadow: none;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mh-nav-item:focus,
+.mh-nav-item:focus-visible,
+.mh-nav-item:active {
+  outline: none;
+  box-shadow: none;
+  border: none;
 }
 
 .mh-nav-item.active {
+  color: var(--mh-nav-accent, var(--mh-primary));
   font-weight: 700;
 }
 
-.mh-nav-item.active .mh-nav-icon {
-  transform: translateY(-1px) scale(1.08);
-}
-
 .mh-nav-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.15s ease;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+  background: transparent;
+}
+
+.mh-nav-item.active .mh-nav-icon {
+  background: color-mix(in srgb, var(--mh-nav-accent, var(--mh-primary)) 18%, white);
+  transform: scale(1.04);
 }
 
 .mh-nav-item svg {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
 }
 
 .mh-badge {

@@ -81,10 +81,7 @@ const BottomNav = () => (
         to={to}
         end={end}
         className={({ isActive }) => `mh-nav-item${isActive ? ' active' : ''}`}
-        style={({ isActive }) => ({
-          color: isActive ? color : '#6b7280',
-          '--mh-nav-accent': color,
-        })}
+        style={{ '--mh-nav-accent': color }}
       >
         <span className="mh-nav-icon" style={{ color }}>
           <Icon color={color} />
