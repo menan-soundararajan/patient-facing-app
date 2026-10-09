@@ -487,6 +487,51 @@ export const getNextAppointment = (visits) => {
   return upcoming[0] || visits[0] || null;
 };
 
+/** Most recent past/completed visit (not an upcoming appointment). */
+export const getLatestVisit = (visits) => {
+  if (!visits?.length) return null;
+  const now = Date.now();
+  const past = visits
+    .filter((v) => v.start && v.start.getTime() <= now)
+    .sort((a, b) => (b.start?.getTime() || 0) - (a.start?.getTime() || 0));
+  return past[0] || null;
+};
+
+/** Build a short patient-facing clinical summary from visit detail fields. */
+export const buildVisitClinicalSummaryText = (detail) => {
+  if (!detail) return null;
+  if (detail.clinicalSummary) return detail.clinicalSummary;
+
+  const parts = [];
+  if (detail.reason) {
+    parts.push(`You attended for ${detail.reason}.`);
+  } else if (detail.visitType) {
+    parts.push(`You attended a ${detail.visitType} visit.`);
+  }
+  if (detail.conditionsDiscussed?.length) {
+    parts.push(
+      `Conditions discussed: ${detail.conditionsDiscussed.slice(0, 3).join(', ')}.`
+    );
+  }
+  if (detail.medications?.length) {
+    parts.push(
+      `Medicines reviewed: ${detail.medications.slice(0, 3).join(', ')}.`
+    );
+  }
+  if (detail.investigations?.length) {
+    parts.push(
+      `Investigations: ${detail.investigations.slice(0, 3).join(', ')}.`
+    );
+  }
+  if (detail.followUp) {
+    parts.push(detail.followUp);
+  }
+  if (!parts.length && detail.location) {
+    parts.push(`Visit recorded at ${detail.location}.`);
+  }
+  return parts.length ? parts.join(' ') : null;
+};
+
 export const fetchMedications = async (patientUuid) => {
   if (!patientUuid) return [];
   const data = await apiGet(

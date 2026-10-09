@@ -4,10 +4,13 @@ import { usePatient } from '../contexts/PatientContext';
 import {
   fetchAllergies,
   fetchVisits,
+  fetchVisitDetails,
   fetchMedications,
   fetchLabReports,
   fetchConditions,
   getNextAppointment,
+  getLatestVisit,
+  buildVisitClinicalSummaryText,
   getPatientDisplayName,
   getPatientIdentifier,
   getPatientGenderLabel,
@@ -26,6 +29,8 @@ const HomePage = () => {
   const [labs, setLabs] = useState([]);
   const [conditions, setConditions] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [latestVisitDetail, setLatestVisitDetail] = useState(null);
+  const [careMessageDismissed, setCareMessageDismissed] = useState(false);
 
   useEffect(() => {
     const uuid = patientData?.uuid;
@@ -49,6 +54,19 @@ const HomePage = () => {
           setLabs(l);
           setConditions(c);
         }
+
+        const latest = getLatestVisit(v);
+        if (latest?.uuid) {
+          try {
+            const detail = await fetchVisitDetails(latest.uuid);
+            if (!cancelled) setLatestVisitDetail(detail);
+          } catch (err) {
+            console.warn('Failed to load latest visit summary', err);
+            if (!cancelled) setLatestVisitDetail(null);
+          }
+        } else if (!cancelled) {
+          setLatestVisitDetail(null);
+        }
       } catch (err) {
         console.error(err);
       } finally {
@@ -70,6 +88,7 @@ const HomePage = () => {
   const activeMeds = meds.filter((m) => m.active);
   const activeConditions = conditions.filter((c) => c.active);
   const conditionNames = conditions.map((c) => c.name);
+  const careSummaryText = buildVisitClinicalSummaryText(latestVisitDetail);
 
   const labsNeedingAttention = labs.some((lab) => {
     const info = findLabResultMessage({
@@ -101,6 +120,46 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+
+      {!careMessageDismissed && latestVisitDetail && careSummaryText && (
+        <div className="mh-care-message">
+          <div className="mh-care-message-icon" aria-hidden="true">
+            💬
+          </div>
+          <div className="mh-care-message-body">
+            <div className="mh-care-message-top">
+              <div className="mh-care-message-title-row">
+                <h3 className="mh-care-message-title">
+                  Message from your care team
+                </h3>
+                <span className="mh-care-latest">Latest</span>
+              </div>
+              <div className="mh-care-message-meta">
+                <span className="mh-care-message-date">
+                  {formatShortDate(latestVisitDetail.startDatetime)}
+                </span>
+                <button
+                  type="button"
+                  className="mh-care-message-close"
+                  aria-label="Dismiss"
+                  onClick={() => setCareMessageDismissed(true)}
+                >
+                  ×
+                </button>
+              </div>
+            </div>
+            <p className="mh-care-message-text">{careSummaryText}</p>
+            <div className="mh-care-message-actions">
+              <Link
+                className="mh-care-message-link"
+                to={`/visits/${latestVisitDetail.uuid}`}
+              >
+                View details →
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="mh-allergy-card">
         <h3>Allergies</h3>

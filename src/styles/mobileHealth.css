@@ -446,6 +446,125 @@
   flex-shrink: 0;
 }
 
+.mh-care-message {
+  position: relative;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  background: #f0f6ff;
+  border: 1px solid #d6e4ff;
+  border-radius: var(--mh-radius);
+  padding: 14px 14px 12px;
+  margin-bottom: 16px;
+}
+
+.mh-care-message-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #dbeafe;
+  color: #2563eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 1.15rem;
+}
+
+.mh-care-message-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.mh-care-message-top {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.mh-care-message-title-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  min-width: 0;
+}
+
+.mh-care-message-title {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--mh-text);
+}
+
+.mh-care-latest {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #dbeafe;
+  color: #2563eb;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.mh-care-message-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.mh-care-message-date {
+  font-size: 0.75rem;
+  color: var(--mh-text-secondary);
+  white-space: nowrap;
+}
+
+.mh-care-message-close {
+  border: none;
+  background: transparent;
+  color: #9aa0a6;
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 2px;
+}
+
+.mh-care-message-close:hover {
+  color: var(--mh-text);
+}
+
+.mh-care-message-text {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.45;
+  color: #4b5563;
+}
+
+.mh-care-message-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.mh-care-message-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #2563eb;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.mh-care-message-link:hover {
+  color: #1d4ed8;
+}
+
 .mh-allergy-card {
   background: var(--mh-warning-bg);
   border-radius: var(--mh-radius);
