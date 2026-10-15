@@ -55,9 +55,10 @@ npm install
 ### 3. Configure OpenMRS
 
 OpenMRS configuration is set in `src/services/openmrsService.js`. Default settings:
-- Base URL: `https://openmrs6.arogya.cloud`
+- Base URL / SPA: `https://clinicalview.arogya.cloud/openmrs/spa`
+- REST host: `https://clinicalview.arogya.cloud`
 - Username: `admin`
-- Password: `Admin123`
+- Password: `Arogya@#123`
 - Patient Search Email: `test@gmail.com` (configured in `src/App.js`)
 
 **Note:** The application uses a hardcoded test email (`test@gmail.com`) to search for patients in OpenMRS, regardless of which Google account is used for login.

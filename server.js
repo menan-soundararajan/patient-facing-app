@@ -13,9 +13,11 @@ app.use(cors({
 }));
 
 // OpenMRS server configuration
-const OPENMRS_BASE_URL = 'https://openmrs6.arogya.cloud';
+// SPA UI: https://clinicalview.arogya.cloud/openmrs/spa
+// REST API: https://clinicalview.arogya.cloud/openmrs/ws/rest/v1/
+const OPENMRS_BASE_URL = 'https://clinicalview.arogya.cloud';
 const OPENMRS_USERNAME = process.env.OPENMRS_USERNAME || 'admin';
-const OPENMRS_PASSWORD = process.env.OPENMRS_PASSWORD || 'Admin123';
+const OPENMRS_PASSWORD = process.env.OPENMRS_PASSWORD || 'Arogya@#123';
 
 // Create basic auth header
 const getAuthHeader = () => {

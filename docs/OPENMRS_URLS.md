@@ -5,27 +5,28 @@ This document lists all relevant OpenMRS server URLs and endpoints for reference
 ## Base URLs
 
 ### Production Server
-- **Base URL:** `https://openmrs6.arogya.cloud`
+- **Base URL:** `https://clinicalview.arogya.cloud`
+- **SPA UI:** `https://clinicalview.arogya.cloud/openmrs/spa`
 - **Protocol:** HTTPS
-- **Domain:** `openmrs6.arogya.cloud`
+- **Domain:** `clinicalview.arogya.cloud`
 
 ## Web Interface URLs
 
 ### Single Page Application (SPA) Login
-- **URL:** `https://openmrs6.arogya.cloud/openmrs/spa/login`
+- **URL:** `https://clinicalview.arogya.cloud/openmrs/spa/login`
 - **Purpose:** Web interface login page
 - **Usage:** For manual login via web browser
 - **Note:** This is not used by the REST API integration. Our application uses Basic Authentication with the REST API.
 
 ### SPA Application
-- **Base URL:** `https://openmrs6.arogya.cloud/openmrs/spa/`
+- **Base URL:** `https://clinicalview.arogya.cloud/openmrs/spa/`
 - **Purpose:** OpenMRS Single Page Application interface
 - **Usage:** Web-based user interface for OpenMRS
 
 ## REST API Endpoints
 
 ### API Base URL
-- **Base URL:** `https://openmrs6.arogya.cloud/openmrs/ws/rest/v1/`
+- **Base URL:** `https://clinicalview.arogya.cloud/openmrs/ws/rest/v1/`
 - **Protocol:** HTTPS
 - **Authentication:** Basic Authentication (username:password)
 
@@ -79,7 +80,7 @@ This document lists all relevant OpenMRS server URLs and endpoints for reference
 - **Method:** HTTP Basic Authentication
 - **Format:** `Authorization: Basic <base64(username:password)>`
 - **Username:** `admin`
-- **Password:** `Admin123`
+- **Password:** `Arogya@#123`
 - **Usage:** Required for all REST API endpoints
 
 ### Session Authentication
@@ -103,14 +104,14 @@ This document lists all relevant OpenMRS server URLs and endpoints for reference
 All OpenMRS REST API endpoints are accessible through the proxy:
 - **Pattern:** `http://localhost:3001/api/openmrs/{rest_of_path}`
 - **Example:** `http://localhost:3001/api/openmrs/ws/rest/v1/session`
-- **Rewrites to:** `https://openmrs6.arogya.cloud/openmrs/ws/rest/v1/session`
+- **Rewrites to:** `https://clinicalview.arogya.cloud/openmrs/ws/rest/v1/session`
 
 ## Request Examples
 
 ### Direct API Call (with Basic Auth)
 ```bash
-curl -u admin:Admin123 \
-  https://openmrs6.arogya.cloud/openmrs/ws/rest/v1/session
+curl -u admin:Arogya@#123 \
+  https://clinicalview.arogya.cloud/openmrs/ws/rest/v1/session
 ```
 
 ### Through Proxy Server
@@ -120,14 +121,14 @@ curl http://localhost:3001/api/openmrs/ws/rest/v1/session
 
 ### Search Patient
 ```bash
-curl -u admin:Admin123 \
-  "https://openmrs6.arogya.cloud/openmrs/ws/rest/v1/patient?q=test@gmail.com&limit=1&v=default"
+curl -u admin:Arogya@#123 \
+  "https://clinicalview.arogya.cloud/openmrs/ws/rest/v1/patient?q=test@gmail.com&limit=1&v=default"
 ```
 
 ### Get Patient Details
 ```bash
-curl -u admin:Admin123 \
-  "https://openmrs6.arogya.cloud/openmrs/ws/rest/v1/patient/{uuid}?v=full"
+curl -u admin:Arogya@#123 \
+  "https://clinicalview.arogya.cloud/openmrs/ws/rest/v1/patient/{uuid}?v=full"
 ```
 
 ## Important Notes
@@ -168,6 +169,6 @@ curl -u admin:Admin123 \
 ---
 
 **Last Updated:** 2024
-**Server:** openmrs6.arogya.cloud
+**Server:** clinicalview.arogya.cloud
 **Version:** 1.0.0
 

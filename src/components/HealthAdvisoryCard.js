@@ -96,7 +96,7 @@ const HealthAdvisoryCard = ({ patientUuid }) => {
     const PROXY_URL = isVercel
       ? '/api/openmrs'
       : (process.env.REACT_APP_PROXY_URL || 'http://localhost:3001/api/openmrs');
-    const OPENMRS_BASE_URL = USE_PROXY ? PROXY_URL : 'https://openmrs6.arogya.cloud';
+    const OPENMRS_BASE_URL = USE_PROXY ? PROXY_URL : 'https://clinicalview.arogya.cloud';
 
     const url = USE_PROXY
       ? `${OPENMRS_BASE_URL}/ws/fhir2/R4/Condition?patient=${patientUuid}`
@@ -107,7 +107,7 @@ const HealthAdvisoryCard = ({ patientUuid }) => {
     };
 
     if (!USE_PROXY) {
-      const credentials = btoa('admin:Admin123');
+      const credentials = btoa('admin:Arogya@#123');
       headers['Authorization'] = `Basic ${credentials}`;
     }
 
@@ -125,7 +125,7 @@ const HealthAdvisoryCard = ({ patientUuid }) => {
     const PROXY_URL = isVercel
       ? '/api/openmrs'
       : (process.env.REACT_APP_PROXY_URL || 'http://localhost:3001/api/openmrs');
-    const OPENMRS_BASE_URL = USE_PROXY ? PROXY_URL : 'https://openmrs6.arogya.cloud';
+    const OPENMRS_BASE_URL = USE_PROXY ? PROXY_URL : 'https://clinicalview.arogya.cloud';
 
     const ORDER_TYPE_UUID = '131168f4-15f5-102d-96e4-000c29c2a5d7';
     const url = USE_PROXY
@@ -137,7 +137,7 @@ const HealthAdvisoryCard = ({ patientUuid }) => {
     };
 
     if (!USE_PROXY) {
-      const credentials = btoa('admin:Admin123');
+      const credentials = btoa('admin:Arogya@#123');
       headers['Authorization'] = `Basic ${credentials}`;
     }
 
@@ -155,7 +155,7 @@ const HealthAdvisoryCard = ({ patientUuid }) => {
     const PROXY_URL = isVercel
       ? '/api/openmrs'
       : (process.env.REACT_APP_PROXY_URL || 'http://localhost:3001/api/openmrs');
-    const OPENMRS_BASE_URL = USE_PROXY ? PROXY_URL : 'https://openmrs6.arogya.cloud';
+    const OPENMRS_BASE_URL = USE_PROXY ? PROXY_URL : 'https://clinicalview.arogya.cloud';
 
     const url = USE_PROXY
       ? `${OPENMRS_BASE_URL}/ws/rest/v1/patient/${patientUuid}?v=full`
@@ -166,7 +166,7 @@ const HealthAdvisoryCard = ({ patientUuid }) => {
     };
 
     if (!USE_PROXY) {
-      const credentials = btoa('admin:Admin123');
+      const credentials = btoa('admin:Arogya@#123');
       headers['Authorization'] = `Basic ${credentials}`;
     }
 
@@ -184,7 +184,7 @@ const HealthAdvisoryCard = ({ patientUuid }) => {
     const PROXY_URL = isVercel
       ? '/api/openmrs'
       : (process.env.REACT_APP_PROXY_URL || 'http://localhost:3001/api/openmrs');
-    const OPENMRS_BASE_URL = USE_PROXY ? PROXY_URL : 'https://openmrs6.arogya.cloud';
+    const OPENMRS_BASE_URL = USE_PROXY ? PROXY_URL : 'https://clinicalview.arogya.cloud';
 
     const url = USE_PROXY
       ? `${OPENMRS_BASE_URL}/ws/rest/v1/obs?patient=${patientUuid}&v=full`
@@ -195,7 +195,7 @@ const HealthAdvisoryCard = ({ patientUuid }) => {
     };
 
     if (!USE_PROXY) {
-      const credentials = btoa('admin:Admin123');
+      const credentials = btoa('admin:Arogya@#123');
       headers['Authorization'] = `Basic ${credentials}`;
     }
 

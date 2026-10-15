@@ -26,7 +26,7 @@ const LabReportsList = ({ patientUuid }) => {
       const PROXY_URL = isVercel 
         ? '/api/openmrs' 
         : (process.env.REACT_APP_PROXY_URL || 'http://localhost:3001/api/openmrs');
-      const OPENMRS_BASE_URL = USE_PROXY ? PROXY_URL : 'https://openmrs6.arogya.cloud';
+      const OPENMRS_BASE_URL = USE_PROXY ? PROXY_URL : 'https://clinicalview.arogya.cloud';
       
       // Lab order type UUID
       const ORDER_TYPE_UUID = '52a447d3-a64a-11e3-9aeb-50e549534c5e';
@@ -41,7 +41,7 @@ const LabReportsList = ({ patientUuid }) => {
 
       // Add auth header if not using proxy
       if (!USE_PROXY) {
-        const credentials = btoa('admin:Admin123');
+        const credentials = btoa('admin:Arogya@#123');
         headers['Authorization'] = `Basic ${credentials}`;
       }
 

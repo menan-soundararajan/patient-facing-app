@@ -18,12 +18,11 @@ if (isVercel) {
 }
 
 // OpenMRS Server Configuration
-// Base URL: https://openmrs6.arogya.cloud
-// SPA Login URL: https://openmrs6.arogya.cloud/openmrs/spa/login (web interface, not used by API)
-// REST API Base: https://openmrs6.arogya.cloud/openmrs/ws/rest/v1/
-const OPENMRS_BASE_URL = USE_PROXY ? PROXY_URL : 'https://openmrs6.arogya.cloud';
+// SPA UI: https://clinicalview.arogya.cloud/openmrs/spa
+// REST API Base: https://clinicalview.arogya.cloud/openmrs/ws/rest/v1/
+const OPENMRS_BASE_URL = USE_PROXY ? PROXY_URL : 'https://clinicalview.arogya.cloud';
 const OPENMRS_USERNAME = 'admin';
-const OPENMRS_PASSWORD = 'Admin123';
+const OPENMRS_PASSWORD = 'Arogya@#123';
 
 // Note: When using proxy, authentication is handled by the proxy server
 // So we don't need to send auth headers from the client

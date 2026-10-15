@@ -67,44 +67,55 @@ const LabDetailPage = () => {
 
   const rangeVisual = useMemo(() => {
     if (!info?.numericValue && info?.numericValue !== 0) return null;
-    const value = info.numericValue;
-    const lower = info.normalRange?.lower;
-    const upper = info.normalRange?.upper;
+    if (!info?.normalRange) return null;
 
-    // Build a visual scale that includes value and normal band
-    let scaleMin;
-    let scaleMax;
-    if (lower != null && upper != null) {
-      const span = upper - lower || 1;
-      scaleMin = Math.min(lower - span * 0.5, value);
-      scaleMax = Math.max(upper + span * 0.5, value);
-    } else if (upper != null) {
-      scaleMin = Math.min(0, value);
-      scaleMax = Math.max(upper * 1.5, value * 1.1);
-    } else if (lower != null) {
-      scaleMin = Math.min(lower * 0.5, value);
-      scaleMax = Math.max(lower * 2, value * 1.1);
-    } else {
-      return null;
+    const value = info.numericValue;
+    // Always use sheet Normal-band low/high (empty low already normalized to 0)
+    const lower = info.normalRange.lower ?? 0;
+    const upper = info.normalRange.upper;
+    const unitSuffix = info.unit
+      ? ` ${info.unit}`
+      : lab?.units
+        ? ` ${lab.units}`
+        : '';
+
+    // Scale from normal start/end, expanding if the result sits outside
+    let scaleMin = lower;
+    let scaleMax = upper != null ? upper : Math.max(lower * 2, value * 1.1, lower + 1);
+    if (value < scaleMin) {
+      const pad = Math.max((scaleMax - scaleMin) * 0.25, Math.abs(scaleMin - value) * 0.2, 1);
+      scaleMin = value - pad;
+    }
+    if (value > scaleMax) {
+      const pad = Math.max((scaleMax - scaleMin) * 0.25, Math.abs(value - scaleMax) * 0.2, 1);
+      scaleMax = value + pad;
     }
     if (scaleMax <= scaleMin) scaleMax = scaleMin + 1;
 
     const toPct = (v) => clamp(((v - scaleMin) / (scaleMax - scaleMin)) * 100, 0, 100);
-    const normalLeft = lower != null ? toPct(lower) : 0;
+    const normalLeft = toPct(lower);
     const normalRight = upper != null ? toPct(upper) : 100;
     const pin = toPct(value);
 
     let tag = 'OK';
-    if (upper != null && value >= upper) tag = 'HIGH';
-    else if (lower != null && value < lower) tag = 'LOW';
+    if (info.band && !/^normal$/i.test(info.band)) {
+      if (/low|reduced|anaemia|below/i.test(info.band)) tag = 'LOW';
+      else if (/high|raised|above|diabetes|prediabetes|impaired|abnormal|failure/i.test(info.band)) {
+        tag = 'HIGH';
+      }
+    } else if (upper != null && value >= upper) {
+      tag = 'HIGH';
+    } else if (value < lower) {
+      tag = 'LOW';
+    }
 
     return {
       normalLeft,
       normalWidth: Math.max(normalRight - normalLeft, 2),
       pin,
       tag,
-      lowerLabel: lower != null ? `${lower}${info.unit ? ` ${info.unit}` : lab.units ? ` ${lab.units}` : ''}` : '—',
-      upperLabel: upper != null ? `${upper}${info.unit ? ` ${info.unit}` : lab.units ? ` ${lab.units}` : ''}` : '—',
+      lowerLabel: `${lower}${unitSuffix}`,
+      upperLabel: upper != null ? `${upper}${unitSuffix}` : '—',
     };
   }, [info, lab]);
 

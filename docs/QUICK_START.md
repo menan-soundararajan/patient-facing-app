@@ -42,9 +42,10 @@ REACT_APP_GOOGLE_CLIENT_ID=your_google_client_id_here
 ### 4. Configure OpenMRS (Optional)
 
 By default, the app uses:
-- Base URL: `https://openmrs6.arogya.cloud`
+- Base URL / SPA: `https://clinicalview.arogya.cloud/openmrs/spa`
+- REST host: `https://clinicalview.arogya.cloud`
 - Username: `admin`
-- Password: `Admin123`
+- Password: `Arogya@#123`
 - Patient Search Email: `test@gmail.com` (hardcoded in `src/App.js`)
 
 **Note:** The application uses a hardcoded test email (`test@gmail.com`) to search for patients in OpenMRS, regardless of which Google account is used for login.

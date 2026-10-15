@@ -160,8 +160,16 @@ const valueInBand = (value, band) => {
   return geLower && ltUpper;
 };
 
-const isNormalBand = (bandName) =>
-  /normal|reasonable control|below target|target/i.test(bandName || '');
+/** Prefer the sheet's "Normal" band for reference low/high (not message bands like "Below target"). */
+const isExactNormalBand = (bandName) =>
+  /^normal$/i.test(String(bandName || '').trim());
+
+const isReferenceRangeBand = (bandName) => {
+  const n = String(bandName || '').trim();
+  if (isExactNormalBand(n)) return true;
+  // Diabetes control target used as the reference band when no plain "Normal" exists
+  return /^reasonable control\b/i.test(n);
+};
 
 const badgeVariantForBand = (bandName) => {
   const n = (bandName || '').toLowerCase();
@@ -235,10 +243,21 @@ export const findLabResultMessage = ({
   }
 
   const normalBand =
-    applicable.find((b) => isNormalBand(b.band)) ||
-    entry.bands.find((b) => isNormalBand(b.band));
+    applicable.find((b) => isExactNormalBand(b.band)) ||
+    applicable.find((b) => isReferenceRangeBand(b.band)) ||
+    entry.bands.find((b) => isExactNormalBand(b.band)) ||
+    entry.bands.find((b) => isReferenceRangeBand(b.band));
 
   const badge = badgeVariantForBand(matchedBand?.band);
+
+  // Sheet normal low/high for the range bar. Empty lower → 0.
+  let normalRange = null;
+  if (normalBand) {
+    normalRange = {
+      lower: normalBand.lower == null || normalBand.lower === '' ? 0 : normalBand.lower,
+      upper: normalBand.upper == null || normalBand.upper === '' ? null : normalBand.upper,
+    };
+  }
 
   return {
     matched: true,
@@ -247,9 +266,7 @@ export const findLabResultMessage = ({
     band: matchedBand?.band || null,
     message: matchedBand?.message || null,
     badge,
-    normalRange: normalBand
-      ? { lower: normalBand.lower, upper: normalBand.upper }
-      : null,
+    normalRange,
     numericValue: Number.isFinite(numeric) ? numeric : null,
     matchedBand,
   };

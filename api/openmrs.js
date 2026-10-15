@@ -16,9 +16,11 @@ export default async function handler(req, res) {
   }
 
   // OpenMRS server configuration
-  const OPENMRS_BASE_URL = 'https://openmrs6.arogya.cloud';
+  // SPA UI: https://clinicalview.arogya.cloud/openmrs/spa
+  // REST API base host (paths are under /openmrs/...)
+  const OPENMRS_BASE_URL = 'https://clinicalview.arogya.cloud';
   const OPENMRS_USERNAME = process.env.OPENMRS_USERNAME || 'admin';
-  const OPENMRS_PASSWORD = process.env.OPENMRS_PASSWORD || 'Admin123';
+  const OPENMRS_PASSWORD = process.env.OPENMRS_PASSWORD || 'Arogya@#123';
 
   // Get the path from query parameter (set by vercel.json rewrite)
   // The rewrite converts /api/openmrs/ws/rest/v1/session to /api/openmrs?path=ws/rest/v1/session
