@@ -278,7 +278,6 @@ export const formatPatientData = (patient) => {
 };
 
 const DRUG_ORDER_TYPE = '131168f4-15f5-102d-96e4-000c29c2a5d7';
-const LAB_ORDER_TYPE = '52a447d3-a64a-11e3-9aeb-50e549534c5e';
 
 const buildUrl = (pathWithQuery) =>
   USE_PROXY
@@ -574,47 +573,134 @@ export const fetchMedications = async (patientUuid) => {
   });
 };
 
+const mapRestLabObs = (obs) => {
+  let testName = 'Unknown Test';
+  if (obs.concept?.display) testName = obs.concept.display;
+  else if (obs.display) testName = obs.display;
+
+  let rawValue = null;
+  let testResult = 'N/A';
+  if (obs.value != null) {
+    if (typeof obs.value === 'object') {
+      testResult = obs.value.display || obs.value.name || 'N/A';
+      rawValue = null;
+    } else {
+      testResult = String(obs.value);
+      const n = parseFloat(obs.value);
+      rawValue = Number.isFinite(n) ? n : null;
+    }
+  }
+
+  const units = obs.concept?.units || obs.units || '';
+
+  return {
+    id: obs.uuid,
+    uuid: obs.uuid,
+    testName,
+    testResult,
+    rawValue,
+    units,
+    obsDatetime: obs.obsDatetime,
+    dated: obs.obsDatetime ? new Date(obs.obsDatetime) : null,
+    raw: obs,
+  };
+};
+
+const mapFhirLabObservation = (resource) => {
+  if (!resource) return null;
+
+  // Prefer numeric lab values (panel results). Skip coded-only rows like "Condition".
+  const qty = resource.valueQuantity;
+  const hasQty = qty && (qty.value === 0 || qty.value != null);
+  if (!hasQty && !resource.valueString && !resource.valueInteger) {
+    return null;
+  }
+
+  const coding = resource.code?.coding || [];
+  const testName =
+    resource.code?.text ||
+    coding[0]?.display ||
+    'Unknown Test';
+
+  let rawValue = null;
+  let testResult = 'N/A';
+  let units = '';
+
+  if (hasQty) {
+    rawValue = Number(qty.value);
+    if (!Number.isFinite(rawValue)) rawValue = null;
+    testResult = String(qty.value);
+    units = qty.unit || qty.code || '';
+  } else if (resource.valueInteger != null) {
+    rawValue = Number(resource.valueInteger);
+    testResult = String(resource.valueInteger);
+  } else if (resource.valueString != null) {
+    testResult = String(resource.valueString);
+    const n = parseFloat(resource.valueString);
+    rawValue = Number.isFinite(n) ? n : null;
+  }
+
+  const obsDatetime =
+    resource.effectiveDateTime ||
+    resource.issued ||
+    resource.meta?.lastUpdated ||
+    null;
+
+  return {
+    id: resource.id,
+    uuid: resource.id,
+    testName,
+    testResult,
+    rawValue,
+    units,
+    obsDatetime,
+    dated: obsDatetime ? new Date(obsDatetime) : null,
+    raw: resource,
+  };
+};
+
+/**
+ * Fetch lab results for a patient.
+ * Uses FHIR Observation category=laboratory so panel results without a linked
+ * Test Order still appear (OpenMRS Results Viewer stores many labs that way).
+ */
 export const fetchLabReports = async (patientUuid) => {
   if (!patientUuid) return [];
-  const data = await apiGet(
-    `/ws/rest/v1/obs?orderType=${LAB_ORDER_TYPE}&patient=${patientUuid}&v=full`
-  );
-  const results = (data?.results || []).filter(
-    (obs) => obs.order?.orderType?.display === 'Test Order'
-  );
 
-  return results.map((obs) => {
-    let testName = 'Unknown Test';
-    if (obs.concept?.display) testName = obs.concept.display;
-    else if (obs.display) testName = obs.display;
-
-    let rawValue = null;
-    let testResult = 'N/A';
-    if (obs.value != null) {
-      if (typeof obs.value === 'object') {
-        testResult = obs.value.display || obs.value.name || 'N/A';
-        rawValue = null;
-      } else {
-        testResult = String(obs.value);
-        const n = parseFloat(obs.value);
-        rawValue = Number.isFinite(n) ? n : null;
-      }
+  try {
+    const data = await apiGet(
+      `/ws/fhir2/R4/Observation?patient=${patientUuid}&category=laboratory&_count=100&_sort=-date`
+    );
+    const mapped = (data?.entry || [])
+      .map((e) => mapFhirLabObservation(e.resource))
+      .filter(Boolean);
+    if (mapped.length > 0) {
+      return mapped.sort(
+        (a, b) => (b.dated?.getTime() || 0) - (a.dated?.getTime() || 0)
+      );
     }
+  } catch (err) {
+    console.warn('FHIR laboratory Observation fetch failed, falling back to REST:', err.message);
+  }
 
-    const units = obs.concept?.units || obs.units || '';
+  // Fallback: REST obs — include Test Orders OR numeric Test-class concepts without order
+  const data = await apiGet(
+    `/ws/rest/v1/obs?patient=${patientUuid}&v=full&limit=200`
+  );
+  const results = (data?.results || []).filter((obs) => {
+    const isTestOrder = obs.order?.orderType?.display === 'Test Order';
+    const conceptClass = obs.concept?.conceptClass?.display || '';
+    const isLabConcept = /^(Test|LabSet|Finding)$/i.test(conceptClass);
+    const numeric =
+      obs.value != null &&
+      (typeof obs.value === 'number' ||
+        (typeof obs.value === 'string' && Number.isFinite(parseFloat(obs.value))));
+    return isTestOrder || (isLabConcept && numeric);
+  });
 
-    return {
-      id: obs.uuid,
-      uuid: obs.uuid,
-      testName,
-      testResult,
-      rawValue,
-      units,
-      obsDatetime: obs.obsDatetime,
-      dated: obs.obsDatetime ? new Date(obs.obsDatetime) : null,
-      raw: obs,
-    };
-  }).sort((a, b) => (b.dated?.getTime() || 0) - (a.dated?.getTime() || 0));
+  return results
+    .map(mapRestLabObs)
+    .sort((a, b) => (b.dated?.getTime() || 0) - (a.dated?.getTime() || 0));
 };
 
 export const fetchConditions = async (patientUuid) => {
