@@ -186,8 +186,21 @@ def export_labs(rows: list[dict]) -> list[dict]:
             {
                 "context": row.get("context") or "All",
                 "band": row.get("band") or None,
+                "unit": (row.get("unit") or None),
                 "lower": to_float(row.get("lower_limit (>=)")),
                 "upper": to_float(row.get("upper_limit (<)")),
+                # Bar scale limits shown as LOWER/UPPER LIMIT on the result bar
+                "defaultLower": to_float(
+                    row.get("lower limit Default")
+                    or row.get("lower_limit Default")
+                    or row.get("lower limit default")
+                ),
+                "defaultUpper": to_float(
+                    row.get("upper limitdefault")
+                    or row.get("upper limit default")
+                    or row.get("upper_limit default")
+                    or row.get("upper limit Default")
+                ),
                 "message": row.get("message") or None,
                 "messageId": row.get("message_id"),
             }

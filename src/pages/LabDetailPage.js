@@ -59,6 +59,7 @@ const LabDetailPage = () => {
     ? findLabResultMessage({
         testName: lab.testName,
         value: lab.rawValue,
+        unit: lab.units,
         gender: patientData?.person?.gender,
         age,
         conditionNames,
@@ -70,7 +71,7 @@ const LabDetailPage = () => {
     if (!info?.normalRange) return null;
 
     const value = info.numericValue;
-    // Always use sheet Normal-band low/high (empty low already normalized to 0)
+    // Sheet default lower/upper limits for the bar; marker follows actual result
     const lower = info.normalRange.lower ?? 0;
     const upper = info.normalRange.upper;
     const unitSuffix = info.unit

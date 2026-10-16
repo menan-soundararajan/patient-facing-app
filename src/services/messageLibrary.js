@@ -160,6 +160,22 @@ const valueInBand = (value, band) => {
   return geLower && ltUpper;
 };
 
+const normalizeUnit = (unit) =>
+  String(unit || '')
+    .toLowerCase()
+    .replace(/\s+/g, '')
+    .replace(/µ/g, 'u')
+    .replace(/μ/g, 'u');
+
+const unitMatches = (bandUnit, resultUnit) => {
+  if (!resultUnit) return true;
+  if (!bandUnit) return true;
+  return normalizeUnit(bandUnit) === normalizeUnit(resultUnit);
+};
+
+const hasDefaultRange = (band) =>
+  band && (band.defaultLower != null || band.defaultUpper != null);
+
 /** Prefer the sheet's "Normal" band for reference low/high (not message bands like "Below target"). */
 const isExactNormalBand = (bandName) =>
   /^normal$/i.test(String(bandName || '').trim());
@@ -194,6 +210,7 @@ const badgeVariantForBand = (bandName) => {
  * @param {object} opts
  * @param {string} opts.testName - EMR concept display
  * @param {number|string} opts.value - numeric result when possible
+ * @param {string} [opts.unit] - result unit (helps when a test has mmol/L and mg/dL rows)
  * @param {string} [opts.gender]
  * @param {number|null} [opts.age]
  * @param {string[]} [opts.conditionNames]
@@ -201,6 +218,7 @@ const badgeVariantForBand = (bandName) => {
 export const findLabResultMessage = ({
   testName,
   value,
+  unit,
   gender,
   age,
   conditionNames = [],
@@ -229,19 +247,27 @@ export const findLabResultMessage = ({
   }
 
   const patientCtx = { gender, age, conditionNames };
-  const applicable = entry.bands.filter((b) =>
+  const byContext = entry.bands.filter((b) =>
     contextMatches(b.context, patientCtx)
   );
+  const byUnit = byContext.filter((b) => unitMatches(b.unit || entry.unit, unit));
+  // Prefer unit-matched bands when the observation has a unit; otherwise all contexts.
+  const applicable = unit && byUnit.length ? byUnit : byContext;
 
   let matchedBand = null;
   if (Number.isFinite(numeric)) {
     matchedBand =
       applicable.find((b) => valueInBand(numeric, b)) ||
-      entry.bands.find(
-        (b) => contextMatches(b.context, patientCtx) && valueInBand(numeric, b)
-      );
+      byContext.find((b) => valueInBand(numeric, b));
   }
 
+  // Result bar uses sheet "lower/upper limit Default" for the selected context/unit.
+  const defaultsBand =
+    (hasDefaultRange(matchedBand) && matchedBand) ||
+    applicable.find(hasDefaultRange) ||
+    byContext.find(hasDefaultRange);
+
+  // Fallback: older Normal-band limits if defaults are missing for this test.
   const normalBand =
     applicable.find((b) => isExactNormalBand(b.band)) ||
     applicable.find((b) => isReferenceRangeBand(b.band)) ||
@@ -250,19 +276,33 @@ export const findLabResultMessage = ({
 
   const badge = badgeVariantForBand(matchedBand?.band);
 
-  // Sheet normal low/high for the range bar. Empty lower → 0.
   let normalRange = null;
-  if (normalBand) {
+  if (defaultsBand) {
     normalRange = {
-      lower: normalBand.lower == null || normalBand.lower === '' ? 0 : normalBand.lower,
-      upper: normalBand.upper == null || normalBand.upper === '' ? null : normalBand.upper,
+      lower:
+        defaultsBand.defaultLower == null || defaultsBand.defaultLower === ''
+          ? 0
+          : defaultsBand.defaultLower,
+      upper:
+        defaultsBand.defaultUpper == null || defaultsBand.defaultUpper === ''
+          ? null
+          : defaultsBand.defaultUpper,
+    };
+  } else if (normalBand) {
+    normalRange = {
+      lower:
+        normalBand.lower == null || normalBand.lower === '' ? 0 : normalBand.lower,
+      upper:
+        normalBand.upper == null || normalBand.upper === ''
+          ? null
+          : normalBand.upper,
     };
   }
 
   return {
     matched: true,
     test: entry.test,
-    unit: entry.unit,
+    unit: matchedBand?.unit || defaultsBand?.unit || entry.unit,
     band: matchedBand?.band || null,
     message: matchedBand?.message || null,
     badge,

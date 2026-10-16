@@ -64,6 +64,7 @@ const LabsPage = () => {
         const info = findLabResultMessage({
           testName: lab.testName,
           value: lab.rawValue,
+          unit: lab.units,
           gender: patientData?.person?.gender,
           age,
           conditionNames,
